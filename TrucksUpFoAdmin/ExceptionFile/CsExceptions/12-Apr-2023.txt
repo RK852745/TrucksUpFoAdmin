@@ -1,0 +1,1080 @@
+-----------Exception Details on  12-04-2023 12.28.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.28.49 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.30.55 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.30.55 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.31.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.31.46 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.31.56 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.31.56 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.31.56 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.31.56 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.32.00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.32.00 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.32.00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.32.00 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.32.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.32.04 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.32.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.32.04 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 12.32.07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 12.32.07 PM
+
+Error Line No : ine 129
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 7.55.54 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 7.55.54 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmgIb%252fg6TK%252bkPehiRHky7bZf5J27Hc1tiQ349hAUtE1VvCj%252bnQNurJJ8dko6saJ3TB
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 7.55.54 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 7.55.54 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmgIb%252fg6TK%252bkPehiRHky7bZf5J27Hc1tiQ349hAUtE1VvCj%252bnQNurJJ8dko6saJ3TB
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.19 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.19 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.22 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.25 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.25 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.27 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.27 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.27 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.27 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.27 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.28 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.28 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.28 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.28 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.28 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.19.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.19.31 PM
+
+Error Line No : ine 126
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.21 PM
+
+Error Line No : ine 127
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.21 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.21 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.21 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.26 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.26 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.28 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.29 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.32 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmSIzPa3F%252bC8Jq1xp8gJI7LjCipEEGv45r0V7BxuiE3FClv2b1BjjHhFMQchVHdegJ
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.32 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmSIzPa3F%252bC8Jq1xp8gJI7LjCipEEGv45r0V7BxuiE3FClv2b1BjjHhFMQchVHdegJ
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.22.40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.22.40 PM
+
+Error Line No : ine 127
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.24.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.24.28 PM
+
+Error Line No : ine 127
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 8.38.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 8.38.45 PM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 9.25.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 9.25.35 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 9.25.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 9.25.35 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 9.25.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 9.25.35 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  12-04-2023 9.25.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 12-04-2023 9.25.35 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

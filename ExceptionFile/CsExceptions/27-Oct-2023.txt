@@ -1,0 +1,219 @@
+-----------Exception Details on  27-10-2023 11.33.54 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 11.33.54 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : String or binary data would be truncated in table 'FieldOfficer.dbo.StickerVisitMaster', column 'OperatorNumber'. Truncated value: '68768767867868768767'.
+The statement has been terminated.
+
+Error Page Url: https://localhost:44303/Verification/MethodUpdateverificationData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 11.34.56 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 11.34.56 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : String or binary data would be truncated in table 'FieldOfficer.dbo.StickerVisitMaster', column 'OperatorNumber'. Truncated value: '68768767867868768767'.
+The statement has been terminated.
+
+Error Page Url: https://localhost:44303/Verification/MethodUpdateverificationData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 2.00.16 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 2.00.16 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 2.00.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 2.00.46 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 3.01.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 3.01.52 PM
+
+Error Line No : line 39
+
+Error Message: ArgumentOutOfRangeException
+
+Exception Type: System.ArgumentOutOfRangeException
+
+Error Location : The SqlDbType enumeration value, 18, is invalid.
+Parameter name: SqlDbType
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 3.01.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 3.01.52 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 3.01.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 3.01.52 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 3.03.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 3.03.01 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-10-2023 3.03.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-10-2023 3.03.01 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,1296 @@
+-----------Exception Details on  10-10-2023 10.40.36 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.40.36 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.40.41 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.40.41 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.40.48 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.40.48 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.40.52 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.40.52 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.40.55 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.40.55 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.40.57 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.40.57 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.41.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.41.05 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.52.55 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.52.55 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.52.57 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.52.57 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.56.35 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.56.35 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.56.44 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.56.44 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 10.57.45 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 10.57.45 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.36 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.36 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Invalid attempt to call Read when reader is closed.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.36 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.46 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.49 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.49 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.55.51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.55.51 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is closed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.56.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.56.47 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.56.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.56.47 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.56.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.56.47 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Invalid attempt to call Read when reader is closed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.56.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.56.47 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.56.55 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.56.55 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.56.55 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.56.55 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.57.00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.57.00 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 12.57.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 12.57.01 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 2.59.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 2.59.32 PM
+
+Error Line No : ine 119
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 2.59.34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 2.59.34 PM
+
+Error Line No : ine 184
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 2.59.43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 2.59.43 PM
+
+Error Line No : ine 119
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 2.59.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 2.59.45 PM
+
+Error Line No : ine 184
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 3.44.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 3.44.31 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 3.44.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 3.44.31 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 3.44.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 3.44.31 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Invalid attempt to call Read when reader is closed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 3.44.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 3.44.32 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.13 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.13 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.14 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.14 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.14 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.14 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.17 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.19 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.36 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.03.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.03.36 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.55.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.55.52 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.55.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.55.52 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Invalid attempt to call MetaData when reader is closed.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 4.55.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 4.55.52 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.35 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.35 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.36 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.36 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.45 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.45 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.45 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.45 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10-10-2023 5.32.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-10-2023 5.32.52 PM
+
+Error Line No : line 36
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : The connection was not closed. The connection's current state is open.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

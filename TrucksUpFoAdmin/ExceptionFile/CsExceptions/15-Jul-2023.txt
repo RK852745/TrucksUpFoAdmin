@@ -1,0 +1,48 @@
+-----------Exception Details on  15-07-2023 1.11.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 15-07-2023 1.11.49 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A TOP or FETCH clause contains an invalid value.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  15-07-2023 1.12.11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 15-07-2023 1.12.11 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A TOP or FETCH clause contains an invalid value.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

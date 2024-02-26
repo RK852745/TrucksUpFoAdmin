@@ -1,0 +1,528 @@
+-----------Exception Details on  24-11-2023 11.42.25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.42.25 AM
+
+Error Line No : 2 draw)
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.43.14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.43.14 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.47.55 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.47.55 AM
+
+Error Line No : 2 draw)
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.48.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.48.06 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.48.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.48.06 AM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.48.54 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.48.54 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.48.54 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.48.54 AM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.50.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.50.30 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.50.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.50.30 AM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.53.27 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.53.27 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.54.12 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.54.12 AM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.56.36 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.56.36 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Invalid operation. The connection is closed.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.57.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.57.06 AM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.57.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.57.06 AM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.57.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.57.06 AM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 11.58.34 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 11.58.34 AM
+
+Error Line No : g sSql)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=6244; handshake=17244; 
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 12.06.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 12.06.25 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 12.06.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 12.06.25 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 12.08.07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 12.08.07 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 12.08.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 12.08.08 PM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 12.10.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 12.10.25 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-11-2023 12.10.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-11-2023 12.10.25 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

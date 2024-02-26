@@ -1,0 +1,121 @@
+-----------Exception Details on  14-07-2023 11.30.17 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-07-2023 11.30.17 AM
+
+Error Line No : line 39
+
+Error Message: ArgumentOutOfRangeException
+
+Exception Type: System.ArgumentOutOfRangeException
+
+Error Location : Non-negative number required.
+Parameter name: count
+
+Error Page Url: https://localhost:44303/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-07-2023 11.31.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-07-2023 11.31.42 AM
+
+Error Line No : ine 193
+
+Error Message: COMException
+
+Exception Type: System.Runtime.InteropServices.COMException
+
+Error Location : Exception from HRESULT: 0x800A03EC
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-07-2023 11.34.22 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-07-2023 11.34.22 AM
+
+Error Line No : ine 193
+
+Error Message: COMException
+
+Exception Type: System.Runtime.InteropServices.COMException
+
+Error Location : Exception from HRESULT: 0x800A03EC
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-07-2023 1.02.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-07-2023 1.02.47 PM
+
+Error Line No : ine 205
+
+Error Message: LicenseException
+
+Exception Type: OfficeOpenXml.LicenseException
+
+Error Location : Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-07-2023 1.12.54 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-07-2023 1.12.54 PM
+
+Error Line No : ine 193
+
+Error Message: LicenseException
+
+Exception Type: OfficeOpenXml.LicenseException
+
+Error Location : Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

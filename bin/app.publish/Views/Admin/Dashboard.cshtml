@@ -1,0 +1,745 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section styles
+{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="~/assets/css/daterangepicker.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <style>
+        #Datatable1 {
+            font-size: 12px;
+        }
+
+            #Datatable1 tr th, #Datatable1 tr td {
+                padding: 5px 30px 5px 5px;
+            }   
+
+
+
+        .C_active {
+            border: 2px solid #696cff;
+        }
+
+
+        .countercards{
+            cursor:pointer;
+        }
+            .countercards:hover {
+                border: 2px solid #696cff;
+                transition:1s;
+            }
+        .swal2-backdrop-show {
+            z-index: 9999999999!important;
+        }
+    </style>
+
+}
+
+
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-80 img-radius" src="~/assets/images/avatar-blank.jpg" alt="User-Profile-Image">
+                        <div class="user-details">
+                            <span id="more-details"><span id="username">Welcome @Session["name"]</span><i class="fa fa-caret-down"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="main-menu-content">
+                        <ul>
+                            <li class="more-details">
+                                @*<a href="user-profile.html"><i class="ti-user"></i>View Profile</a>*@
+                                @*<a href="#!"><i class="ti-settings"></i>Settings</a>*@
+                                <a onclick="Logout()" href="javascript:void(0);"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                @*<div class="p-15 p-b-0">
+                        <form class="form-material">
+                            <div class="form-group form-primary">
+                                <input type="text" name="footer-email" class="form-control" required="">
+                                <span class="form-bar"></span>
+                                <label class="float-label"><i class="fa fa-search m-r-10"></i>Search Friend</label>
+                            </div>
+                        </form>
+                    </div>*@
+                <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Menu</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="active">
+                        <a href="~/Dashboard" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/Registration" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-user"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Add Field Officer</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/Reports" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Reports</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        @* StickerVisitReports *@
+                        <a href="~/StickerVisitsData" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Sticker Visit</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/StickersReports" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Sticker Report</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/StickersReportsDhaba" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Sticker Report Dhaba</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    @*<li class="pcoded-hasmenu">
+            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Add Field Officer</span>
+                <span class="pcoded-mcaret"></span>
+            </a>
+            <ul class="pcoded-submenu">
+                <li class=" ">
+                    <a href="accordion.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Accordion</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="breadcrumb.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Breadcrumbs</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="button.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Button</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="tabs.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Tabs</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="color.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Color</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="label-badge.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Label Badge</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="tooltip.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Tooltip</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="typography.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Typography</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="notification.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Notification</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="icon-themify.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Themify</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>*@
+                </ul>
+                @*<div class="pcoded-navigation-label" data-i18n="nav.category.forms">Forms &amp; Tables</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li>
+                            <a href="form-elements-component.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Form Components</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="bs-basic-table.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Basic Table</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Chart &amp; Maps</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li>
+                            <a href="chart.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Chart</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="map-google.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Maps</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li class="pcoded-hasmenu">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Pages</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class=" ">
+                                    <a href="auth-normal-sign-in.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Login</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="auth-sign-up.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Register</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="sample-page.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Sample Page</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <div class="pcoded-navigation-label" data-i18n="nav.category.other">Other</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li class="pcoded-hasmenu ">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Menu Levels</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class="">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-21">Menu Level 2.1</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.main">Menu Level 2.2</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class="">
+                                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.menu-level-31">Menu Level 3.1</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Menu Level 2.3</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>*@
+            </div>
+        </nav>
+        <div class="pcoded-content">
+            <!-- Page-header start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Admin Dashboard</h5>
+                                <p class="m-b-0">Welcome to TrucksUpCRM</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="breadcrumb-title">
+                                <li class="breadcrumb-item">
+                                    <a href="~/Dashboard"> <i class="fa fa-home"></i> </a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="~/Dashboard">Dashboard</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page-header end -->
+            <div class="pcoded-inner-content">
+                <!-- Main-body start -->
+                <div class="main-body">
+                    <div class="page-wrapper">
+                        <!-- Page-body start -->
+                        <div class="page-body">
+                            <div class="row">
+
+                                <div class="col-xl-3 col-md-6 col-6">
+                                    <div cardtype="tvisit" onclick="fnGetdatabycard($(this))" class="card countercards C_active">
+                                        <div class="card-block">
+                                            <div class="row align-items-center">
+                                                <div class="col-8">
+                                                    <h5 id="Totalvisit" class="text-c-purple">0</h5>
+                                                    <h6 class="text-muted m-b-0">Total Visits</h6>
+                                                </div>
+                                                <div class="col-4 text-right">
+                                                    <i class="fa fa-map-marked f-20"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6  col-6 d-none">
+            <div cardtype="svisit" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="Stickeredvisit" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Stickered visit</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-sticky-note f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="owner" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalOwner" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Total Owner</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-users-between-lines f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="broker" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalBroker" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Total Broker</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-users-between-lines f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="sme" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalSME" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Total SME</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-bar-chart f-20"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="union" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalUNION" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Total Union</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-users f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="FollowUp" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalFollowUp" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Total FollowUp</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-calendar-check-o f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="NotIntrested" onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalNotIntrested" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Total Not intrested</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-times-circle f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-6 d-none">
+            <div cardtype="Downloaded " onclick="fnGetdatabycard($(this))" class="card countercards">
+                <div class="card-block">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h5 id="TotalDownload" class="text-c-purple">0</h5>
+                            <h6 class="text-muted m-b-0">Reported Downloads</h6>
+                        </div>
+                        <div class="col-4 text-right">
+                            <i class="fa fa-download f-20"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                <div class="col-xl-3 col-md-6 col-6">
+                                    <div class="card" style="background: #d3ffe5; border: 2px solid #11c15b33;">
+                                        <div class="card-block">
+                                            <div class="row align-items-center">
+                                                <div class="col-8">
+                                                    <h5 id="TotalActualDownloads" class="text-c-purple">0</h5>
+                                                    <h6 class="text-muted m-b-0">Actual Downloads</h6>
+                                                </div>
+                                                <div class="col-4 text-right">
+                                                    <i class="fa fa-download f-20"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-md-6 col-6">
+                                    <div class="card" style="background: #d3ffe5; border: 2px solid #11c15b33;">
+                                        <div class="card-block">
+                                            <div class="row align-items-center">
+                                                <div class="col-8">
+                                                    <h5 id="TotalOverallDownload" class="text-c-purple">0</h5>
+                                                    <h6 class="text-muted m-b-0">Overall Downloads</h6>
+                                                </div>
+                                                <div class="col-4 text-right">
+                                                    <i class="fa fa-download f-20"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-xl-12 col-md-12">
+                                    <div class="card">
+                                        <div class="card-header mb-0 pb-0">
+                                            <h5>Visiting Details</h5>
+
+                                            <div class="row mt-3">
+                                                <div class="col-sm-4 mb-2">
+                                                    <label class="mb-0"> Select Date </label>
+                                                    <div id="reportrange" style="display:inline-flex; background: #fff; cursor: pointer; padding: 7px 10px; border: 1px solid #d9dee3; width: 100%; border-radius: 5px;">
+                                                        <i class="fa fa-calendar" style="margin-top: 4px;"></i>&nbsp;
+                                                        <span style="margin-top: 1px;"></span><i style="position: absolute; right: 30px; top: 35px;" class="fa fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 mb-2">
+                                                    <label class="mb-0">Filter by field officer</label>
+                                                    <div id="appendSelections" data-toggle="modal" data-target="#multiselectmodal" style="border: 1px solid #d9dee3; min-height: 36px; border-radius: 5px; padding: 6px;">
+                                                        All Field Officers
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2 mb-1">
+                                                    <label class="mb-0">Download Excel File</label>
+                                                    <div class="row">
+                                                        <div class="col-sm-2">                                                            
+                                                            <button id="exportButton" onclick="Getdata()" class="dt-button buttons-copy buttons-html5" style="height:35px; ">Download</button>
+                                                            <div id="loadingGif" style="display: none;">
+                                                                <img src="~/assets/images/loading.gif" alt="Loading..." style="width:80px; height:40px;" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="card-header-right">
+                                                <ul class="list-unstyled card-option">
+                                                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                                                    <li><i class="fa fa-minus minimize-card"></i></li>
+                                                    <li><i class="fa fa-refresh reload-card"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-block">
+                                            <div class="table-responsive">
+                                                <table id="Datatable1" class="table table-striped" style="width: 100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Name</th>
+                                                            <th>Mobile</th>
+                                                            <th>Sticker</th>
+                                                            <th>Status</th>
+                                                            <th>Download</th>
+                                                            <th>Email</th>
+                                                            <th>Address</th>
+                                                            <th>Own Type</th> 
+                                                            <th> Profile Created At</th>
+                                                            <th>Company</th>
+                                                            <th>Visit Date/Time</th>
+                                                            <th>Created by</th>
+                                                            <th>Vehicle Info</th>
+                                                            <th>Pref. Location</th>
+                                                            <th></th>
+
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                    <tfoot>
+                                                        <tr>
+                                                            <th></th>
+                                                            <th>Name</th>
+                                                            <th>Mobile</th>
+                                                            <th>Sticker</th>
+                                                            <th>Status</th>
+                                                            <th>Download</th>
+                                                            <th>Email</th>
+                                                            <th>Address</th>
+                                                            <th>Own Type</th>   
+                                                            <th> Profile Created At</th>
+                                                            <th>Company</th>
+                                                            <th>Visit Date/Time</th>
+                                                            <th>Created by</th>
+                                                            <th>Vehicle Info</th>
+                                                            <th>Pref. Location</th>
+                                                            <th></th>
+
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Page-body end -->
+                    </div>
+                    <div id="styleSelector"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="DynamicModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="DynamicModalTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 ">
+                        <div id="appendModalBodyData" class="table-responsive">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ImageGalleryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="DynamicModalTitle">Image Gallery</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="ViewLargeImage"></div>
+                <div id="appendGallery" class="row">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="multiselectmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="">TrucksUP Field Officers</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="ViewLargeImage"></div>
+                <ul id="multiselectmodalapppendlist">
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" onclick="fnclearfilters($(this));">Clear</button>
+                <button type="button" class="btn btn-primary" onclick="fngetdatabyfoid($(this));" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="UpdateDownloadedby" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="">Update Downloaded by</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                 <div class="">
+                     <div class="row">
+                         <div class="col-sm-12">
+                             <label>From this FO</label>
+                             <input class="form-control" id="fromFo" disabled />
+                         </div>
+                         <div id="folists" class="col-sm-12 mt-3">
+
+                         </div>
+                         <div class="col-sm-12 mt-3">
+                             <label>Remarks</label>
+                             <textarea id="downloadremarks" class="form-control" placeholder="Remarks"></textarea>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                <button type="button" id="updatebtn" class="btn btn-primary">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Hidden("commonUrlTrack", Url.Action("DashboardData", "Admin"))
+@section scripts
+{
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/scroller/2.1.1/js/dataTables.scroller.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="~/assets/js/moment.min.js"></script>
+    <script src="~/assets/js/daterangepicker.min.js"></script>
+    <script src="~/Helper/Dashboard.js"></script>
+
+
+}
+

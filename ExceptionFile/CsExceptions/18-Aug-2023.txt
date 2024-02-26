@@ -1,0 +1,48 @@
+-----------Exception Details on  18-08-2023 17:06:32-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 17:06:32
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 17:06:32-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 17:06:32
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

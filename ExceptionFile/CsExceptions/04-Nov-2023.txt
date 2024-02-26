@@ -1,0 +1,192 @@
+-----------Exception Details on  04-11-2023 2.13.44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 2.13.44 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 2.14.18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 2.14.18 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 2.14.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 2.14.21 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 2.32.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 2.32.15 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 3.01.58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 3.01.58 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 4.43.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 4.43.41 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 4.52.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 4.52.04 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  04-11-2023 5.25.06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 04-11-2023 5.25.06 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

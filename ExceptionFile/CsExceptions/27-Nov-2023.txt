@@ -1,0 +1,96 @@
+-----------Exception Details on  27-11-2023 3.13.58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-11-2023 3.13.58 PM
+
+Error Line No : nddate)
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Home/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-11-2023 3.13.59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-11-2023 3.13.59 PM
+
+Error Line No : nddate)
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-11-2023 3.14.05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-11-2023 3.14.05 PM
+
+Error Line No : icers()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-11-2023 3.14.13 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-11-2023 3.14.13 PM
+
+Error Line No : icers()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

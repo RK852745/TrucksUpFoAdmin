@@ -1,0 +1,312 @@
+-----------Exception Details on  03-10-2023 10.59.12 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.12 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.28 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.28 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.28 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.28 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.29 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.29 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.30 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.30 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.31 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.31 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 10.59.32 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 10.59.32 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 5.22.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 5.22.08 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 5.22.09 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 5.22.09 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 5.22.17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 5.22.17 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-10-2023 5.22.17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-10-2023 5.22.17 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

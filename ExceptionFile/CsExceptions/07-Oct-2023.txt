@@ -1,0 +1,1176 @@
+-----------Exception Details on  07-10-2023 10.20.37 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 10.20.37 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 10.20.38 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 10.20.38 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 10.42.52 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 10.42.52 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 11.10.21 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 11.10.21 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 11.10.22 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 11.10.22 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 11.29.56 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 11.29.56 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 11.30.00 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 11.30.00 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 11.35.37 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 11.35.37 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 11.35.38 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 11.35.38 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 12.55.43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 12.55.43 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 12.55.43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 12.55.43 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 1.08.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 1.08.42 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 1.08.43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 1.08.43 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 1.17.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 1.17.47 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 1.17.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 1.17.47 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 2.26.00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 2.26.00 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 2.26.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 2.26.01 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 2.50.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 2.50.35 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 2.52.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 2.52.08 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.02.51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.02.51 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.02.51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.02.51 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.03.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.03.04 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.03.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.03.04 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.03.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.03.24 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.03.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.03.24 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.03.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.03.32 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.03.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.03.32 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.05.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.05.04 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.05.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.05.04 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.05.11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.05.11 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.05.11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.05.11 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.06.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.06.01 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.06.44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.06.44 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Internal connection fatal error. Error state: 15, Token : 18
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.07.14 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.07.14 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.08.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.08.29 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.08.59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.08.59 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.09.14 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.09.14 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.10.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.10.27 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.10.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.10.27 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.12.33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.12.33 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.12.33 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.12.33 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 3.15.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 3.15.20 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.29.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.29.49 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.29.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.29.49 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.30.06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.30.06 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.39.40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.39.40 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.39.40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.39.40 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.47.09 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.47.09 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  07-10-2023 4.47.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 07-10-2023 4.47.10 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

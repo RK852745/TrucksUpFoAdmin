@@ -1,0 +1,96 @@
+-----------Exception Details on  02-11-2023 12.46.23 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 02-11-2023 12.46.23 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  02-11-2023 2.28.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 02-11-2023 2.28.35 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  02-11-2023 2.41.26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 02-11-2023 2.41.26 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  02-11-2023 2.55.34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 02-11-2023 2.55.34 PM
+
+Error Line No : ine 130
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'entrydatetime' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

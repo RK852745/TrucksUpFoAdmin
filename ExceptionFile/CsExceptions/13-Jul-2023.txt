@@ -1,0 +1,192 @@
+-----------Exception Details on  13-07-2023 12.52.29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 12.52.29 AM
+
+Error Line No : ine 191
+
+Error Message: LicenseException
+
+Exception Type: OfficeOpenXml.LicenseException
+
+Error Location : Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 12.54.49 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 12.54.49 AM
+
+Error Line No : ine 191
+
+Error Message: LicenseException
+
+Exception Type: OfficeOpenXml.LicenseException
+
+Error Location : Please set the ExcelPackage.LicenseContext property. See https://epplussoftware.com/developers/licenseexception
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 1.18.23 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 1.18.23 AM
+
+Error Line No : ine 192
+
+Error Message: COMException
+
+Exception Type: System.Runtime.InteropServices.COMException
+
+Error Location : Sorry, we couldn't find E:\Org.xlsx. Is it possible it was moved, renamed or deleted?
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 1.21.17 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 1.21.17 AM
+
+Error Line No : ine 192
+
+Error Message: COMException
+
+Exception Type: System.Runtime.InteropServices.COMException
+
+Error Location : Sorry, we couldn't find D:\Org.xlsx. Is it possible it was moved, renamed or deleted?
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 10.35.54 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 10.35.54 AM
+
+Error Line No : ine 192
+
+Error Message: COMException
+
+Exception Type: System.Runtime.InteropServices.COMException
+
+Error Location : That name is already taken. Try a different one.
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 10.37.21 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 10.37.21 AM
+
+Error Line No : ine 192
+
+Error Message: COMException
+
+Exception Type: System.Runtime.InteropServices.COMException
+
+Error Location : Sorry, we couldn't find D:\Orgs.xlsx. Is it possible it was moved, renamed or deleted?
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 11.09.32 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 11.09.32 AM
+
+Error Line No : ine 203
+
+Error Message: UnauthorizedAccessException
+
+Exception Type: System.UnauthorizedAccessException
+
+Error Location : Access to the path 'C:\Program Files\IIS Express\Save_DataTable_CSV.Sheet1.csv' is denied.
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  13-07-2023 2.11.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 13-07-2023 2.11.38 PM
+
+Error Line No : ine 203
+
+Error Message: UnauthorizedAccessException
+
+Exception Type: System.UnauthorizedAccessException
+
+Error Location : Access to the path 'C:\Program Files\IIS Express\Save_DataTable_CSV.Sheet1.csv' is denied.
+
+Error Page Url: https://localhost:44303/Home/CoonvertDataTableintoexcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

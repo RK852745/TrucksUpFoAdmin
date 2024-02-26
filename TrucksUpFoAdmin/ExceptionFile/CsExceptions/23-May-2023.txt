@@ -1,0 +1,72 @@
+-----------Exception Details on  23-05-2023 10.16.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 23-05-2023 10.16.15 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerivicationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  23-05-2023 10.17.05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 23-05-2023 10.17.05 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerivicationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  23-05-2023 10.18.17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 23-05-2023 10.18.17 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerivicationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

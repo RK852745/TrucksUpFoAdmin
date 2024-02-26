@@ -1,0 +1,24 @@
+-----------Exception Details on  30-10-2023 3.08.26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 30-10-2023 3.08.26 PM
+
+Error Line No : line 74
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Registration/MethodgetFieldOfficerdata
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

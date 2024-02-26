@@ -1,0 +1,168 @@
+-----------Exception Details on  24-05-2023 10.20.50 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.20.50 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-05-2023 10.21.01 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.21.01 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-05-2023 10.21.01 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.21.01 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-05-2023 10.21.04 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.21.04 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-05-2023 10.21.04 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.21.04 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-05-2023 10.21.07 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.21.07 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  24-05-2023 10.21.10 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 24-05-2023 10.21.10 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'dbo.SP_VerificationData'.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

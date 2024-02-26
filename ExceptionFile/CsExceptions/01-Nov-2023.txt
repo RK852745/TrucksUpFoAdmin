@@ -1,0 +1,336 @@
+-----------Exception Details on  01-11-2023 11.20.37 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 11.20.37 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 11.20.50 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 11.20.50 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 11.26.07 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 11.26.07 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 11.36.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 11.36.06 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 11.36.15 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 11.36.15 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 12.36.59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 12.36.59 PM
+
+Error Line No : line 61
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 3.13.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 3.13.21 PM
+
+Error Line No : line 61
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 6.13.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 6.13.35 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 6.14.00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 6.14.00 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 6.14.00 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 6.14.00 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 7.34.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 7.34.45 PM
+
+Error Line No : g sSql)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=14993; handshake=18; 
+
+Error Page Url: https://localhost:44303/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmSMEXSbgLCvCr9hSVDKESdbwgjbOIp%252biYhrBQco%252bNPlrm8Ii9NIoGk9wMRF8ovrd%252b
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 7.34.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 7.34.46 PM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmSMEXSbgLCvCr9hSVDKESdbwgjbOIp%252biYhrBQco%252bNPlrm8Ii9NIoGk9wMRF8ovrd%252b
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 10.35.03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 10.35.03 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  01-11-2023 10.38.39 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 01-11-2023 10.38.39 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,144 @@
+-----------Exception Details on  20-09-2023 5.08.17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-09-2023 5.08.17 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @start is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-09-2023 5.09.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-09-2023 5.09.15 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-09-2023 5.09.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-09-2023 5.09.15 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-09-2023 5.09.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-09-2023 5.09.20 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-09-2023 5.09.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-09-2023 5.09.20 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-09-2023 5.09.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-09-2023 5.09.20 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,240 @@
+-----------Exception Details on  20-02-2024 10.06.03 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.06.03 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 10.06.26 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.06.26 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 10.09.07 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.09.07 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 10.09.24 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.09.24 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 10.10.18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.10.18 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 10.15.21 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.15.21 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 10.16.18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 10.16.18 AM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 11.48.45 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 11.48.45 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 11.49.33 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 11.49.33 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-02-2024 11.49.45 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-02-2024 11.49.45 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

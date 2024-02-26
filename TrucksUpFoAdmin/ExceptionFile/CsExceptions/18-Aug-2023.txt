@@ -1,0 +1,600 @@
+-----------Exception Details on  18-08-2023 12:19:03-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 12:19:03
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 12:19:34-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 12:19:34
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:12-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:12
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:12-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:12
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:28
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:28
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:28
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:28
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:42-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:42
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:42-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:42
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:45-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:45
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:45-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:45
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:45-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:45
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:07:45-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:07:45
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:08:43-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:08:43
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Invalid attempt to call Read when reader is closed.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:09:13-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:09:13
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:10:04-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:10:04
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:10:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:10:28
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:10:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:10:28
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:10:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:10:28
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:10:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:10:28
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:21:44-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:21:44
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Error converting data type varchar to datetime.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:23:04-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:23:04
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Error converting data type varchar to datetime.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:24:43-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:24:43
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Error converting data type varchar to datetime.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-08-2023 14:24:45-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-08-2023 14:24:45
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Error converting data type varchar to datetime.
+
+Error Page Url: https://localhost:44303/Verification/ExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

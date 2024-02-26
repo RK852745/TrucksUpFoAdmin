@@ -1,0 +1,312 @@
+-----------Exception Details on  17-08-2023 11:22:51-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:22:51
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 11:22:59-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:22:59
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 11:23:00-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:23:00
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 11:23:08-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:23:08
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 11:23:08-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:23:08
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 11:23:11-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:23:11
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 11:23:11-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 11:23:11
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 12:06:51-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 12:06:51
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 12:07:17-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 12:07:17
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 12:07:17-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 12:07:17
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 12:07:21-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 12:07:21
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 12:23:28-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 12:23:28
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  17-08-2023 12:23:58-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 17-08-2023 12:23:58
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

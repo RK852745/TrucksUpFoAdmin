@@ -1,0 +1,120 @@
+-----------Exception Details on  20-11-2023 4.27.18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-11-2023 4.27.18 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+
+Error Page Url: https://localhost:44304/Verification?q=dLOkaTExSGRUvxlfJz3hd3cgNGbJlKhqNGuubnQ4jFNngsW1TrDxMdDybXEJd1tAHhUpESAxe8VUyQnnpMGkep9VJ5DfxPjdjiqNWGPevUy6Cebjg0Z63BqM8FQNGWxQ
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-11-2023 4.27.18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-11-2023 4.27.18 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification?q=dLOkaTExSGRUvxlfJz3hd3cgNGbJlKhqNGuubnQ4jFNngsW1TrDxMdDybXEJd1tAHhUpESAxe8VUyQnnpMGkep9VJ5DfxPjdjiqNWGPevUy6Cebjg0Z63BqM8FQNGWxQ
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-11-2023 4.28.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-11-2023 4.28.01 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-11-2023 4.28.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-11-2023 4.28.27 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-11-2023 4.28.53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-11-2023 4.28.53 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,193 @@
+-----------Exception Details on  08-Nov-23 10:41:52 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 10:41:52 AM
+
+Error Line No : g sSql)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A TOP or FETCH clause contains an invalid value.
+
+Error Page Url: https://localhost:44303/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 12:25:52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 12:25:52 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Home/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 12:26:23 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 12:26:23 PM
+
+Error Line No : line 39
+
+Error Message: ArgumentOutOfRangeException
+
+Exception Type: System.ArgumentOutOfRangeException
+
+Error Location : Non-negative number required.
+Parameter name: count
+
+Error Page Url: https://localhost:44303/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 1:03:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 1:03:26 PM
+
+Error Line No : line 39
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 1:09:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 1:09:49 PM
+
+Error Line No : line 39
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 4:47:17 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 4:47:17 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 4:47:22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 4:47:22 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-Nov-23 4:47:22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-Nov-23 4:47:22 PM
+
+Error Line No : line 39
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Home/GetProducts/
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

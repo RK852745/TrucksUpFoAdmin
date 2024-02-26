@@ -1,0 +1,512 @@
+﻿
+@{
+    ViewBag.Title = "Addfieldofficer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles
+{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.datatables.net/1.13.2/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <style>
+        #Datatable1 {
+            font-size: 12px;
+        }
+
+            #Datatable1 tr th, #Datatable1 tr td {
+                padding: 5px 30px 5px 5px;
+            }
+
+        .actionbtns {
+            background: #696cff;
+            color: white !important;
+            padding: 4px 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .checkbtn, .cancelbtn {
+            display: none;
+        }
+
+        .inputs {
+            border: 1px solid lightgrey;
+            border-radius: 5px;
+            width: 100%;
+            display: none;
+            font-size: 13px;
+        }
+
+        .password {
+            color: transparent;
+            text-shadow: 0 0 8px #000;
+            cursor: pointer;
+        }
+
+            .password:hover {
+                color: black;
+                text-shadow: 0;
+            }
+
+        table {
+            font-size: 13px;
+        }
+    </style>
+
+}
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-80 img-radius" src="~/assets/images/avatar-blank.jpg" alt="User-Profile-Image">
+                        <div class="user-details">
+                            <span id="more-details"><span id="username">Welcome @Session["name"]</span><i class="fa fa-caret-down"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="main-menu-content">
+                        <ul>
+                            <li class="more-details">
+                                @*<a href="user-profile.html"><i class="ti-user"></i>View Profile</a>
+                                <a href="#!"><i class="ti-settings"></i>Settings</a>*@
+                                <a onclick="Logout()" href="javascript:void(0);"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                @*<div class="p-15 p-b-0">
+                    <form class="form-material">
+                        <div class="form-group form-primary">
+                            <input type="text" name="footer-email" class="form-control" required="">
+                            <span class="form-bar"></span>
+                            <label class="float-label"><i class="fa fa-search m-r-10"></i>Search Friend</label>
+                        </div>
+                    </form>
+                </div>*@
+                <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Menu</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="">
+                        <a href="~/Dashboard" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Dashboard</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="~/Registration" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-user"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Add Field Officer</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/Reports" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Reports</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/StickerVisitsData" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Sticker Visit  </span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="~/StickersReports" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-files"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Sticker Report</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    @*<li class="pcoded-hasmenu">
+            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Add Field Officer</span>
+                <span class="pcoded-mcaret"></span>
+            </a>
+            <ul class="pcoded-submenu">
+                <li class=" ">
+                    <a href="accordion.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Accordion</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="breadcrumb.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Breadcrumbs</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="button.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Button</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="tabs.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Tabs</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="color.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Color</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="label-badge.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Label Badge</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="tooltip.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Tooltip</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="typography.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Typography</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="notification.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Notification</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+                <li class=" ">
+                    <a href="icon-themify.html" class="waves-effect waves-dark">
+                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Themify</span>
+                        <span class="pcoded-mcaret"></span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>*@
+                </ul>
+                @*<div class="pcoded-navigation-label" data-i18n="nav.category.forms">Forms &amp; Tables</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li>
+                            <a href="form-elements-component.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Form Components</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="bs-basic-table.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Basic Table</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Chart &amp; Maps</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li>
+                            <a href="chart.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Chart</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="map-google.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Maps</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li class="pcoded-hasmenu">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Pages</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class=" ">
+                                    <a href="auth-normal-sign-in.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Login</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="auth-sign-up.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Register</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="sample-page.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Sample Page</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <div class="pcoded-navigation-label" data-i18n="nav.category.other">Other</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li class="pcoded-hasmenu ">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Menu Levels</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class="">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-21">Menu Level 2.1</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.main">Menu Level 2.2</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class="">
+                                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.menu-level-31">Menu Level 3.1</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Menu Level 2.3</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>*@
+            </div>
+        </nav>
+        <div class="pcoded-content">
+            <!-- Page-header start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Admin Dashboard</h5>
+                                <p class="m-b-0">Welcome to TrucksUp-FO</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="breadcrumb-title">
+                                <li class="breadcrumb-item">
+                                    <a href="~/Dashboard"> <i class="fa fa-home"></i> </a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="~/Registration">Registration</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page-header end -->
+            <div class="pcoded-inner-content">
+                <!-- Main-body start -->
+                <div class="main-body">
+                    <div class="page-wrapper">
+                        <!-- Page-body start -->
+                        <div class="page-body">
+                            <div class="row">
+                                <!-- task, page, download counter  start -->
+
+                                <div class="col-xl-12 col-md-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Added Users</h5>
+                                            <button data-target="#addnewusermodal" data-toggle="modal" class="btn btn-primary">Add new user</button>
+
+                                            <div class="card-header-right">
+                                                <ul class="list-unstyled card-option">
+                                                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                                                    <li><i class="fa fa-minus minimize-card"></i></li>
+                                                    <li><i class="fa fa-refresh reload-card"></i></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card-block">
+                                            <div class="table-responsive">
+                                                <table id="FODetails" class="table table-striped" style="width: 100%">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>EmpID</th>
+                                                            <th>Name</th>
+                                                            <th>Mobile</th>
+                                                            <th>Alt Mobile</th>
+                                                            <th>Email</th>
+                                                            <th>Address</th>
+                                                            <th>Username</th>
+                                                            <th>Password</th>
+                                                            <th>Edit</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    </tbody>
+                                                    <tfoot>
+                                                        <tr>
+                                                            <th>EmpID</th>
+                                                            <th>Name</th>
+                                                            <th>Mobile</th>
+                                                            <th>Alt Mobile</th>
+                                                            <th>Email</th>
+                                                            <th>Address</th>
+                                                            <th>Username</th>
+                                                            <th>Password</th>
+                                                            <th>Edit</th>
+                                                            <th></th>
+                                                        </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!-- Page-body end -->
+                    </div>
+                    <div id="styleSelector"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="addnewusermodal" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="">TrucksUP Field Officers</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="Usertypeis">Type</label>
+                            <select class="form-control" id="Usertypeis">
+                                <option selected disabled value="">Select Type</option>
+                                <option value="1">Field Officer</option>
+                                <option value="2">Call Center</option>
+                                <option value="3">BMS</option>
+                                <option value="4">Other</option>
+                            </select>
+                        </div>  
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label" for="Company">Employee ID</label>
+                            <input type="text" id="EmployeeID" class="form-control" placeholder="Employee ID" aria-label="Employee ID" aria-describedby="Employee ID">
+                       
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label" for="FullName">Name</label>
+                        <div class="input-group input-group-merge">
+                            <span id="Name2" class="input-group-text"><i class="bx bx-user"></i></span>
+                            <input type="text" class="form-control" name="name" minlength="2" id="Name" placeholder="First & last Name" aria-label="" aria-describedby=" ">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label" for="basic-icon-default-phone">Mobile</label>
+                        <div class="input-group input-group-merge">
+                            <span id="Mobile2" class="input-group-text"><i class="bx bx-phone"></i></span>
+                            <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="Mobile" maxlength="10" pattern="\d{10}" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941" aria-describedby="basic-icon-default-phone2">
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="form-label" for="basic-icon-default-phone">Alternate Mobile</label>
+                        <div class="input-group input-group-merge">
+                            <span id="AlternateMobile2" class="input-group-text"><i class="bx bx-phone"></i></span>
+                            <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="AlternateMobile" maxlength="10" pattern="\d{10}" class="form-control phone-mask" placeholder="658 799 8941" aria-label="658 799 8941" aria-describedby="basic-icon-default-phone2">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <label class="form-label" for="email">Email</label>
+                        <div class="input-group input-group-merge">
+                            <span class="input-group-text"><i class="bx bx-envelope"></i></span>
+                            <input type="text" id="email" class="form-control" placeholder="example" aria-label="example" aria-describedby="">
+                        </div>
+                         
+                    </div>
+                    <div class="col-sm-12">
+                        <label class="form-label" for="Address">Address</label>
+                        <div class="input-group input-group-merge">
+                            <span id="Address2" class="input-group-text"><i class="bx bx-map"></i></span>
+                            <input type="text" id="Address" class="form-control" placeholder="Full Address" aria-label="Full Address" aria-describedby="Full Address">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="fnSubmitBtn($(this));" data-dismiss="modal">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Html.Hidden("commonUrlTrack", Url.Action("Addfieldofficer", "Registration"))
+@section scripts
+{   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.2/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="~/Helper/Registration.js"></script>
+
+}

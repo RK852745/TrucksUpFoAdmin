@@ -1,0 +1,768 @@
+-----------Exception Details on  05-04-2023 12.54.30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 12.54.30 PM
+
+Error Line No : ine 101
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 12.54.30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 12.54.30 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 12.56.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 12.56.21 PM
+
+Error Line No : line 35
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Keyword not supported: 'metadata'.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.18.44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.18.44 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/Dashboard
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.25.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.25.08 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/Dashboard
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.26.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.26.27 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.42.30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.42.30 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.42.30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.42.30 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.43.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.43.08 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.43.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.43.08 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.43.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.43.15 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.43.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.43.15 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.43.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.43.42 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.43.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.43.42 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.50.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.50.22 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.50.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.50.22 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.50.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.50.25 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.50.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.50.25 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.50.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.50.38 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.50.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.50.38 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.51.06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.51.06 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.51.06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.51.06 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.51.12 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.51.12 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.51.12 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.51.12 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.51.54 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.51.54 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.51.54 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.51.54 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.52.18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.52.18 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.52.26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.52.26 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.53.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.53.52 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.54.09 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.54.09 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 10.54.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 10.54.20 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-04-2023 11.00.39 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-04-2023 11.00.39 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'suraj'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

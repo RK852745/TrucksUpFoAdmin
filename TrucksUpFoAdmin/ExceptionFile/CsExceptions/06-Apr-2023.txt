@@ -1,0 +1,144 @@
+-----------Exception Details on  06-04-2023 12.40.52 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 06-04-2023 12.40.52 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  06-04-2023 1.13.16 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 06-04-2023 1.13.16 AM
+
+Error Line No : ine 397
+
+Error Message: EntityException
+
+Exception Type: System.Data.Entity.Core.EntityException
+
+Error Location : The underlying provider failed on ConnectionString.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  06-04-2023 1.13.38 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 06-04-2023 1.13.38 AM
+
+Error Line No : ine 397
+
+Error Message: EntityException
+
+Exception Type: System.Data.Entity.Core.EntityException
+
+Error Location : The underlying provider failed on ConnectionString.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  06-04-2023 1.13.59 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 06-04-2023 1.13.59 AM
+
+Error Line No : ine 397
+
+Error Message: EntityException
+
+Exception Type: System.Data.Entity.Core.EntityException
+
+Error Location : The underlying provider failed on ConnectionString.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  06-04-2023 1.14.10 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 06-04-2023 1.14.10 AM
+
+Error Line No : ine 397
+
+Error Message: EntityException
+
+Exception Type: System.Data.Entity.Core.EntityException
+
+Error Location : The underlying provider failed on ConnectionString.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  06-04-2023 1.14.21 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 06-04-2023 1.14.21 AM
+
+Error Line No : ine 397
+
+Error Message: EntityException
+
+Exception Type: System.Data.Entity.Core.EntityException
+
+Error Location : The underlying provider failed on ConnectionString.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

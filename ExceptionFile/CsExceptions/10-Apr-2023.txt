@@ -1,0 +1,24 @@
+-----------Exception Details on  10-04-2023 11.17.57 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10-04-2023 11.17.57 AM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/Dashboard?q=ZjIO%252f%252b5mI0KNWRr9MoiCA%252foNztEuHlCOpe0JoXQmh50ZvoR2mfwUrePipNCh5fdGaFtPzwCCX51rPbrKZLVQLnZYBXgtIowFYVFMDtu%252fkvAH4ROII30xnXIQcjQyTBU%252f
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

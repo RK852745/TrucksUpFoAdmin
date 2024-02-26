@@ -1,0 +1,240 @@
+-----------Exception Details on  03-11-2023 4.23.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.23.35 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.23.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.23.36 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.27.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.27.52 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.27.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.27.52 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.29.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.29.25 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.29.26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.29.26 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.33.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.33.52 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.33.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.33.52 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.34.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.34.04 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  03-11-2023 4.34.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 03-11-2023 4.34.04 PM
+
+Error Line No : ine 133
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'CreatedDate' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,812 @@
+﻿
+@{
+    ViewBag.Title = "jqGrid";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <link href="~/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link href="~/Content/jquery.jqGrid/ui.jqgrid.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="~/assets/css/daterangepicker.css" rel="stylesheet" />
+    <style>
+        th, td {
+            cursor: pointer;
+        }
+
+        #gbox_grid, #gview_grid, .ui-jqgrid-hdiv, .ui-jqgrid-htable, .ui-jqgrid-bdiv, #grid, #pager {
+            width: 100% !important;
+        }
+    </style>
+}
+
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+                <div class="">
+                    <div class="main-menu-header">
+                        <img class="img-80 img-radius" src="~/assets/images/avatar-blank.jpg" alt="User-Profile-Image">
+                        <div class="user-details">
+                            <span id="more-details"><span id="username">Welcome @Session["name"]</span><i class="fa fa-caret-down"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="main-menu-content">
+                        <ul>
+                            <li class="more-details">
+                                @*<a href="#"><i class="ti-user"></i>View Profile</a>
+                                    <a href="#!"><i class="ti-settings"></i>Settings</a>*@
+                                <a onclick="Logout()" href="javascript:void(0);"><i class="ti-layout-sidebar-left"></i>Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                @*<div class="p-15 p-b-0">
+                        <form class="form-material">
+                            <div class="form-group form-primary">
+                                <input type="text" name="footer-email" class="form-control" required="">
+                                <span class="form-bar"></span>
+                                <label class="float-label"><i class="fa fa-search m-r-10"></i>Search Friend</label>
+                            </div>
+                        </form>
+                    </div>*@
+                <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Menu</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="">
+                        <a href="~/Verification" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-angle-right"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Verification</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="~/BulkVerification" class="waves-effect waves-dark">
+                            <span class="pcoded-micon"><i class="ti-angle-right"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Bulk Verification</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                    @*<li class="pcoded-hasmenu">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Add Field Officer</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class=" ">
+                                    <a href="accordion.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Accordion</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="breadcrumb.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Breadcrumbs</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="button.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Button</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="tabs.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Tabs</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="color.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Color</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="label-badge.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Label Badge</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="tooltip.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Tooltip</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="typography.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Typography</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="notification.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Notification</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="icon-themify.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Themify</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>*@
+                </ul>
+                @*<div class="pcoded-navigation-label" data-i18n="nav.category.forms">Forms &amp; Tables</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li>
+                            <a href="form-elements-component.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Form Components</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="bs-basic-table.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Basic Table</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Chart &amp; Maps</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li>
+                            <a href="chart.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Chart</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="map-google.html" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.form-components.main">Maps</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                        </li>
+                        <li class="pcoded-hasmenu">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-layout-grid2-alt"></i></span>
+                                <span class="pcoded-mtext" data-i18n="nav.basic-components.main">Pages</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class=" ">
+                                    <a href="auth-normal-sign-in.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">Login</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="auth-sign-up.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Register</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class=" ">
+                                    <a href="sample-page.html" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Sample Page</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <div class="pcoded-navigation-label" data-i18n="nav.category.other">Other</div>
+                    <ul class="pcoded-item pcoded-left-item">
+                        <li class="pcoded-hasmenu ">
+                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Menu Levels</span>
+                                <span class="pcoded-mcaret"></span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li class="">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-21">Menu Level 2.1</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-direction-alt"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.main">Menu Level 2.2</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class="">
+                                            <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-22.menu-level-31">Menu Level 3.1</span>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="javascript:void(0)" class="waves-effect waves-dark">
+                                        <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.menu-level-23">Menu Level 2.3</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>*@
+            </div>
+        </nav>
+        <div class="pcoded-content">
+            <!-- Page-header start -->
+            <div class="page-header">
+                <div class="page-block">
+                    <div class="row align-items-center">
+                        <div class="col-md-8">
+                            <div class="page-header-title">
+                                <h5 class="m-b-10">Admin Dashboard</h5>
+                                <p class="m-b-0">Welcome to TrucksUp-FO</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="breadcrumb-title">
+                                <li class="breadcrumb-item">
+                                    <a href="~/Dashboard"> <i class="fa fa-home"></i> </a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="~/Reports">Reports</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page-header end -->
+            <div class="pcoded-inner-content">
+                <!-- Main-body start -->
+                <div class="main-body">
+                    <div class="page-wrapper">
+                        <!-- Page-body start -->
+                        <div class="page-body">
+                            <div class="row">
+                                <!-- task, page, download counter  start -->
+
+                                <div class="col-xl-12 col-md-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Sticker Verification</h5>
+                                            <div class="card-header-right">
+                                                <ul class="list-unstyled card-option">
+                                                    <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                                    <li><i class="fa fa-window-maximize full-card"></i></li>
+                                                    <li><i class="fa fa-minus minimize-card"></i></li>
+                                                    <li><i class="fa fa-refresh reload-card"></i></li>
+                                                </ul>
+                                            </div>
+                                            <div class="row d-none">
+                                                <div class="col-sm-4 mb-1">
+                                                    <label class="mb-0">Daterange</label>
+                                                    <div id="reportrange" style="display:inline-flex; background: #fff; cursor: pointer; padding: 7px 10px; border: 1px solid #d9dee3; width: 100%; border-radius: 5px;">
+                                                        <i class="fa fa-calendar" style="margin-top: 4px;"></i>&nbsp;
+                                                        <span style="margin-top: 1px;"></span><i style="position: absolute; right: 30px; top: 35px;" class="fa fa-caret-down"></i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-2 mb-1">
+                                                    <label class="mb-0">Total Visits by Daterange</label>
+                                                    <input style="background-color: #696cff; opacity: 1; color: white; font-weight: bold;" class="form-control" readonly="readonly" id="TotalStickerVists" />
+                                                </div>
+                                                <div class="col-sm-2" style="margin-top: 21px;">
+                                                    <button id="getdatabydate" onclick="DownloadExcelFile($(this))" class="btn btn-primary w-100" style="padding: 7px;"><i class="fa fa-file-excel-o"></i>Download Excel</button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="card-block">
+                                            <div class="table-responsive">
+                                                <div>
+                                                    <table id="grid"></table>
+                                                    <div id="pager"></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!-- Page-body end -->
+                    </div>
+                    <div id="styleSelector"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tableappend">
+
+    </div>
+</div><div class="modal fade" id="staticBackdrop" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="hidden" id="stdate" />
+<input type="hidden" id="eddate" />
+@section scripts{
+    <script src="~/Scripts/jquery-ui-1.10.0.min.js"></script>
+    <script src="~/Scripts/i18n/grid.locale-en.js"></script>
+    <script src="~/Scripts/jquery.jqGrid.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="~/assets/js/moment.min.js"></script>
+    <script src="~/assets/js/daterangepicker.min.js"></script>
+
+    <script>
+
+        $("#getdatabydate").click(function (e) {
+            e.stopImmediatePropagation();
+            GetJqGridData()
+            $('#grid').trigger('reloadGrid');
+        });
+
+        $(function () {
+
+            var start = moment();  //moment().subtract(29, 'days');
+            var end = moment();
+            function cb(start, end) {
+                $('#reportrange span').html(start.format('YYYY/MM/D') + ' - ' + end.format('YYYY/MM/D'));
+                GetCounts(start.format('YYYY/MM/D'), end.format('YYYY/MM/D'));
+            }
+
+            $('#reportrange').daterangepicker({
+                startDate: start,
+                endDate: end,
+                ranges: {
+                    'Today': [moment(), moment()],
+                    'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                    'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                    'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                    'This Month': [moment().startOf('month'), moment().endOf('month')],
+                    'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                }
+            }, cb);
+
+
+            $(".ranges ul li").click(function () {
+                $("#FoLists").prop("selectedIndex", 0);
+                if ($(this).text() == 'Today') {
+                    cb(moment(), moment());
+
+                }
+                else if ($(this).text() == 'Yesterday') {
+                    cb(moment().subtract(1, 'days'), moment().subtract(1, 'days'));
+
+                }
+                else if ($(this).text() == 'Last 7 Days') {
+                    cb(moment().subtract(6, "days"), moment());
+
+                }
+                else if ($(this).text() == 'Last 30 Days') {
+                    cb(moment().subtract(29, "days"), moment());
+
+                }
+                else if ($(this).text() == 'This Month') {
+                    cb(moment().startOf("month"), moment().endOf("month"));
+
+                }
+                else if ($(this).text() == 'Last Month') {
+                    cb(moment().subtract(1, "month").startOf("month"), moment().subtract(1, "month").endOf("month"));
+
+                }
+            });
+
+            cb(start, end);
+
+            GetJqGridData();
+
+        });
+
+        function GetJqGridData() {
+            $("#grid").jqGrid
+                ({
+                    url: "/Home/GetProducts/",
+                    datatype: 'json',
+                    mtype: 'POST',
+                    //postData: { startdate: sdates, enddate: edates },
+                    //table header name
+                    colNames: ['Id', 'FullName', 'Driver Number', /*'Operator Number', 'Downloads',*/ 'StickerImage', 'Sticker Size(S/M/L)', 'Action Button/Comments', 'Edit', /*'Lane',*/ 'Vehicle Info', 'DoneBy', 'VerifiedBy', 'CreatedDate'],
+
+                    //colModel takes the data from controller and binds to grid
+                    colModel: [
+                        { name: 'id', index: 'id', key: true, search: true, width: 50 },
+                        { name: 'fullname', index: 'fullname', key: true, search: true, width: 200 },
+                        { name: 'drivernumber', index: 'drivernumber', key: true, search: true, width: 150 },
+                        //{ name: 'operatornumber', index: 'operatornumber', key: true, search: true, width: 150 },
+                        //{ name: 'downloads', index: 'downloads', key: true, search: true, width: 100 },
+                        { name: 'stickerimage', index: 'stickerimage', key: true, search: true, width: 130, formatter: myImageFormator },
+                        { name: 'StickerDimension', index: 'StickerDimension', key: true, search: true, width: 200, formatter: myImazeSize },
+                        { name: 'myVerifybtn', index: 'myVerifybtn', key: true, search: true, width: 250, formatter: myVerifybtn },
+                        { name: 'Editbtn', index: 'Editbtn', key: true, search: true, width: 150, formatter: Editbtn },
+
+                        //{ name: 'lanefrom', index: 'lanefrom', key: true, width: 250, search: true, formatter: myformatter },
+                        { name: 'vechilenumber', index: 'vechilenumber', key: true, search: true, width: 200, formatter: Vinfodata },
+                        { name: 'doneby', index: 'doneby', key: true, search: true, width: 150 },
+                        { name: 'verifiedby', index: 'verifiedby', key: true, search: true, width: 150 },
+                        { name: 'createddate', index: 'createddate', key: true, search: true, width: 300 }
+
+                        /*{ name: 'downloads', key: true, width: 100, editable: true, formatter: editButton }*/
+                    ],
+                    pager: jQuery('#pager'),
+                    rowNum: 200,
+                    rowList: [200, 300, 400, 500],
+                    height: '100%',
+                    width: 'auto',
+                    viewrecords: true,
+                    caption: 'Sticker Visit Data',
+                    emptyrecords: 'No records to display',
+                    jsonReader:
+                    {
+                        root: "rows",
+                        page: "page",
+                        total: "total",
+                        records: "records",
+                        repeatitems: false,
+                        Id: "0"
+                    },
+                    autowidth: true,
+                    multiselect: false
+                    //pager-you have to choose here what icons should appear at the bottom
+                    //like edit,create,delete icons
+                }).navGrid('#pager',
+                    {
+                        edit: false,
+                        add: false,
+                        del: false,
+                        search: false,
+                        refresh: false
+                    }, {
+                    // edit options
+                    zIndex: 100,
+                    url: '/Jqgrid/Edit',
+                    closeOnEscape: true,
+                    closeAfterEdit: true,
+                    recreateForm: true,
+                    afterComplete: function (response) {
+                        if (response.responseText) {
+                            alert(response.responseText);
+                        }
+                    }
+                }, {
+                    // add options
+                    zIndex: 100,
+                    url: "/Jqgrid/Create",
+                    closeOnEscape: true,
+                    closeAfterAdd: true,
+                    afterComplete: function (response) {
+                        if (response.responseText) {
+                            alert(response.responseText);
+                        }
+                    }
+                }, {
+                    // delete options
+                    zIndex: 100,
+                    url: "/Jqgrid/Delete",
+                    closeOnEscape: true,
+                    closeAfterDelete: true,
+                    recreateForm: true,
+                    msg: "Are you sure you want to delete this task?",
+                    afterComplete: function (response) {
+                        if (response.responseText) {
+                            alert(response.responseText);
+                        }
+                    }
+                });
+        }
+
+        function myformatter(cellvalue, options, rowObject) {
+            return cellvalue + ' ' + rowObject.lanefrom + ' - ' + rowObject.laneto;
+        }
+
+        function myImageFormator(cellvalue, options, rowObject) {
+            return '<a dataimg="' + rowObject.stickerimage + '" onclick="fnviewstickerimage($(this))"><i class="fa fa-image"> view image</i> </a>';
+        }
+        function fnviewstickerimage(current) {
+            $("#staticBackdropLabel").text('Sticker image');
+            var str = current.attr('dataimg');
+
+
+
+            str.slice(0, -1);
+            if (str.indexOf(',') != -1) {
+                var segments = str.split(',');
+                var img = '';
+                for (var i = 0; segments.length > i; i++) {
+                    if (segments[i] != "") {
+                        var ig = '';
+                        var strn = segments[i];
+                        if (strn.indexOf("upload") !== -1) {
+                            ig = 'http://api.ritcologistics.com/TrucksUpFO/uploadedimages/' + segments[i];
+                        }
+                        else {
+                            ig = GetImageFromS3bucket(strn);
+                           // ig = 'https://sslapi.trucksups.in/S3ImageAPI/get-imagefile?fileName=' + segments[i];
+                        }
+                        img = img + '<div class="col-sm-6"><img style="width:100%;height: 100%;" src="' + ig + '" alt=""/></div>';
+                    }
+                }
+                $("#staticBackdrop .modal-body").empty();
+                $("#staticBackdrop .modal-body").append("<div class='row'>" + img + "</div>");
+                $("#staticBackdrop").modal('show');
+            } else {
+                var ig = '';
+                var strn = current.attr('dataimg');
+                if (strn.indexOf("upload") !== -1) {
+                    ig = 'http://api.ritcologistics.com/TrucksUpFO/uploadedimages/' + strn;
+                }
+                else { 
+                    
+                    //ig = 'https://sslapi.trucksups.in/S3ImageAPI/get-imagefile?fileName=' + strn;
+                    ig = GetImageFromS3bucket(strn);
+                }
+
+                var image = '<img style="width:100%;height: 100%;" src="' + ig + '" alt=""/>';
+                $("#staticBackdrop .modal-body").empty();
+                $("#staticBackdrop .modal-body").append(image);
+                $("#staticBackdrop").modal('show');
+            }
+
+
+        }
+
+        function Vinfodata(cellvalue, options, rowObject) {
+            return "<a onclick='fnGetvehicleinfo($(this))' vinfo='" + rowObject.vehicletype + "|" + rowObject.vehiclesize + "|" + rowObject.vehiclecapacity + "|" + rowObject.vechilenumber + "' class='btn btn-primary btn-sm text-white textdiv' style='text-transform: uppercase;padding: 0px 2px;line-height: 16px;font-size: 10px;background: #eb8c00;color: black!important;font-weight: bold;width: 100px;'>" + rowObject.vechilenumber + "</a><input class='textinput d-none vechilenumber' value='" + rowObject.vechilenumber + "' />";
+        }
+
+        function myImazeSize(cellvalue, options, rowObject) {
+            var d = '', small = '', medium = '', large = '';
+            if (rowObject.StickerDimension != "undefined" && rowObject.StickerDimension != "") {
+                var size = rowObject.StickerDimension.split("|");
+                for (var s = 0; size.length > s; s++) {
+                    if (size[s] != "") {
+                        d = d + "<span class='sizebox badge bg-info'>" + size[s] + "</span>&nbsp;&nbsp;";
+
+                        var s = size[s].split('-');
+
+                        if (s[1] == "Small") {
+                            small = s[0];
+                        }
+                        else if (s[1] == "Medium") {
+                            medium = s[0];
+                        }
+                        else if (s[1] == "Large") {
+                            large = s[0];
+                        } else {
+                            small = '0';
+                            medium = '0';
+                            large = '0';
+                        }
+                    }
+
+                }
+            }
+            return "<div class='textdiv'>" + d + "</div><div class='textinput d-none'><input style='border: 1px solid #ccc;border-radius: 5px; width:40px;' class='d-none smallsize textinput' value='" + small + "'/>&nbsp;<input style='border: 1px solid #ccc;border-radius: 5px;width:40px;' class='d-none mediumsize textinput' value='" + medium + "'/>&nbsp;<input style='border: 1px solid #ccc;border-radius: 5px;width:40px;' class='d-none largesize textinput' value='" + large + "'/></div>";
+        }
+
+
+        function Editbtn(cellvalue, options, rowObject) {
+            var btn = "<a onclick='fneditstickerinfo($(this)," + rowObject.id + ",0)' class='btn btn-sm btn-primary text-white editbtn' style='padding: 0px 4px;line-height: 14px;font-size: 10px;'>Edit</a>&nbsp;&nbsp;" +
+                "<a onclick='fneditstickerinfo($(this)," + rowObject.id + ",1)' class='btn btn-sm btn-success text-white d-none savebtn' style='padding: 0px 4px;line-height: 14px;font-size: 10px;'>Save</a>&nbsp;&nbsp;" +
+                "<a onclick='fneditstickerinfo($(this)," + rowObject.id + ",2)' class='btn btn-sm btn-danger text-white d-none cancelbtn' style='padding: 0px 4px;line-height: 14px;font-size: 10px;'>Cancel</a>";
+            return btn;
+        }
+
+
+
+        function mystatus(cellvalue, options, rowObject) {
+            var status = '<span class="badge bg-success text-black" style="color:black!important">verified</span>';
+            if (rowObject.verifiedstatus == 'False' && rowObject.verifiedby == "") {
+                status = '<span class="badge bg-warning text-black" style="color:black!important"><i class="fa fa-times-circle"></i> not verified</span>';
+            }
+            else if (rowObject.verifiedstatus == 'False' && rowObject.verifiedby != "") {
+                status = '<span class="badge bg-danger text-black" style="color:black!important"><i class="fa fa-times-circle"></i> rejected </span>';
+            }
+            return status;
+        }
+        function fnGetvehicleinfo(current) {
+            $("#staticBackdropLabel").text('Vehicle image');
+            var vinfo = current.attr("vinfo");
+            var info = vinfo.split("|");
+            var vehicletype = info[0], vehiclesize = info[1], vehiclecapacity = info[2], vechilenumber = info[3];
+
+            var datais = "<div class='table-responsive'><table class='table'>\
+                                <thead>\
+                                <tr><th>Vehicle Type</th><th>Vehicle Size</th><th>Vehicle Capacity</th><th>Vechile Number</th></tr>\
+                                </thead>\
+                                 <tbody>\
+                                 <tr><td>"+ vehicletype + "</td><td>" + vehiclesize + "</td><td>" + vehiclecapacity + "</td><td>" + vechilenumber + "</td></tr>\
+                                 </tbody>\
+                                </table></div>";
+            $("#staticBackdrop .modal-body").empty();
+            $("#staticBackdrop .modal-body").append(datais);
+            $("#staticBackdrop").modal('show');
+        }
+
+        function myVerifybtn(cellvalue, options, rowObject) {
+            var btn = '<span class="badge bg-success text-black" style="color:black!important">verified</span>';
+            if (rowObject.verifiedstatus == 'False' && rowObject.verifiedby == "") {
+                btn = "<a onclick='fnmarkverifiedbtn($(this)," + rowObject.id + ",1);' class='btn btn-sm btn-success text-white' style='padding: 0px 4px;line-height: 14px;font-size: 10px;'>Verify</a>&nbsp;&nbsp;<a onclick='fnmarkverifiedbtn($(this)," + rowObject.id + ",0);' class='btn btn-sm btn-danger text-white' style='padding: 0px 4px;line-height: 14px;font-size: 10px;'>Reject</a>&nbsp;&nbsp;<input style='width:100px;' placeholder='comments' class='statuscomments'/>";
+            }
+            else if (rowObject.verifiedstatus == 'False' && rowObject.verifiedby != "") {
+                btn = '<span class="badge bg-danger text-black" style="color:black!important"><i class="fa fa-times-circle"></i> rejected </span>';
+            }
+            return btn;
+        }
+
+        function GetCounts(startdate, enddate) {
+            var url = "/Home/GetCountsByDateRange";
+            var data = JSON.stringify({ startdate: startdate, enddate: enddate });
+            var Result = doAjax(url, data);
+            if (Result != "") {
+                $("#TotalStickerVists").val(Result);
+
+            } else {
+                $("#TotalStickerVists").val('0');
+            }
+
+        }
+
+
+        function DownloadExcelFile(current) {
+            var date = $("#reportrange span").text();
+            date = date.split('-');
+
+            var url = "/Home/CoonvertDataTableintoexcel";
+            var data = JSON.stringify({ startdate: date[0], enddate: date[1] });
+            var Result = doAjax(url, data);
+            if (Result != "") {
+
+            }
+
+        }
+
+
+        function fnmarkverifiedbtn(current, id, status) {
+            var tr = current.closest('tr');
+            var comments = tr.find('.statuscomments').val();
+            var url = "/Verification/Methodupdatestatus";
+            var data = JSON.stringify({ id: id, status: status, comments: comments });
+            var Result = doAjax(url, data);
+            if (Result != '') {
+
+                if (status == 1) {
+                    alert('Sticker verified successfully');
+                } else {
+                    alert('Sticker rejected successfully');
+                }
+                tr.remove();
+                //location.reload();
+            }
+        }
+
+        function fneditstickerinfo(current, id, type) {
+            var tr = current.closest('tr');
+            if (type == 0) {
+                current.addClass('d-none');
+                tr.find('.savebtn').removeClass('d-none');
+                tr.find('.cancelbtn').removeClass('d-none');
+                tr.find('.textdiv').addClass('d-none');
+                tr.find('.textinput ').removeClass('d-none');
+            }
+            else if (type == 1) {
+                var smallsize = tr.find('.smallsize').val();
+                var mediumsize = tr.find('.mediumsize').val();
+                var vechilenumber = tr.find('.vechilenumber').val();
+                var largesize = tr.find('.largesize').val();
+                UpdateData(id, smallsize, mediumsize, largesize, vechilenumber, tr)
+            }
+            else if (type == 2) {
+                 
+                tr.find('.editbtn').removeClass('d-none');
+                tr.find('.cancelbtn').addClass('d-none');
+                tr.find('.savebtn').addClass('d-none');
+                tr.find('.textdiv').removeClass('d-none');
+                tr.find('.textinput ').addClass('d-none');
+                
+            }
+        }
+
+
+        function UpdateData(id, smallsize, mediumsize, largesize, vechilenumber,currnt) {
+            var stickerdimension = "";
+
+            if (smallsize !== null && smallsize !== "" && smallsize !== "0") {
+                stickerdimension += smallsize + '-Small | ';
+            }
+
+            if (mediumsize !== null && mediumsize !== "" && mediumsize !== "0") {
+                stickerdimension += mediumsize + '-Medium | ';
+            }
+
+            if (largesize !== null && largesize !== "" && largesize !== "0") {
+                stickerdimension += largesize + '-Large';
+            }
+
+            if (stickerdimension.endsWith(' | ')) {
+                stickerdimension = stickerdimension.slice(0, -3);
+            }
+            var size = parseInt((smallsize == "" ? 0 : smallsize)) + parseInt((mediumsize == "" ? 0 : mediumsize)) + parseInt((largesize == "" ? 0 : largesize));
+
+
+            var url = "/Home/MethodUpdateverificationDatanew"; 
+            var data = JSON.stringify({ 
+                size: size,
+                vechilenumber: vechilenumber,
+                stickerdimension: stickerdimension,
+                id: id
+            }); 
+            var Result = doAjax(url, data);
+            if (Result!='') {
+                alert(Result);
+                currnt.remove();
+                //location.reload();
+            }
+        }
+
+
+        function GetImageFromS3bucket(imageLink) {
+            var url = "/Home/GetimagefromS3bucket";
+            var data = JSON.stringify({
+                imgkey: imageLink 
+            });
+            var Result = doAjax(url, data);
+            if (Result != '') {
+                return Result;
+            }
+        }
+
+    </script>
+}
+

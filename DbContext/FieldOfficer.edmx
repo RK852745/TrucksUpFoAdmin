@@ -1,0 +1,2593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FieldOfficerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.FieldOfficerMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="FieldOfficerMaster">
+          <Key>
+            <PropertyRef Name="EcecutiveId" />
+          </Key>
+          <Property Name="EcecutiveId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="20" />
+          <Property Name="AltMobile" Type="nvarchar" MaxLength="20" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+          <Property Name="FullAddress" Type="nvarchar" MaxLength="255" />
+          <Property Name="EmployeeID" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="EmployeeType" Type="int" />
+          <Property Name="DutyStatus" Type="bit" />
+          <Property Name="ProfileImage" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.FieldOfficerMeeting' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="FieldOfficerMeeting">
+          <Key>
+            <PropertyRef Name="ScheduledId" />
+          </Key>
+          <Property Name="ScheduledId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FieldOfficerID" Type="int" />
+          <Property Name="FieldOfficerName" Type="nvarchar" MaxLength="50" />
+          <Property Name="BrokerName" Type="nvarchar" MaxLength="50" />
+          <Property Name="MobileNumber" Type="nvarchar" MaxLength="50" />
+          <Property Name="Alternatename" Type="nvarchar" MaxLength="50" />
+          <Property Name="AlternateMobileNo" Type="nvarchar" MaxLength="10" />
+          <Property Name="BrokerMeet" Type="bit" />
+          <Property Name="LoadGiven" Type="bit" />
+          <Property Name="AdditionalComment" Type="nvarchar(max)" />
+          <Property Name="ScheduledDate" Type="datetime" />
+          <Property Name="Scheduledtime" Type="nvarchar" MaxLength="100" />
+          <Property Name="CompletedDate" Type="datetime" />
+          <Property Name="Scheduled" Type="bit" />
+          <Property Name="Completed" Type="bit" />
+          <Property Name="CreatedAt" Type="datetime" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="10" />
+          <Property Name="UpdatedAt" Type="nvarchar" MaxLength="100" />
+          <Property Name="Updatedby" Type="nvarchar" MaxLength="10" />
+          <Property Name="BrokerImagePath" Type="nvarchar(max)" />
+          <Property Name="UserImagePath" Type="nvarchar(max)" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="GPS" Type="bit" />
+          <Property Name="Insurance" Type="bit" />
+          <Property Name="FastTag" Type="bit" />
+          <Property Name="Sell_BuyTruck" Type="bit" />
+          <Property Name="GIFT" Type="bit" />
+          <Property Name="Remarks" Type="nvarchar(max)" />
+          <Property Name="RemarksforLoadNotgiven" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="FieldOfficerTracking">
+          <Key>
+            <PropertyRef Name="trackingId" />
+          </Key>
+          <Property Name="trackingId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FoId" Type="int" />
+          <Property Name="Latitude" Type="numeric" Precision="18" Scale="9" />
+          <Property Name="Longitude" Type="numeric" Precision="18" Scale="9" />
+          <Property Name="CreatedAt" Type="datetime" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="20" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="UpdatedBy" Type="nvarchar" MaxLength="20" />
+          <Property Name="ActiveFlag" Type="bit" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.FieldOfficerVisitMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="FieldOfficerVisitMaster">
+          <Key>
+            <PropertyRef Name="FovmId" />
+          </Key>
+          <Property Name="FovmId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="100" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="20" />
+          <Property Name="EmailId" Type="nvarchar" MaxLength="100" />
+          <Property Name="Address" Type="nvarchar(max)" />
+          <Property Name="OwnType" Type="nvarchar" MaxLength="100" />
+          <Property Name="VehicleType" Type="nvarchar" MaxLength="100" />
+          <Property Name="Vehiclecapacity" Type="nvarchar" MaxLength="100" />
+          <Property Name="VehicleCount" Type="nvarchar" MaxLength="100" />
+          <Property Name="VisitDate" Type="datetime" />
+          <Property Name="VisitTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="VisitingCardUrl" Type="nvarchar" MaxLength="255" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="StickeringStatus" Type="char" MaxLength="1" />
+          <Property Name="imagewithstickerurl" Type="nvarchar" MaxLength="255" />
+          <Property Name="imagewithownerurl" Type="nvarchar" MaxLength="255" />
+          <Property Name="Company" Type="nvarchar" MaxLength="255" />
+          <Property Name="Status" Type="varchar" MaxLength="100" />
+          <Property Name="Remarks" Type="nvarchar" MaxLength="255" />
+          <Property Name="IsMobileVerified" Type="char" MaxLength="1" />
+          <Property Name="verifytype" Type="varchar" MaxLength="50" />
+          <Property Name="BusinessName" Type="nvarchar" MaxLength="100" />
+          <Property Name="CompanyAddress" Type="nvarchar(max)" />
+          <Property Name="Location" Type="nvarchar(max)" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.FieldOffiecrLocation' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="FieldOffiecrLocation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FoId" Type="bigint" />
+          <Property Name="Latitude" Type="nvarchar" MaxLength="50" />
+          <Property Name="Longitude" Type="nvarchar" MaxLength="50" />
+          <Property Name="Active" Type="bit" />
+          <Property Name="createdDate" Type="datetime" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="40" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.GeoLocationCordinates' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="GeoLocationCordinates">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="bigint" />
+          <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="createdDate" Type="datetime" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.OwnerInfoMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="OwnerInfoMaster">
+          <Key>
+            <PropertyRef Name="OIID" />
+          </Key>
+          <Property Name="OIID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FovmId" Type="bigint" />
+          <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.PreferredLocationMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="PreferredLocationMaster">
+          <Key>
+            <PropertyRef Name="PLMId" />
+          </Key>
+          <Property Name="PLMId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FovmId" Type="bigint" />
+          <Property Name="FromLoction" Type="nvarchar" MaxLength="100" />
+          <Property Name="ToLocation" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.SharedLinkAudit' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="SharedLinkAudit">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SharedSMS" Type="nvarchar(max)" />
+          <Property Name="SharedBy" Type="bigint" />
+          <Property Name="SharedDateTime" Type="datetime" />
+          <Property Name="SharedTo" Type="nvarchar" MaxLength="20" />
+          <Property Name="SMSDelivered" Type="char" MaxLength="1" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="bigint" />
+          <Property Name="createdDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="bigint" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.SQL_Error' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="SQL_Error">
+          <Key>
+            <PropertyRef Name="ErrorId" />
+          </Key>
+          <Property Name="ErrorId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ErrorNumber" Type="varchar" MaxLength="100" />
+          <Property Name="ErrorState" Type="varchar" MaxLength="100" />
+          <Property Name="ErrorSeverity" Type="varchar" MaxLength="100" />
+          <Property Name="ErrorProcedure" Type="nvarchar" MaxLength="100" />
+          <Property Name="ErrorLine" Type="varchar" MaxLength="100" />
+          <Property Name="ErrorMessage" Type="nvarchar(max)" />
+          <Property Name="ErrorDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.StickerMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="StickerMaster">
+          <Key>
+            <PropertyRef Name="STID" />
+          </Key>
+          <Property Name="STID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FovmId" Type="bigint" />
+          <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="StickerMaster_Dhaba">
+          <Key>
+            <PropertyRef Name="DhabaID" />
+          </Key>
+          <Property Name="DhabaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DhabaName" Type="nvarchar" MaxLength="255" />
+          <Property Name="DhabaOwnerNumber" Type="nvarchar" MaxLength="15" />
+          <Property Name="Address" Type="nvarchar" MaxLength="255" />
+          <Property Name="OwnerName" Type="nvarchar" MaxLength="255" />
+          <Property Name="StickerImage" Type="nvarchar" MaxLength="222" />
+          <Property Name="ActiveFlag" Type="int" />
+          <Property Name="CreatedBy" Type="bigint" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="bigint" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="Latitude" Type="decimal" Precision="10" Scale="6" />
+          <Property Name="Longitude" Type="decimal" Precision="10" Scale="6" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.StickerVisitMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="StickerVisitMaster">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FullName" Type="nvarchar" MaxLength="100" />
+          <Property Name="DriverNumber" Type="nvarchar" MaxLength="20" />
+          <Property Name="OperatorNumber" Type="nvarchar" MaxLength="20" />
+          <Property Name="Downloads" Type="varchar" MaxLength="100" />
+          <Property Name="StickerImage" Type="nvarchar" MaxLength="255" />
+          <Property Name="StickerSize" Type="nvarchar" MaxLength="20" />
+          <Property Name="LaneFrom" Type="nvarchar" MaxLength="255" />
+          <Property Name="LaneTo" Type="nvarchar" MaxLength="255" />
+          <Property Name="VehicleType" Type="nvarchar" MaxLength="255" />
+          <Property Name="VehicleSize" Type="nvarchar" MaxLength="255" />
+          <Property Name="VehicleCapacity" Type="nvarchar" MaxLength="255" />
+          <Property Name="VechileNumber" Type="nvarchar" MaxLength="255" />
+          <Property Name="DoneBy" Type="bigint" />
+          <Property Name="VerifiedStatus" Type="bit" />
+          <Property Name="VerifiedBy" Type="bigint" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="bigint" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="bigint" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="StickerDimension" Type="nvarchar" MaxLength="100" />
+          <Property Name="Verification" Type="int" />
+          <Property Name="VerificationComment" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.TblAwsImages' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TblAwsImages">
+          <Key>
+            <PropertyRef Name="ScheduledId" />
+          </Key>
+          <Property Name="ScheduledId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BrokerImagePath" Type="nvarchar(max)" />
+          <Property Name="ImagePath" Type="nvarchar(max)" />
+          <Property Name="FieldOfficerID" Type="int" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.TblFODutyStatus' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TblFODutyStatus">
+          <Key>
+            <PropertyRef Name="DID" />
+          </Key>
+          <Property Name="DID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FOID" Type="int" />
+          <Property Name="Status" Type="bit" />
+          <Property Name="OffDutyDate" Type="nvarchar" MaxLength="100" />
+          <Property Name="OffDutyTime" Type="nvarchar" MaxLength="100" />
+          <Property Name="Active" Type="bit" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.TruksupFOMobileNavigator' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TruksupFOMobileNavigator">
+          <Key>
+            <PropertyRef Name="MNID" />
+          </Key>
+          <Property Name="MNID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="USER_TYPE" Type="nvarchar" MaxLength="100" />
+          <Property Name="MENU_NAME" Type="nvarchar" MaxLength="100" />
+          <Property Name="REDIRECT_URL" Type="nvarchar" MaxLength="100" />
+          <Property Name="ACTIVE_FLAG" Type="bit" />
+          <Property Name="CREATED_BY" Type="bigint" />
+          <Property Name="CREATED_DATE" Type="datetime" />
+          <Property Name="MODIFIED_BY" Type="bigint" />
+          <Property Name="MODIFIED_DATE" Type="datetime" />
+          <Property Name="SEQ_NO" Type="int" />
+          <Property Name="ICON" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.UserLogin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="UserLogin">
+          <Key>
+            <PropertyRef Name="Userid" />
+          </Key>
+          <Property Name="Userid" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ExecutiveId" Type="bigint" />
+          <Property Name="Username" Type="nvarchar" MaxLength="100" />
+          <Property Name="Password" Type="nvarchar" MaxLength="100" />
+          <Property Name="LoginPin" Type="nvarchar" MaxLength="100" />
+          <Property Name="UserType" Type="int" />
+          <Property Name="Source" Type="nvarchar" MaxLength="100" />
+          <Property Name="DeviceId" Type="nvarchar(max)" />
+          <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+          <Property Name="DeviceType" Type="nvarchar" MaxLength="100" />
+          <Property Name="Activeflag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="bigint" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="IsAdmin" Type="char" MaxLength="1" />
+          <Property Name="Name" Type="varchar" MaxLength="100" />
+          <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+          <Property Name="Email" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.UserLoginToken' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="UserLoginToken">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="int" />
+          <Property Name="UserIP" Type="nvarchar" MaxLength="100" />
+          <Property Name="UserMacAddress" Type="nvarchar" MaxLength="100" />
+          <Property Name="Token" Type="nvarchar" MaxLength="200" />
+          <Property Name="TokenValidTill" Type="datetime" />
+          <Property Name="TokenExpired" Type="bit" />
+          <Property Name="isActive" Type="bit" />
+          <Property Name="CreatedBy" Type="varchar" MaxLength="100" />
+          <Property Name="Creationdate" Type="datetime" />
+          <Property Name="UpdatedBy" Type="varchar" MaxLength="100" />
+          <Property Name="UpdatedDate" Type="datetime" />
+          <Property Name="PlatformCalledFrom" Type="char" MaxLength="1" />
+          <Property Name="DeviceId" Type="nvarchar" MaxLength="200" />
+          <Property Name="DeviceName" Type="nvarchar" MaxLength="200" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.VehicleInfoMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VehicleInfoMaster">
+          <Key>
+            <PropertyRef Name="ViId" />
+          </Key>
+          <Property Name="ViId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FovmId" Type="bigint" />
+          <Property Name="OwnType" Type="nvarchar" MaxLength="100" />
+          <Property Name="VehicleType" Type="nvarchar" MaxLength="100" />
+          <Property Name="Vehiclecapacity" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+          <Property Name="VehicleCount" Type="int" />
+          <Property Name="VehicleSize" Type="nvarchar" MaxLength="100" />
+          <Property Name="VehicleOwnType" Type="varchar" MaxLength="100" />
+          <Property Name="VehicleRC" Type="nvarchar" MaxLength="255" />
+          <Property Name="VehicleNum" Type="nvarchar" MaxLength="100" />
+          <Property Name="DriverNum" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.VisitingCardMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="VisitingCardMaster">
+          <Key>
+            <PropertyRef Name="VCID" />
+          </Key>
+          <Property Name="VCID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FovmId" Type="bigint" />
+          <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+          <Property Name="ActiveFlag" Type="bit" />
+          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="ModifiedDate" Type="datetime" />
+        </EntityType>
+        <Function Name="AdminDasboardMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="mode" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserId" Type="bigint" Mode="In" />
+          <Parameter Name="startdate" Type="datetime" Mode="In" />
+          <Parameter Name="enddate" Type="datetime" Mode="In" />
+          <Parameter Name="fomid" Type="bigint" Mode="In" />
+          <Parameter Name="totalvisit" Type="varchar" Mode="In" />
+          <Parameter Name="owntype" Type="varchar" Mode="In" />
+          <Parameter Name="svisit" Type="varchar" Mode="In" />
+          <Parameter Name="FovmId" Type="bigint" Mode="In" />
+          <Parameter Name="Name" Type="varchar" Mode="In" />
+          <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="AltMobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+          <Parameter Name="FullAddress" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmployeeID" Type="nvarchar" Mode="In" />
+          <Parameter Name="EcecutiveId" Type="bigint" Mode="In" />
+          <Parameter Name="CreatedBy" Type="bigint" Mode="In" />
+          <Parameter Name="ExecutiveId" Type="bigint" Mode="In" />
+          <Parameter Name="Username" Type="nvarchar" Mode="In" />
+          <Parameter Name="Password" Type="nvarchar" Mode="In" />
+          <Parameter Name="xmluseridlist" Type="xml" Mode="In" />
+          <Parameter Name="Status" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmployeeType" Type="int" Mode="In" />
+          <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+          <Parameter Name="Start" Type="int" Mode="In" />
+          <Parameter Name="Length" Type="int" Mode="In" />
+          <Parameter Name="searchValue" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="DutyStatusupdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="dutystatus" Type="bit" Mode="In" />
+          <Parameter Name="fieldofficerId" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="getadmindatabydate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="startdate" Type="nvarchar" Mode="In" />
+          <Parameter Name="enddate" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="getAdminDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Token" Type="nvarchar" Mode="In" />
+          <Parameter Name="userid" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="GetCompletedMeeting" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="mobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="StartDate" Type="datetime" Mode="In" />
+          <Parameter Name="EndDate" Type="datetime" Mode="In" />
+        </Function>
+        <Function Name="getfieldofficernames" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="varchar">
+          <Parameter Name="id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="GetFOBrokerDetails_V1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="City" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="GetScheduledMeeting" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="Pro_GetEncrptedKey" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="Pro_SQL_Error" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ErrorNumber" Type="varchar" Mode="In" />
+          <Parameter Name="ErrorState" Type="varchar" Mode="In" />
+          <Parameter Name="ErrorSeverity" Type="varchar" Mode="In" />
+          <Parameter Name="ErrorProcedure" Type="nvarchar" Mode="In" />
+          <Parameter Name="ErrorLine" Type="varchar" Mode="In" />
+          <Parameter Name="ErrorMessage" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <Function Name="Pro_UserLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Token" Type="nvarchar" Mode="In" />
+          <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserIP" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserMacAddress" Type="nvarchar" Mode="In" />
+          <Parameter Name="DeviceName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Platfrom" Type="char" Mode="In" />
+          <Parameter Name="username" Type="nvarchar" Mode="In" />
+          <Parameter Name="LoginPin" Type="nvarchar" Mode="In" />
+          <Parameter Name="password" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserId" Type="int" Mode="In" />
+          <Parameter Name="PartnerId" Type="int" Mode="In" />
+          <Parameter Name="Org" Type="bigint" Mode="In" />
+          <Parameter Name="bid" Type="bigint" Mode="In" />
+          <Parameter Name="ClientId" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="ProAddNewVisit" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FovmId" Type="bigint" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+          <Parameter Name="Address" Type="nvarchar" Mode="In" />
+          <Parameter Name="OwnType" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleType" Type="nvarchar" Mode="In" />
+          <Parameter Name="Vehiclecapacity" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleCount" Type="int" Mode="In" />
+          <Parameter Name="VisitDate" Type="datetime" Mode="In" />
+          <Parameter Name="VisitTime" Type="nvarchar" Mode="In" />
+          <Parameter Name="Latitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="Longitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="VisitingCardUrl" Type="nvarchar" Mode="In" />
+          <Parameter Name="ActiveFlag" Type="bit" Mode="In" />
+          <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+          <Parameter Name="ModifiedBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="ModifiedDate" Type="datetime" Mode="In" />
+          <Parameter Name="StickeringStatus" Type="char" Mode="In" />
+          <Parameter Name="PLMId" Type="bigint" Mode="In" />
+          <Parameter Name="FromLoction" Type="nvarchar" Mode="In" />
+          <Parameter Name="ToLocation" Type="nvarchar" Mode="In" />
+          <Parameter Name="ViId" Type="bigint" Mode="In" />
+          <Parameter Name="VehicleSize" Type="nvarchar" Mode="In" />
+          <Parameter Name="xmlvehicleInfolist" Type="xml" Mode="In" />
+          <Parameter Name="xmlprefloctaionlist" Type="xml" Mode="In" />
+          <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+          <Parameter Name="fovid" Type="bigint" Mode="In" />
+          <Parameter Name="imagewithstickerurl" Type="nvarchar" Mode="In" />
+          <Parameter Name="imagewithownerurl" Type="nvarchar" Mode="In" />
+          <Parameter Name="enddate" Type="datetime" Mode="In" />
+          <Parameter Name="startdate" Type="datetime" Mode="In" />
+          <Parameter Name="Company" Type="nvarchar" Mode="In" />
+          <Parameter Name="VisitingCardUrlXML" Type="xml" Mode="In" />
+          <Parameter Name="imagewithstickerurlXML" Type="xml" Mode="In" />
+          <Parameter Name="imagewithownerurlXML" Type="xml" Mode="In" />
+          <Parameter Name="userid" Type="bigint" Mode="In" />
+          <Parameter Name="Status" Type="varchar" Mode="In" />
+          <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleOwnType" Type="varchar" Mode="In" />
+          <Parameter Name="IsMobileVerified" Type="char" Mode="In" />
+          <Parameter Name="verifytype" Type="varchar" Mode="In" />
+          <Parameter Name="SharedSMS" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="SharedBy" Type="bigint" Mode="In" />
+          <Parameter Name="SharedDateTime" Type="datetime" Mode="In" />
+          <Parameter Name="SharedTo" Type="nvarchar" Mode="In" />
+          <Parameter Name="SMSDelivered" Type="char" Mode="In" />
+        </Function>
+        <Function Name="Proc_checkdownloadstatus" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="mobile" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="Proc_InsertNewLead" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="Name" Type="varchar" Mode="In" />
+          <Parameter Name="BusinessName" Type="nvarchar" Mode="In" />
+          <Parameter Name="CompanyAddress" Type="nvarchar" Mode="In" />
+          <Parameter Name="Location" Type="nvarchar" Mode="In" />
+          <Parameter Name="Latitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="Longitude" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="Proc_TruksupFOAppAPI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Password" Type="nvarchar" Mode="In" />
+          <Parameter Name="type" Type="varchar" Mode="In" />
+          <Parameter Name="rid" Type="int" Mode="In" />
+          <Parameter Name="firstpage" Type="nvarchar" Mode="In" />
+          <Parameter Name="Token" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserIP" Type="nvarchar" Mode="In" />
+          <Parameter Name="UserMacAddress" Type="nvarchar" Mode="In" />
+          <Parameter Name="DeviceName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Platfrom" Type="char" Mode="In" />
+          <Parameter Name="UserId" Type="int" Mode="In" />
+          <Parameter Name="deviceid" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="longitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="lattitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="Mobile" Type="varchar" Mode="In" />
+          <Parameter Name="OTP" Type="varchar" Mode="In" />
+          <Parameter Name="user_id" Type="int" Mode="In" />
+          <Parameter Name="Org" Type="bigint" Mode="In" />
+          <Parameter Name="msg" Type="varchar" Mode="In" />
+          <Parameter Name="cid" Type="bigint" Mode="In" />
+          <Parameter Name="usertype" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="ProcGetFodetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Foid" Type="bigint" Mode="In" />
+        </Function>
+        <Function Name="ProUpdateVisitData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FovmId" Type="bigint" Mode="In" />
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+          <Parameter Name="Address" Type="nvarchar" Mode="In" />
+          <Parameter Name="OwnType" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleType" Type="nvarchar" Mode="In" />
+          <Parameter Name="Vehiclecapacity" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleCount" Type="int" Mode="In" />
+          <Parameter Name="VisitDate" Type="datetime" Mode="In" />
+          <Parameter Name="VisitTime" Type="nvarchar" Mode="In" />
+          <Parameter Name="Latitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="Longitude" Type="nvarchar" Mode="In" />
+          <Parameter Name="VisitingCardUrl" Type="nvarchar" Mode="In" />
+          <Parameter Name="ActiveFlag" Type="bit" Mode="In" />
+          <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+          <Parameter Name="ModifiedBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="ModifiedDate" Type="datetime" Mode="In" />
+          <Parameter Name="StickeringStatus" Type="char" Mode="In" />
+          <Parameter Name="PLMId" Type="bigint" Mode="In" />
+          <Parameter Name="FromLoction" Type="nvarchar" Mode="In" />
+          <Parameter Name="ToLocation" Type="nvarchar" Mode="In" />
+          <Parameter Name="ViId" Type="bigint" Mode="In" />
+          <Parameter Name="VehicleSize" Type="nvarchar" Mode="In" />
+          <Parameter Name="xmlvehicleInfolist" Type="xml" Mode="In" />
+          <Parameter Name="xmlprefloctaionlist" Type="xml" Mode="In" />
+          <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+          <Parameter Name="fovid" Type="bigint" Mode="In" />
+          <Parameter Name="imagewithstickerurl" Type="nvarchar" Mode="In" />
+          <Parameter Name="imagewithownerurl" Type="nvarchar" Mode="In" />
+          <Parameter Name="enddate" Type="datetime" Mode="In" />
+          <Parameter Name="startdate" Type="datetime" Mode="In" />
+          <Parameter Name="Company" Type="nvarchar" Mode="In" />
+          <Parameter Name="VisitingCardUrlXML" Type="xml" Mode="In" />
+          <Parameter Name="imagewithstickerurlXML" Type="xml" Mode="In" />
+          <Parameter Name="imagewithownerurlXML" Type="xml" Mode="In" />
+          <Parameter Name="updatefor" Type="nvarchar" Mode="In" />
+          <Parameter Name="updateid" Type="bigint" Mode="In" />
+          <Parameter Name="Status" Type="varchar" Mode="In" />
+          <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleOwnType" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="SP_BrokerDataSendWebx" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Fovmid" Type="int" Mode="In" />
+          <Parameter Name="MobileNo1" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="Sp_FOAwsImageDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FieldOfficerID" Type="int" Mode="In" />
+          <Parameter Name="BrokerImagePath" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="ImagePath" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_GetBrokerDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="SP_GetStickerVisitReports" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="startdate" Type="datetime" Mode="In" />
+          <Parameter Name="enddate" Type="datetime" Mode="In" />
+          <Parameter Name="userid" Type="bigint" Mode="In" />
+          <Parameter Name="EmployeeType" Type="int" Mode="In" />
+        </Function>
+        <Function Name="Sp_InsertmeetingDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ScheduledId" Type="int" Mode="In" />
+          <Parameter Name="FieldOfficerID" Type="int" Mode="In" />
+          <Parameter Name="FieldOfficerName" Type="nvarchar" Mode="In" />
+          <Parameter Name="BrokerName" Type="nvarchar" Mode="In" />
+          <Parameter Name="MobileNumber" Type="nvarchar" Mode="In" />
+          <Parameter Name="Alternatename" Type="nvarchar" Mode="In" />
+          <Parameter Name="AlternateMobileNo" Type="nvarchar" Mode="In" />
+          <Parameter Name="BrokerMeet" Type="bit" Mode="In" />
+          <Parameter Name="LoadGiven" Type="bit" Mode="In" />
+          <Parameter Name="AdditionalComment" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="ScheduledDate" Type="datetime" Mode="In" />
+          <Parameter Name="Scheduledtime" Type="nvarchar" Mode="In" />
+          <Parameter Name="CompletedDate" Type="datetime" Mode="In" />
+          <Parameter Name="Scheduled" Type="bit" Mode="In" />
+          <Parameter Name="Completed" Type="bit" Mode="In" />
+          <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+          <Parameter Name="UpdatedAt" Type="nvarchar" Mode="In" />
+          <Parameter Name="Updatedby" Type="nvarchar" Mode="In" />
+          <Parameter Name="BrokerImagePath" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="UserImagePath" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Location" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="GPS" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Insurance" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="FastTag" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="BuySell" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Gift" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Remarks" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Address" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Latitude" Type="nvarchar(max)" Mode="In" />
+          <Parameter Name="Longitude" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <Function Name="SP_StickerMasterDhaba" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="DhabaName" Type="nvarchar" Mode="In" />
+          <Parameter Name="DhabaOwnerNumber" Type="nvarchar" Mode="In" />
+          <Parameter Name="Address" Type="nvarchar" Mode="In" />
+          <Parameter Name="OwnerName" Type="nvarchar" Mode="In" />
+          <Parameter Name="StickerImageName" Type="nvarchar" Mode="In" />
+          <Parameter Name="Latitude" Type="decimal" Mode="In" />
+          <Parameter Name="Longitude" Type="decimal" Mode="In" />
+          <Parameter Name="CreatedBy" Type="bigint" Mode="In" />
+          <Parameter Name="StartDate" Type="datetime" Mode="In" />
+          <Parameter Name="EndDate" Type="datetime" Mode="In" />
+          <Parameter Name="mode" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="SP_StickerVisits" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FullName" Type="nvarchar" Mode="In" />
+          <Parameter Name="DriverNumber" Type="nvarchar" Mode="In" />
+          <Parameter Name="OperatorNumber" Type="nvarchar" Mode="In" />
+          <Parameter Name="Downloads" Type="nvarchar" Mode="In" />
+          <Parameter Name="StickerImage" Type="nvarchar" Mode="In" />
+          <Parameter Name="StickerSize" Type="nvarchar" Mode="In" />
+          <Parameter Name="LaneFrom" Type="nvarchar" Mode="In" />
+          <Parameter Name="LaneTo" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleType" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleSize" Type="nvarchar" Mode="In" />
+          <Parameter Name="VehicleCapacity" Type="nvarchar" Mode="In" />
+          <Parameter Name="VechileNumber" Type="nvarchar" Mode="In" />
+          <Parameter Name="DoneBy" Type="bigint" Mode="In" />
+          <Parameter Name="VerifiedStatus" Type="nvarchar" Mode="In" />
+          <Parameter Name="VerifiedBy" Type="bigint" Mode="In" />
+          <Parameter Name="CreatedBy" Type="bigint" Mode="In" />
+          <Parameter Name="mode" Type="nvarchar" Mode="In" />
+          <Parameter Name="Userid" Type="bigint" Mode="In" />
+          <Parameter Name="LocalXML" Type="xml" Mode="In" />
+          <Parameter Name="startdate" Type="datetime" Mode="In" />
+          <Parameter Name="enddate" Type="datetime" Mode="In" />
+          <Parameter Name="id" Type="int" Mode="In" />
+          <Parameter Name="StickerDimension" Type="nvarchar" Mode="In" />
+          <Parameter Name="VerificationComment" Type="nvarchar" Mode="In" />
+          <Parameter Name="Start" Type="int" Mode="In" />
+          <Parameter Name="Length" Type="int" Mode="In" />
+          <Parameter Name="searchValue" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="Sp_UpdateFOAwsImages" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="ScheduledId" Type="int" Mode="In" />
+          <Parameter Name="BrokerImagePath" Type="nvarchar(max)" Mode="In" />
+        </Function>
+        <Function Name="Sp_updateFoDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Name" Type="nvarchar" Mode="In" />
+          <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="AltMobile" Type="nvarchar" Mode="In" />
+          <Parameter Name="Email" Type="nvarchar" Mode="In" />
+          <Parameter Name="FullAddress" Type="nvarchar" Mode="In" />
+          <Parameter Name="EmployeeID" Type="bigint" Mode="In" />
+          <Parameter Name="EmployeeType" Type="int" Mode="In" />
+          <Parameter Name="CreatedBy" Type="bigint" Mode="In" />
+          <Parameter Name="FieldOfficerid" Type="bigint" Mode="In" />
+          <Parameter Name="ProfileImage" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="SP_UpdateFOLocation" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="FieldOfficerID" Type="bigint" Mode="In" />
+          <Parameter Name="RequestID" Type="nvarchar" Mode="In" />
+          <Parameter Name="LocationList" Type="xml" Mode="In" />
+        </Function>
+        <Function Name="SP_VerificationData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="doneby" Type="bigint" Mode="In" />
+          <Parameter Name="Status" Type="int" Mode="In" />
+          <Parameter Name="startdate" Type="datetime" Mode="In" />
+          <Parameter Name="enddate" Type="datetime" Mode="In" />
+          <Parameter Name="Start" Type="int" Mode="In" />
+          <Parameter Name="Length" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spGetStickerDataListhandler" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="DisplayLength" Type="int" Mode="In" />
+          <Parameter Name="DisplayStart" Type="int" Mode="In" />
+          <Parameter Name="SortCol" Type="int" Mode="In" />
+          <Parameter Name="SortDir" Type="nvarchar" Mode="In" />
+          <Parameter Name="Search" Type="nvarchar" Mode="In" />
+          <Parameter Name="startdate" Type="nvarchar" Mode="In" />
+          <Parameter Name="enddate" Type="nvarchar" Mode="In" />
+          <Parameter Name="userid" Type="nvarchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="FieldOfficerModelStoreContainer">
+          <EntitySet Name="FieldOfficerTracking" EntityType="Self.FieldOfficerTracking" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StickerMaster_Dhaba" EntityType="Self.StickerMaster_Dhaba" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FieldOfficerMaster" EntityType="Self.FieldOfficerMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [FieldOfficerMaster].[EcecutiveId] AS [EcecutiveId], 
+    [FieldOfficerMaster].[Name] AS [Name], 
+    [FieldOfficerMaster].[Mobile] AS [Mobile], 
+    [FieldOfficerMaster].[AltMobile] AS [AltMobile], 
+    [FieldOfficerMaster].[Email] AS [Email], 
+    [FieldOfficerMaster].[FullAddress] AS [FullAddress], 
+    [FieldOfficerMaster].[EmployeeID] AS [EmployeeID], 
+    [FieldOfficerMaster].[ActiveFlag] AS [ActiveFlag], 
+    [FieldOfficerMaster].[CreatedBy] AS [CreatedBy], 
+    [FieldOfficerMaster].[CreatedDate] AS [CreatedDate], 
+    [FieldOfficerMaster].[ModifiedBy] AS [ModifiedBy], 
+    [FieldOfficerMaster].[ModifiedDate] AS [ModifiedDate], 
+    [FieldOfficerMaster].[EmployeeType] AS [EmployeeType], 
+    [FieldOfficerMaster].[DutyStatus] AS [DutyStatus], 
+    [FieldOfficerMaster].[ProfileImage] AS [ProfileImage]
+    FROM [dbo].[FieldOfficerMaster] AS [FieldOfficerMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="FieldOfficerMeeting" EntityType="Self.FieldOfficerMeeting" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [FieldOfficerMeeting].[ScheduledId] AS [ScheduledId], 
+    [FieldOfficerMeeting].[FieldOfficerID] AS [FieldOfficerID], 
+    [FieldOfficerMeeting].[FieldOfficerName] AS [FieldOfficerName], 
+    [FieldOfficerMeeting].[BrokerName] AS [BrokerName], 
+    [FieldOfficerMeeting].[MobileNumber] AS [MobileNumber], 
+    [FieldOfficerMeeting].[Alternatename] AS [Alternatename], 
+    [FieldOfficerMeeting].[AlternateMobileNo] AS [AlternateMobileNo], 
+    [FieldOfficerMeeting].[BrokerMeet] AS [BrokerMeet], 
+    [FieldOfficerMeeting].[LoadGiven] AS [LoadGiven], 
+    [FieldOfficerMeeting].[AdditionalComment] AS [AdditionalComment], 
+    [FieldOfficerMeeting].[ScheduledDate] AS [ScheduledDate], 
+    [FieldOfficerMeeting].[Scheduledtime] AS [Scheduledtime], 
+    [FieldOfficerMeeting].[CompletedDate] AS [CompletedDate], 
+    [FieldOfficerMeeting].[Scheduled] AS [Scheduled], 
+    [FieldOfficerMeeting].[Completed] AS [Completed], 
+    [FieldOfficerMeeting].[CreatedAt] AS [CreatedAt], 
+    [FieldOfficerMeeting].[CreatedBy] AS [CreatedBy], 
+    [FieldOfficerMeeting].[UpdatedAt] AS [UpdatedAt], 
+    [FieldOfficerMeeting].[Updatedby] AS [Updatedby], 
+    [FieldOfficerMeeting].[BrokerImagePath] AS [BrokerImagePath], 
+    [FieldOfficerMeeting].[UserImagePath] AS [UserImagePath], 
+    [FieldOfficerMeeting].[Address] AS [Address], 
+    [FieldOfficerMeeting].[Latitude] AS [Latitude], 
+    [FieldOfficerMeeting].[Longitude] AS [Longitude], 
+    [FieldOfficerMeeting].[GPS] AS [GPS], 
+    [FieldOfficerMeeting].[Insurance] AS [Insurance], 
+    [FieldOfficerMeeting].[FastTag] AS [FastTag], 
+    [FieldOfficerMeeting].[Sell_BuyTruck] AS [Sell_BuyTruck], 
+    [FieldOfficerMeeting].[GIFT] AS [GIFT], 
+    [FieldOfficerMeeting].[Remarks] AS [Remarks], 
+    [FieldOfficerMeeting].[RemarksforLoadNotgiven] AS [RemarksforLoadNotgiven]
+    FROM [dbo].[FieldOfficerMeeting] AS [FieldOfficerMeeting]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="FieldOfficerVisitMaster" EntityType="Self.FieldOfficerVisitMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [FieldOfficerVisitMaster].[FovmId] AS [FovmId], 
+    [FieldOfficerVisitMaster].[Name] AS [Name], 
+    [FieldOfficerVisitMaster].[Mobile] AS [Mobile], 
+    [FieldOfficerVisitMaster].[EmailId] AS [EmailId], 
+    [FieldOfficerVisitMaster].[Address] AS [Address], 
+    [FieldOfficerVisitMaster].[OwnType] AS [OwnType], 
+    [FieldOfficerVisitMaster].[VehicleType] AS [VehicleType], 
+    [FieldOfficerVisitMaster].[Vehiclecapacity] AS [Vehiclecapacity], 
+    [FieldOfficerVisitMaster].[VehicleCount] AS [VehicleCount], 
+    [FieldOfficerVisitMaster].[VisitDate] AS [VisitDate], 
+    [FieldOfficerVisitMaster].[VisitTime] AS [VisitTime], 
+    [FieldOfficerVisitMaster].[Latitude] AS [Latitude], 
+    [FieldOfficerVisitMaster].[Longitude] AS [Longitude], 
+    [FieldOfficerVisitMaster].[VisitingCardUrl] AS [VisitingCardUrl], 
+    [FieldOfficerVisitMaster].[ActiveFlag] AS [ActiveFlag], 
+    [FieldOfficerVisitMaster].[CreatedBy] AS [CreatedBy], 
+    [FieldOfficerVisitMaster].[CreatedDate] AS [CreatedDate], 
+    [FieldOfficerVisitMaster].[ModifiedBy] AS [ModifiedBy], 
+    [FieldOfficerVisitMaster].[ModifiedDate] AS [ModifiedDate], 
+    [FieldOfficerVisitMaster].[StickeringStatus] AS [StickeringStatus], 
+    [FieldOfficerVisitMaster].[imagewithstickerurl] AS [imagewithstickerurl], 
+    [FieldOfficerVisitMaster].[imagewithownerurl] AS [imagewithownerurl], 
+    [FieldOfficerVisitMaster].[Company] AS [Company], 
+    [FieldOfficerVisitMaster].[Status] AS [Status], 
+    [FieldOfficerVisitMaster].[Remarks] AS [Remarks], 
+    [FieldOfficerVisitMaster].[IsMobileVerified] AS [IsMobileVerified], 
+    [FieldOfficerVisitMaster].[verifytype] AS [verifytype], 
+    [FieldOfficerVisitMaster].[BusinessName] AS [BusinessName], 
+    [FieldOfficerVisitMaster].[CompanyAddress] AS [CompanyAddress], 
+    [FieldOfficerVisitMaster].[Location] AS [Location]
+    FROM [dbo].[FieldOfficerVisitMaster] AS [FieldOfficerVisitMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="FieldOffiecrLocation" EntityType="Self.FieldOffiecrLocation" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [FieldOffiecrLocation].[Id] AS [Id], 
+    [FieldOffiecrLocation].[FoId] AS [FoId], 
+    [FieldOffiecrLocation].[Latitude] AS [Latitude], 
+    [FieldOffiecrLocation].[Longitude] AS [Longitude], 
+    [FieldOffiecrLocation].[Active] AS [Active], 
+    [FieldOffiecrLocation].[createdDate] AS [createdDate], 
+    [FieldOffiecrLocation].[CreatedBy] AS [CreatedBy]
+    FROM [dbo].[FieldOffiecrLocation] AS [FieldOffiecrLocation]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="GeoLocationCordinates" EntityType="Self.GeoLocationCordinates" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [GeoLocationCordinates].[Id] AS [Id], 
+    [GeoLocationCordinates].[UserId] AS [UserId], 
+    [GeoLocationCordinates].[Latitude] AS [Latitude], 
+    [GeoLocationCordinates].[Longitude] AS [Longitude], 
+    [GeoLocationCordinates].[ActiveFlag] AS [ActiveFlag], 
+    [GeoLocationCordinates].[createdDate] AS [createdDate], 
+    [GeoLocationCordinates].[CreatedBy] AS [CreatedBy], 
+    [GeoLocationCordinates].[ModifiedDate] AS [ModifiedDate], 
+    [GeoLocationCordinates].[ModifiedBy] AS [ModifiedBy]
+    FROM [dbo].[GeoLocationCordinates] AS [GeoLocationCordinates]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="OwnerInfoMaster" EntityType="Self.OwnerInfoMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [OwnerInfoMaster].[OIID] AS [OIID], 
+    [OwnerInfoMaster].[FovmId] AS [FovmId], 
+    [OwnerInfoMaster].[ImageUrl] AS [ImageUrl], 
+    [OwnerInfoMaster].[ActiveFlag] AS [ActiveFlag], 
+    [OwnerInfoMaster].[CreatedBy] AS [CreatedBy], 
+    [OwnerInfoMaster].[CreatedDate] AS [CreatedDate], 
+    [OwnerInfoMaster].[ModifiedBy] AS [ModifiedBy], 
+    [OwnerInfoMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[OwnerInfoMaster] AS [OwnerInfoMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="PreferredLocationMaster" EntityType="Self.PreferredLocationMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [PreferredLocationMaster].[PLMId] AS [PLMId], 
+    [PreferredLocationMaster].[FovmId] AS [FovmId], 
+    [PreferredLocationMaster].[FromLoction] AS [FromLoction], 
+    [PreferredLocationMaster].[ToLocation] AS [ToLocation], 
+    [PreferredLocationMaster].[ActiveFlag] AS [ActiveFlag], 
+    [PreferredLocationMaster].[CreatedBy] AS [CreatedBy], 
+    [PreferredLocationMaster].[CreatedDate] AS [CreatedDate], 
+    [PreferredLocationMaster].[ModifiedBy] AS [ModifiedBy], 
+    [PreferredLocationMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[PreferredLocationMaster] AS [PreferredLocationMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="SharedLinkAudit" EntityType="Self.SharedLinkAudit" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [SharedLinkAudit].[Id] AS [Id], 
+    [SharedLinkAudit].[SharedSMS] AS [SharedSMS], 
+    [SharedLinkAudit].[SharedBy] AS [SharedBy], 
+    [SharedLinkAudit].[SharedDateTime] AS [SharedDateTime], 
+    [SharedLinkAudit].[SharedTo] AS [SharedTo], 
+    [SharedLinkAudit].[SMSDelivered] AS [SMSDelivered], 
+    [SharedLinkAudit].[ActiveFlag] AS [ActiveFlag], 
+    [SharedLinkAudit].[CreatedBy] AS [CreatedBy], 
+    [SharedLinkAudit].[createdDate] AS [createdDate], 
+    [SharedLinkAudit].[ModifiedBy] AS [ModifiedBy], 
+    [SharedLinkAudit].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[SharedLinkAudit] AS [SharedLinkAudit]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="SQL_Error" EntityType="Self.SQL_Error" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [SQL_Error].[ErrorId] AS [ErrorId], 
+    [SQL_Error].[ErrorNumber] AS [ErrorNumber], 
+    [SQL_Error].[ErrorState] AS [ErrorState], 
+    [SQL_Error].[ErrorSeverity] AS [ErrorSeverity], 
+    [SQL_Error].[ErrorProcedure] AS [ErrorProcedure], 
+    [SQL_Error].[ErrorLine] AS [ErrorLine], 
+    [SQL_Error].[ErrorMessage] AS [ErrorMessage], 
+    [SQL_Error].[ErrorDate] AS [ErrorDate]
+    FROM [dbo].[SQL_Error] AS [SQL_Error]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="StickerMaster" EntityType="Self.StickerMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [StickerMaster].[STID] AS [STID], 
+    [StickerMaster].[FovmId] AS [FovmId], 
+    [StickerMaster].[ImageUrl] AS [ImageUrl], 
+    [StickerMaster].[ActiveFlag] AS [ActiveFlag], 
+    [StickerMaster].[CreatedBy] AS [CreatedBy], 
+    [StickerMaster].[CreatedDate] AS [CreatedDate], 
+    [StickerMaster].[ModifiedBy] AS [ModifiedBy], 
+    [StickerMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[StickerMaster] AS [StickerMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="StickerVisitMaster" EntityType="Self.StickerVisitMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [StickerVisitMaster].[Id] AS [Id], 
+    [StickerVisitMaster].[FullName] AS [FullName], 
+    [StickerVisitMaster].[DriverNumber] AS [DriverNumber], 
+    [StickerVisitMaster].[OperatorNumber] AS [OperatorNumber], 
+    [StickerVisitMaster].[Downloads] AS [Downloads], 
+    [StickerVisitMaster].[StickerImage] AS [StickerImage], 
+    [StickerVisitMaster].[StickerSize] AS [StickerSize], 
+    [StickerVisitMaster].[LaneFrom] AS [LaneFrom], 
+    [StickerVisitMaster].[LaneTo] AS [LaneTo], 
+    [StickerVisitMaster].[VehicleType] AS [VehicleType], 
+    [StickerVisitMaster].[VehicleSize] AS [VehicleSize], 
+    [StickerVisitMaster].[VehicleCapacity] AS [VehicleCapacity], 
+    [StickerVisitMaster].[VechileNumber] AS [VechileNumber], 
+    [StickerVisitMaster].[DoneBy] AS [DoneBy], 
+    [StickerVisitMaster].[VerifiedStatus] AS [VerifiedStatus], 
+    [StickerVisitMaster].[VerifiedBy] AS [VerifiedBy], 
+    [StickerVisitMaster].[ActiveFlag] AS [ActiveFlag], 
+    [StickerVisitMaster].[CreatedBy] AS [CreatedBy], 
+    [StickerVisitMaster].[CreatedDate] AS [CreatedDate], 
+    [StickerVisitMaster].[ModifiedBy] AS [ModifiedBy], 
+    [StickerVisitMaster].[ModifiedDate] AS [ModifiedDate], 
+    [StickerVisitMaster].[StickerDimension] AS [StickerDimension], 
+    [StickerVisitMaster].[Verification] AS [Verification], 
+    [StickerVisitMaster].[VerificationComment] AS [VerificationComment]
+    FROM [dbo].[StickerVisitMaster] AS [StickerVisitMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TblAwsImages" EntityType="Self.TblAwsImages" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TblAwsImages].[ScheduledId] AS [ScheduledId], 
+    [TblAwsImages].[BrokerImagePath] AS [BrokerImagePath], 
+    [TblAwsImages].[ImagePath] AS [ImagePath], 
+    [TblAwsImages].[FieldOfficerID] AS [FieldOfficerID], 
+    [TblAwsImages].[CreatedDate] AS [CreatedDate]
+    FROM [dbo].[TblAwsImages] AS [TblAwsImages]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TblFODutyStatus" EntityType="Self.TblFODutyStatus" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TblFODutyStatus].[DID] AS [DID], 
+    [TblFODutyStatus].[FOID] AS [FOID], 
+    [TblFODutyStatus].[Status] AS [Status], 
+    [TblFODutyStatus].[OffDutyDate] AS [OffDutyDate], 
+    [TblFODutyStatus].[OffDutyTime] AS [OffDutyTime], 
+    [TblFODutyStatus].[Active] AS [Active], 
+    [TblFODutyStatus].[CreatedDate] AS [CreatedDate], 
+    [TblFODutyStatus].[CreatedBy] AS [CreatedBy], 
+    [TblFODutyStatus].[ModifiedDate] AS [ModifiedDate], 
+    [TblFODutyStatus].[ModifiedBy] AS [ModifiedBy]
+    FROM [dbo].[TblFODutyStatus] AS [TblFODutyStatus]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TruksupFOMobileNavigator" EntityType="Self.TruksupFOMobileNavigator" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TruksupFOMobileNavigator].[MNID] AS [MNID], 
+    [TruksupFOMobileNavigator].[USER_TYPE] AS [USER_TYPE], 
+    [TruksupFOMobileNavigator].[MENU_NAME] AS [MENU_NAME], 
+    [TruksupFOMobileNavigator].[REDIRECT_URL] AS [REDIRECT_URL], 
+    [TruksupFOMobileNavigator].[ACTIVE_FLAG] AS [ACTIVE_FLAG], 
+    [TruksupFOMobileNavigator].[CREATED_BY] AS [CREATED_BY], 
+    [TruksupFOMobileNavigator].[CREATED_DATE] AS [CREATED_DATE], 
+    [TruksupFOMobileNavigator].[MODIFIED_BY] AS [MODIFIED_BY], 
+    [TruksupFOMobileNavigator].[MODIFIED_DATE] AS [MODIFIED_DATE], 
+    [TruksupFOMobileNavigator].[SEQ_NO] AS [SEQ_NO], 
+    [TruksupFOMobileNavigator].[ICON] AS [ICON]
+    FROM [dbo].[TruksupFOMobileNavigator] AS [TruksupFOMobileNavigator]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="UserLogin" EntityType="Self.UserLogin" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [UserLogin].[Userid] AS [Userid], 
+    [UserLogin].[ExecutiveId] AS [ExecutiveId], 
+    [UserLogin].[Username] AS [Username], 
+    [UserLogin].[Password] AS [Password], 
+    [UserLogin].[LoginPin] AS [LoginPin], 
+    [UserLogin].[UserType] AS [UserType], 
+    [UserLogin].[Source] AS [Source], 
+    [UserLogin].[DeviceId] AS [DeviceId], 
+    [UserLogin].[Latitude] AS [Latitude], 
+    [UserLogin].[Longitude] AS [Longitude], 
+    [UserLogin].[DeviceType] AS [DeviceType], 
+    [UserLogin].[Activeflag] AS [Activeflag], 
+    [UserLogin].[CreatedBy] AS [CreatedBy], 
+    [UserLogin].[CreatedDate] AS [CreatedDate], 
+    [UserLogin].[ModifiedBy] AS [ModifiedBy], 
+    [UserLogin].[ModifiedDate] AS [ModifiedDate], 
+    [UserLogin].[IsAdmin] AS [IsAdmin], 
+    [UserLogin].[Name] AS [Name], 
+    [UserLogin].[Mobile] AS [Mobile], 
+    [UserLogin].[Email] AS [Email]
+    FROM [dbo].[UserLogin] AS [UserLogin]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="UserLoginToken" EntityType="Self.UserLoginToken" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [UserLoginToken].[Id] AS [Id], 
+    [UserLoginToken].[UserId] AS [UserId], 
+    [UserLoginToken].[UserIP] AS [UserIP], 
+    [UserLoginToken].[UserMacAddress] AS [UserMacAddress], 
+    [UserLoginToken].[Token] AS [Token], 
+    [UserLoginToken].[TokenValidTill] AS [TokenValidTill], 
+    [UserLoginToken].[TokenExpired] AS [TokenExpired], 
+    [UserLoginToken].[isActive] AS [isActive], 
+    [UserLoginToken].[CreatedBy] AS [CreatedBy], 
+    [UserLoginToken].[Creationdate] AS [Creationdate], 
+    [UserLoginToken].[UpdatedBy] AS [UpdatedBy], 
+    [UserLoginToken].[UpdatedDate] AS [UpdatedDate], 
+    [UserLoginToken].[PlatformCalledFrom] AS [PlatformCalledFrom], 
+    [UserLoginToken].[DeviceId] AS [DeviceId], 
+    [UserLoginToken].[DeviceName] AS [DeviceName]
+    FROM [dbo].[UserLoginToken] AS [UserLoginToken]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VehicleInfoMaster" EntityType="Self.VehicleInfoMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VehicleInfoMaster].[ViId] AS [ViId], 
+    [VehicleInfoMaster].[FovmId] AS [FovmId], 
+    [VehicleInfoMaster].[OwnType] AS [OwnType], 
+    [VehicleInfoMaster].[VehicleType] AS [VehicleType], 
+    [VehicleInfoMaster].[Vehiclecapacity] AS [Vehiclecapacity], 
+    [VehicleInfoMaster].[ActiveFlag] AS [ActiveFlag], 
+    [VehicleInfoMaster].[CreatedBy] AS [CreatedBy], 
+    [VehicleInfoMaster].[CreatedDate] AS [CreatedDate], 
+    [VehicleInfoMaster].[ModifiedBy] AS [ModifiedBy], 
+    [VehicleInfoMaster].[ModifiedDate] AS [ModifiedDate], 
+    [VehicleInfoMaster].[VehicleCount] AS [VehicleCount], 
+    [VehicleInfoMaster].[VehicleSize] AS [VehicleSize], 
+    [VehicleInfoMaster].[VehicleOwnType] AS [VehicleOwnType], 
+    [VehicleInfoMaster].[VehicleRC] AS [VehicleRC], 
+    [VehicleInfoMaster].[VehicleNum] AS [VehicleNum], 
+    [VehicleInfoMaster].[DriverNum] AS [DriverNum]
+    FROM [dbo].[VehicleInfoMaster] AS [VehicleInfoMaster]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="VisitingCardMaster" EntityType="Self.VisitingCardMaster" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [VisitingCardMaster].[VCID] AS [VCID], 
+    [VisitingCardMaster].[FovmId] AS [FovmId], 
+    [VisitingCardMaster].[ImageUrl] AS [ImageUrl], 
+    [VisitingCardMaster].[ActiveFlag] AS [ActiveFlag], 
+    [VisitingCardMaster].[CreatedBy] AS [CreatedBy], 
+    [VisitingCardMaster].[CreatedDate] AS [CreatedDate], 
+    [VisitingCardMaster].[ModifiedBy] AS [ModifiedBy], 
+    [VisitingCardMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[VisitingCardMaster] AS [VisitingCardMaster]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FieldOfficerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="FieldOfficerTracking">
+          <Key>
+            <PropertyRef Name="trackingId" />
+          </Key>
+          <Property Name="trackingId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FoId" Type="Int32" />
+          <Property Name="Latitude" Type="Decimal" Precision="18" Scale="9" />
+          <Property Name="Longitude" Type="Decimal" Precision="18" Scale="9" />
+          <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+        </EntityType>
+        <EntityType Name="StickerMaster_Dhaba">
+          <Key>
+            <PropertyRef Name="DhabaID" />
+          </Key>
+          <Property Name="DhabaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DhabaName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DhabaOwnerNumber" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="OwnerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="StickerImage" Type="String" MaxLength="222" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Int32" />
+          <Property Name="CreatedBy" Type="Int64" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Int64" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="Latitude" Type="Decimal" Precision="10" Scale="6" />
+          <Property Name="Longitude" Type="Decimal" Precision="10" Scale="6" />
+        </EntityType>
+        <EntityType Name="FieldOfficerMaster">
+          <Key>
+            <PropertyRef Name="EcecutiveId" />
+          </Key>
+          <Property Name="EcecutiveId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="AltMobile" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="FullAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="EmployeeID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="EmployeeType" Type="Int32" />
+          <Property Name="DutyStatus" Type="Boolean" />
+          <Property Name="ProfileImage" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="FieldOfficerMeeting">
+          <Key>
+            <PropertyRef Name="ScheduledId" />
+          </Key>
+          <Property Name="ScheduledId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FieldOfficerID" Type="Int32" />
+          <Property Name="FieldOfficerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BrokerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MobileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Alternatename" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AlternateMobileNo" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BrokerMeet" Type="Boolean" />
+          <Property Name="LoadGiven" Type="Boolean" />
+          <Property Name="AdditionalComment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ScheduledDate" Type="DateTime" Precision="3" />
+          <Property Name="Scheduledtime" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CompletedDate" Type="DateTime" Precision="3" />
+          <Property Name="Scheduled" Type="Boolean" />
+          <Property Name="Completed" Type="Boolean" />
+          <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="UpdatedAt" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Updatedby" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="BrokerImagePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="UserImagePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Latitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Longitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="GPS" Type="Boolean" />
+          <Property Name="Insurance" Type="Boolean" />
+          <Property Name="FastTag" Type="Boolean" />
+          <Property Name="Sell_BuyTruck" Type="Boolean" />
+          <Property Name="GIFT" Type="Boolean" />
+          <Property Name="Remarks" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RemarksforLoadNotgiven" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FieldOfficerVisitMaster">
+          <Key>
+            <PropertyRef Name="FovmId" />
+          </Key>
+          <Property Name="FovmId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Mobile" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="EmailId" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="OwnType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Vehiclecapacity" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleCount" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="VisitDate" Type="DateTime" Precision="3" />
+          <Property Name="VisitTime" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Latitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Longitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="VisitingCardUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="StickeringStatus" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="imagewithstickerurl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="imagewithownerurl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Company" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Remarks" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="IsMobileVerified" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="verifytype" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BusinessName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CompanyAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="FieldOffiecrLocation">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FoId" Type="Int64" />
+          <Property Name="Latitude" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Longitude" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Active" Type="Boolean" />
+          <Property Name="createdDate" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="GeoLocationCordinate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int64" />
+          <Property Name="Latitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Longitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="createdDate" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="OwnerInfoMaster">
+          <Key>
+            <PropertyRef Name="OIID" />
+          </Key>
+          <Property Name="OIID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FovmId" Type="Int64" />
+          <Property Name="ImageUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="PreferredLocationMaster">
+          <Key>
+            <PropertyRef Name="PLMId" />
+          </Key>
+          <Property Name="PLMId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FovmId" Type="Int64" />
+          <Property Name="FromLoction" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ToLocation" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="SharedLinkAudit">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SharedSMS" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SharedBy" Type="Int64" />
+          <Property Name="SharedDateTime" Type="DateTime" Precision="3" />
+          <Property Name="SharedTo" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="SMSDelivered" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="Int64" />
+          <Property Name="createdDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Int64" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="SQL_Error">
+          <Key>
+            <PropertyRef Name="ErrorId" />
+          </Key>
+          <Property Name="ErrorId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ErrorNumber" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorState" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorSeverity" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorProcedure" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ErrorLine" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ErrorMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ErrorDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="StickerMaster">
+          <Key>
+            <PropertyRef Name="STID" />
+          </Key>
+          <Property Name="STID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FovmId" Type="Int64" />
+          <Property Name="ImageUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="StickerVisitMaster">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FullName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DriverNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="OperatorNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Downloads" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="StickerImage" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="StickerSize" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="LaneFrom" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="LaneTo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleType" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleSize" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleCapacity" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="VechileNumber" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="DoneBy" Type="Int64" />
+          <Property Name="VerifiedStatus" Type="Boolean" />
+          <Property Name="VerifiedBy" Type="Int64" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="Int64" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Int64" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="StickerDimension" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Verification" Type="Int32" />
+          <Property Name="VerificationComment" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TblAwsImage">
+          <Key>
+            <PropertyRef Name="ScheduledId" />
+          </Key>
+          <Property Name="ScheduledId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BrokerImagePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ImagePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FieldOfficerID" Type="Int32" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TblFODutyStatu">
+          <Key>
+            <PropertyRef Name="DID" />
+          </Key>
+          <Property Name="DID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FOID" Type="Int32" />
+          <Property Name="Status" Type="Boolean" />
+          <Property Name="OffDutyDate" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="OffDutyTime" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Active" Type="Boolean" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TruksupFOMobileNavigator">
+          <Key>
+            <PropertyRef Name="MNID" />
+          </Key>
+          <Property Name="MNID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="USER_TYPE" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="MENU_NAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="REDIRECT_URL" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ACTIVE_FLAG" Type="Boolean" />
+          <Property Name="CREATED_BY" Type="Int64" />
+          <Property Name="CREATED_DATE" Type="DateTime" Precision="3" />
+          <Property Name="MODIFIED_BY" Type="Int64" />
+          <Property Name="MODIFIED_DATE" Type="DateTime" Precision="3" />
+          <Property Name="SEQ_NO" Type="Int32" />
+          <Property Name="ICON" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="UserLogin">
+          <Key>
+            <PropertyRef Name="Userid" />
+          </Key>
+          <Property Name="Userid" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ExecutiveId" Type="Int64" />
+          <Property Name="Username" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="LoginPin" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="UserType" Type="Int32" />
+          <Property Name="Source" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DeviceId" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Latitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Longitude" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DeviceType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Activeflag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="Int64" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="IsAdmin" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Mobile" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="UserLoginToken">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="Int32" />
+          <Property Name="UserIP" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="UserMacAddress" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Token" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="TokenValidTill" Type="DateTime" Precision="3" />
+          <Property Name="TokenExpired" Type="Boolean" />
+          <Property Name="isActive" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Creationdate" Type="DateTime" Precision="3" />
+          <Property Name="UpdatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="UpdatedDate" Type="DateTime" Precision="3" />
+          <Property Name="PlatformCalledFrom" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="DeviceId" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="DeviceName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="VehicleInfoMaster">
+          <Key>
+            <PropertyRef Name="ViId" />
+          </Key>
+          <Property Name="ViId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FovmId" Type="Int64" />
+          <Property Name="OwnType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Vehiclecapacity" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+          <Property Name="VehicleCount" Type="Int32" />
+          <Property Name="VehicleSize" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleOwnType" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="VehicleRC" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="VehicleNum" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="DriverNum" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="VisitingCardMaster">
+          <Key>
+            <PropertyRef Name="VCID" />
+          </Key>
+          <Property Name="VCID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FovmId" Type="Int64" />
+          <Property Name="ImageUrl" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ActiveFlag" Type="Boolean" />
+          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="fieldofficerentities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="FieldOfficerTrackings" EntityType="Self.FieldOfficerTracking" />
+          <EntitySet Name="StickerMaster_Dhaba" EntityType="Self.StickerMaster_Dhaba" />
+          <EntitySet Name="FieldOfficerMasters" EntityType="Self.FieldOfficerMaster" />
+          <EntitySet Name="FieldOfficerMeetings" EntityType="Self.FieldOfficerMeeting" />
+          <EntitySet Name="FieldOfficerVisitMasters" EntityType="Self.FieldOfficerVisitMaster" />
+          <EntitySet Name="FieldOffiecrLocations" EntityType="Self.FieldOffiecrLocation" />
+          <EntitySet Name="GeoLocationCordinates" EntityType="Self.GeoLocationCordinate" />
+          <EntitySet Name="OwnerInfoMasters" EntityType="Self.OwnerInfoMaster" />
+          <EntitySet Name="PreferredLocationMasters" EntityType="Self.PreferredLocationMaster" />
+          <EntitySet Name="SharedLinkAudits" EntityType="Self.SharedLinkAudit" />
+          <EntitySet Name="SQL_Error" EntityType="Self.SQL_Error" />
+          <EntitySet Name="StickerMasters" EntityType="Self.StickerMaster" />
+          <EntitySet Name="StickerVisitMasters" EntityType="Self.StickerVisitMaster" />
+          <EntitySet Name="TblAwsImages" EntityType="Self.TblAwsImage" />
+          <EntitySet Name="TblFODutyStatus" EntityType="Self.TblFODutyStatu" />
+          <EntitySet Name="TruksupFOMobileNavigators" EntityType="Self.TruksupFOMobileNavigator" />
+          <EntitySet Name="UserLogins" EntityType="Self.UserLogin" />
+          <EntitySet Name="UserLoginTokens" EntityType="Self.UserLoginToken" />
+          <EntitySet Name="VehicleInfoMasters" EntityType="Self.VehicleInfoMaster" />
+          <EntitySet Name="VisitingCardMasters" EntityType="Self.VisitingCardMaster" />
+          <FunctionImport Name="AdminDasboardMaster" ReturnType="Collection(FieldOfficerModel.AdminDasboardMaster_Result)">
+            <Parameter Name="mode" Mode="In" Type="String" />
+            <Parameter Name="UserId" Mode="In" Type="Int64" />
+            <Parameter Name="startdate" Mode="In" Type="DateTime" />
+            <Parameter Name="enddate" Mode="In" Type="DateTime" />
+            <Parameter Name="fomid" Mode="In" Type="Int64" />
+            <Parameter Name="totalvisit" Mode="In" Type="String" />
+            <Parameter Name="owntype" Mode="In" Type="String" />
+            <Parameter Name="svisit" Mode="In" Type="String" />
+            <Parameter Name="FovmId" Mode="In" Type="Int64" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+            <Parameter Name="AltMobile" Mode="In" Type="String" />
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="FullAddress" Mode="In" Type="String" />
+            <Parameter Name="EmployeeID" Mode="In" Type="String" />
+            <Parameter Name="EcecutiveId" Mode="In" Type="Int64" />
+            <Parameter Name="CreatedBy" Mode="In" Type="Int64" />
+            <Parameter Name="ExecutiveId" Mode="In" Type="Int64" />
+            <Parameter Name="Username" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+            <Parameter Name="xmluseridlist" Mode="In" Type="String" />
+            <Parameter Name="Status" Mode="In" Type="String" />
+            <Parameter Name="EmployeeType" Mode="In" Type="Int32" />
+            <Parameter Name="Remarks" Mode="In" Type="String" />
+            <Parameter Name="Start" Mode="In" Type="Int32" />
+            <Parameter Name="Length" Mode="In" Type="Int32" />
+            <Parameter Name="searchValue" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="DutyStatusupdate" ReturnType="Collection(String)">
+            <Parameter Name="dutystatus" Mode="In" Type="Boolean" />
+            <Parameter Name="fieldofficerId" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="getadmindatabydate" ReturnType="Collection(FieldOfficerModel.getadmindatabydate_Result)">
+            <Parameter Name="startdate" Mode="In" Type="String" />
+            <Parameter Name="enddate" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="getAdminDetails" ReturnType="Collection(FieldOfficerModel.getAdminDetails_Result)">
+            <Parameter Name="Token" Mode="In" Type="String" />
+            <Parameter Name="userid" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="GetCompletedMeeting">
+            <Parameter Name="mobile" Mode="In" Type="String" />
+            <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+            <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="GetFOBrokerDetails_V1">
+            <Parameter Name="City" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="GetScheduledMeeting" ReturnType="Collection(FieldOfficerModel.GetScheduledMeeting_Result)">
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Pro_GetEncrptedKey" ReturnType="Collection(String)">
+            <Parameter Name="Mode" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Pro_SQL_Error">
+            <Parameter Name="ErrorNumber" Mode="In" Type="String" />
+            <Parameter Name="ErrorState" Mode="In" Type="String" />
+            <Parameter Name="ErrorSeverity" Mode="In" Type="String" />
+            <Parameter Name="ErrorProcedure" Mode="In" Type="String" />
+            <Parameter Name="ErrorLine" Mode="In" Type="String" />
+            <Parameter Name="ErrorMessage" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Pro_UserLogin" ReturnType="Collection(FieldOfficerModel.Pro_UserLogin_Result)">
+            <Parameter Name="Token" Mode="In" Type="String" />
+            <Parameter Name="Mode" Mode="In" Type="String" />
+            <Parameter Name="UserIP" Mode="In" Type="String" />
+            <Parameter Name="UserMacAddress" Mode="In" Type="String" />
+            <Parameter Name="DeviceName" Mode="In" Type="String" />
+            <Parameter Name="Platfrom" Mode="In" Type="String" />
+            <Parameter Name="username" Mode="In" Type="String" />
+            <Parameter Name="LoginPin" Mode="In" Type="String" />
+            <Parameter Name="password" Mode="In" Type="String" />
+            <Parameter Name="UserId" Mode="In" Type="Int32" />
+            <Parameter Name="PartnerId" Mode="In" Type="Int32" />
+            <Parameter Name="Org" Mode="In" Type="Int64" />
+            <Parameter Name="bid" Mode="In" Type="Int64" />
+            <Parameter Name="ClientId" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="ProAddNewVisit" ReturnType="Collection(String)">
+            <Parameter Name="FovmId" Mode="In" Type="Int64" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+            <Parameter Name="EmailId" Mode="In" Type="String" />
+            <Parameter Name="Address" Mode="In" Type="String" />
+            <Parameter Name="OwnType" Mode="In" Type="String" />
+            <Parameter Name="VehicleType" Mode="In" Type="String" />
+            <Parameter Name="Vehiclecapacity" Mode="In" Type="String" />
+            <Parameter Name="VehicleCount" Mode="In" Type="Int32" />
+            <Parameter Name="VisitDate" Mode="In" Type="DateTime" />
+            <Parameter Name="VisitTime" Mode="In" Type="String" />
+            <Parameter Name="Latitude" Mode="In" Type="String" />
+            <Parameter Name="Longitude" Mode="In" Type="String" />
+            <Parameter Name="VisitingCardUrl" Mode="In" Type="String" />
+            <Parameter Name="ActiveFlag" Mode="In" Type="Boolean" />
+            <Parameter Name="CreatedBy" Mode="In" Type="String" />
+            <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="ModifiedBy" Mode="In" Type="String" />
+            <Parameter Name="ModifiedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="StickeringStatus" Mode="In" Type="String" />
+            <Parameter Name="PLMId" Mode="In" Type="Int64" />
+            <Parameter Name="FromLoction" Mode="In" Type="String" />
+            <Parameter Name="ToLocation" Mode="In" Type="String" />
+            <Parameter Name="ViId" Mode="In" Type="Int64" />
+            <Parameter Name="VehicleSize" Mode="In" Type="String" />
+            <Parameter Name="xmlvehicleInfolist" Mode="In" Type="String" />
+            <Parameter Name="xmlprefloctaionlist" Mode="In" Type="String" />
+            <Parameter Name="Mode" Mode="In" Type="String" />
+            <Parameter Name="fovid" Mode="In" Type="Int64" />
+            <Parameter Name="imagewithstickerurl" Mode="In" Type="String" />
+            <Parameter Name="imagewithownerurl" Mode="In" Type="String" />
+            <Parameter Name="enddate" Mode="In" Type="DateTime" />
+            <Parameter Name="startdate" Mode="In" Type="DateTime" />
+            <Parameter Name="Company" Mode="In" Type="String" />
+            <Parameter Name="VisitingCardUrlXML" Mode="In" Type="String" />
+            <Parameter Name="imagewithstickerurlXML" Mode="In" Type="String" />
+            <Parameter Name="imagewithownerurlXML" Mode="In" Type="String" />
+            <Parameter Name="userid" Mode="In" Type="Int64" />
+            <Parameter Name="Status" Mode="In" Type="String" />
+            <Parameter Name="Remarks" Mode="In" Type="String" />
+            <Parameter Name="VehicleOwnType" Mode="In" Type="String" />
+            <Parameter Name="IsMobileVerified" Mode="In" Type="String" />
+            <Parameter Name="verifytype" Mode="In" Type="String" />
+            <Parameter Name="SharedSMS" Mode="In" Type="String" />
+            <Parameter Name="SharedBy" Mode="In" Type="Int64" />
+            <Parameter Name="SharedDateTime" Mode="In" Type="DateTime" />
+            <Parameter Name="SharedTo" Mode="In" Type="String" />
+            <Parameter Name="SMSDelivered" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Proc_checkdownloadstatus" ReturnType="Collection(String)">
+            <Parameter Name="mobile" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Proc_InsertNewLead" ReturnType="Collection(String)">
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="BusinessName" Mode="In" Type="String" />
+            <Parameter Name="CompanyAddress" Mode="In" Type="String" />
+            <Parameter Name="Location" Mode="In" Type="String" />
+            <Parameter Name="Latitude" Mode="In" Type="String" />
+            <Parameter Name="Longitude" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Proc_TruksupFOAppAPI" ReturnType="Collection(FieldOfficerModel.Proc_TruksupFOAppAPI_Result)">
+            <Parameter Name="Mode" Mode="In" Type="String" />
+            <Parameter Name="UserName" Mode="In" Type="String" />
+            <Parameter Name="Password" Mode="In" Type="String" />
+            <Parameter Name="type" Mode="In" Type="String" />
+            <Parameter Name="rid" Mode="In" Type="Int32" />
+            <Parameter Name="firstpage" Mode="In" Type="String" />
+            <Parameter Name="Token" Mode="In" Type="String" />
+            <Parameter Name="UserIP" Mode="In" Type="String" />
+            <Parameter Name="UserMacAddress" Mode="In" Type="String" />
+            <Parameter Name="DeviceName" Mode="In" Type="String" />
+            <Parameter Name="Platfrom" Mode="In" Type="String" />
+            <Parameter Name="UserId" Mode="In" Type="Int32" />
+            <Parameter Name="deviceid" Mode="In" Type="String" />
+            <Parameter Name="longitude" Mode="In" Type="String" />
+            <Parameter Name="lattitude" Mode="In" Type="String" />
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+            <Parameter Name="OTP" Mode="In" Type="String" />
+            <Parameter Name="user_id" Mode="In" Type="Int32" />
+            <Parameter Name="Org" Mode="In" Type="Int64" />
+            <Parameter Name="msg" Mode="In" Type="String" />
+            <Parameter Name="cid" Mode="In" Type="Int64" />
+            <Parameter Name="usertype" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="ProcGetFodetails" ReturnType="Collection(FieldOfficerModel.ProcGetFodetails_Result)">
+            <Parameter Name="Foid" Mode="In" Type="Int64" />
+          </FunctionImport>
+          <FunctionImport Name="ProUpdateVisitData" ReturnType="Collection(FieldOfficerModel.ProUpdateVisitData_Result)">
+            <Parameter Name="FovmId" Mode="In" Type="Int64" />
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+            <Parameter Name="EmailId" Mode="In" Type="String" />
+            <Parameter Name="Address" Mode="In" Type="String" />
+            <Parameter Name="OwnType" Mode="In" Type="String" />
+            <Parameter Name="VehicleType" Mode="In" Type="String" />
+            <Parameter Name="Vehiclecapacity" Mode="In" Type="String" />
+            <Parameter Name="VehicleCount" Mode="In" Type="Int32" />
+            <Parameter Name="VisitDate" Mode="In" Type="DateTime" />
+            <Parameter Name="VisitTime" Mode="In" Type="String" />
+            <Parameter Name="Latitude" Mode="In" Type="String" />
+            <Parameter Name="Longitude" Mode="In" Type="String" />
+            <Parameter Name="VisitingCardUrl" Mode="In" Type="String" />
+            <Parameter Name="ActiveFlag" Mode="In" Type="Boolean" />
+            <Parameter Name="CreatedBy" Mode="In" Type="String" />
+            <Parameter Name="CreatedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="ModifiedBy" Mode="In" Type="String" />
+            <Parameter Name="ModifiedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="StickeringStatus" Mode="In" Type="String" />
+            <Parameter Name="PLMId" Mode="In" Type="Int64" />
+            <Parameter Name="FromLoction" Mode="In" Type="String" />
+            <Parameter Name="ToLocation" Mode="In" Type="String" />
+            <Parameter Name="ViId" Mode="In" Type="Int64" />
+            <Parameter Name="VehicleSize" Mode="In" Type="String" />
+            <Parameter Name="xmlvehicleInfolist" Mode="In" Type="String" />
+            <Parameter Name="xmlprefloctaionlist" Mode="In" Type="String" />
+            <Parameter Name="Mode" Mode="In" Type="String" />
+            <Parameter Name="fovid" Mode="In" Type="Int64" />
+            <Parameter Name="imagewithstickerurl" Mode="In" Type="String" />
+            <Parameter Name="imagewithownerurl" Mode="In" Type="String" />
+            <Parameter Name="enddate" Mode="In" Type="DateTime" />
+            <Parameter Name="startdate" Mode="In" Type="DateTime" />
+            <Parameter Name="Company" Mode="In" Type="String" />
+            <Parameter Name="VisitingCardUrlXML" Mode="In" Type="String" />
+            <Parameter Name="imagewithstickerurlXML" Mode="In" Type="String" />
+            <Parameter Name="imagewithownerurlXML" Mode="In" Type="String" />
+            <Parameter Name="updatefor" Mode="In" Type="String" />
+            <Parameter Name="updateid" Mode="In" Type="Int64" />
+            <Parameter Name="Status" Mode="In" Type="String" />
+            <Parameter Name="Remarks" Mode="In" Type="String" />
+            <Parameter Name="VehicleOwnType" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_BrokerDataSendWebx">
+            <Parameter Name="Fovmid" Mode="In" Type="Int32" />
+            <Parameter Name="MobileNo1" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Sp_FOAwsImageDetails" ReturnType="Collection(String)">
+            <Parameter Name="FieldOfficerID" Mode="In" Type="Int32" />
+            <Parameter Name="BrokerImagePath" Mode="In" Type="String" />
+            <Parameter Name="ImagePath" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_GetBrokerDetails" />
+          <FunctionImport Name="SP_GetStickerVisitReports">
+            <Parameter Name="startdate" Mode="In" Type="DateTime" />
+            <Parameter Name="enddate" Mode="In" Type="DateTime" />
+            <Parameter Name="userid" Mode="In" Type="Int64" />
+            <Parameter Name="EmployeeType" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="Sp_InsertmeetingDetails" ReturnType="Collection(String)">
+            <Parameter Name="ScheduledId" Mode="In" Type="Int32" />
+            <Parameter Name="FieldOfficerID" Mode="In" Type="Int32" />
+            <Parameter Name="FieldOfficerName" Mode="In" Type="String" />
+            <Parameter Name="BrokerName" Mode="In" Type="String" />
+            <Parameter Name="MobileNumber" Mode="In" Type="String" />
+            <Parameter Name="Alternatename" Mode="In" Type="String" />
+            <Parameter Name="AlternateMobileNo" Mode="In" Type="String" />
+            <Parameter Name="BrokerMeet" Mode="In" Type="Boolean" />
+            <Parameter Name="LoadGiven" Mode="In" Type="Boolean" />
+            <Parameter Name="AdditionalComment" Mode="In" Type="String" />
+            <Parameter Name="ScheduledDate" Mode="In" Type="DateTime" />
+            <Parameter Name="Scheduledtime" Mode="In" Type="String" />
+            <Parameter Name="CompletedDate" Mode="In" Type="DateTime" />
+            <Parameter Name="Scheduled" Mode="In" Type="Boolean" />
+            <Parameter Name="Completed" Mode="In" Type="Boolean" />
+            <Parameter Name="CreatedBy" Mode="In" Type="String" />
+            <Parameter Name="UpdatedAt" Mode="In" Type="String" />
+            <Parameter Name="Updatedby" Mode="In" Type="String" />
+            <Parameter Name="BrokerImagePath" Mode="In" Type="String" />
+            <Parameter Name="UserImagePath" Mode="In" Type="String" />
+            <Parameter Name="Location" Mode="In" Type="String" />
+            <Parameter Name="GPS" Mode="In" Type="String" />
+            <Parameter Name="Insurance" Mode="In" Type="String" />
+            <Parameter Name="FastTag" Mode="In" Type="String" />
+            <Parameter Name="BuySell" Mode="In" Type="String" />
+            <Parameter Name="Gift" Mode="In" Type="String" />
+            <Parameter Name="Remarks" Mode="In" Type="String" />
+            <Parameter Name="Address" Mode="In" Type="String" />
+            <Parameter Name="Latitude" Mode="In" Type="String" />
+            <Parameter Name="Longitude" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_StickerMasterDhaba" ReturnType="Collection(Int32)">
+            <Parameter Name="DhabaName" Mode="In" Type="String" />
+            <Parameter Name="DhabaOwnerNumber" Mode="In" Type="String" />
+            <Parameter Name="Address" Mode="In" Type="String" />
+            <Parameter Name="OwnerName" Mode="In" Type="String" />
+            <Parameter Name="StickerImageName" Mode="In" Type="String" />
+            <Parameter Name="Latitude" Mode="In" Type="Decimal" />
+            <Parameter Name="Longitude" Mode="In" Type="Decimal" />
+            <Parameter Name="CreatedBy" Mode="In" Type="Int64" />
+            <Parameter Name="StartDate" Mode="In" Type="DateTime" />
+            <Parameter Name="EndDate" Mode="In" Type="DateTime" />
+            <Parameter Name="mode" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_StickerVisits" ReturnType="Collection(String)">
+            <Parameter Name="FullName" Mode="In" Type="String" />
+            <Parameter Name="DriverNumber" Mode="In" Type="String" />
+            <Parameter Name="OperatorNumber" Mode="In" Type="String" />
+            <Parameter Name="Downloads" Mode="In" Type="String" />
+            <Parameter Name="StickerImage" Mode="In" Type="String" />
+            <Parameter Name="StickerSize" Mode="In" Type="String" />
+            <Parameter Name="LaneFrom" Mode="In" Type="String" />
+            <Parameter Name="LaneTo" Mode="In" Type="String" />
+            <Parameter Name="VehicleType" Mode="In" Type="String" />
+            <Parameter Name="VehicleSize" Mode="In" Type="String" />
+            <Parameter Name="VehicleCapacity" Mode="In" Type="String" />
+            <Parameter Name="VechileNumber" Mode="In" Type="String" />
+            <Parameter Name="DoneBy" Mode="In" Type="Int64" />
+            <Parameter Name="VerifiedStatus" Mode="In" Type="String" />
+            <Parameter Name="VerifiedBy" Mode="In" Type="Int64" />
+            <Parameter Name="CreatedBy" Mode="In" Type="Int64" />
+            <Parameter Name="mode" Mode="In" Type="String" />
+            <Parameter Name="Userid" Mode="In" Type="Int64" />
+            <Parameter Name="LocalXML" Mode="In" Type="String" />
+            <Parameter Name="startdate" Mode="In" Type="DateTime" />
+            <Parameter Name="enddate" Mode="In" Type="DateTime" />
+            <Parameter Name="id" Mode="In" Type="Int32" />
+            <Parameter Name="StickerDimension" Mode="In" Type="String" />
+            <Parameter Name="VerificationComment" Mode="In" Type="String" />
+            <Parameter Name="Start" Mode="In" Type="Int32" />
+            <Parameter Name="Length" Mode="In" Type="Int32" />
+            <Parameter Name="searchValue" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Sp_UpdateFOAwsImages">
+            <Parameter Name="ScheduledId" Mode="In" Type="Int32" />
+            <Parameter Name="BrokerImagePath" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="Sp_updateFoDetails" ReturnType="Collection(String)">
+            <Parameter Name="Name" Mode="In" Type="String" />
+            <Parameter Name="Mobile" Mode="In" Type="String" />
+            <Parameter Name="AltMobile" Mode="In" Type="String" />
+            <Parameter Name="Email" Mode="In" Type="String" />
+            <Parameter Name="FullAddress" Mode="In" Type="String" />
+            <Parameter Name="EmployeeID" Mode="In" Type="Int64" />
+            <Parameter Name="EmployeeType" Mode="In" Type="Int32" />
+            <Parameter Name="CreatedBy" Mode="In" Type="Int64" />
+            <Parameter Name="FieldOfficerid" Mode="In" Type="Int64" />
+            <Parameter Name="ProfileImage" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_UpdateFOLocation" ReturnType="Collection(String)">
+            <Parameter Name="FieldOfficerID" Mode="In" Type="Int64" />
+            <Parameter Name="RequestID" Mode="In" Type="String" />
+            <Parameter Name="LocationList" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="SP_VerificationData" ReturnType="Collection(FieldOfficerModel.SP_VerificationData_Result)">
+            <Parameter Name="doneby" Mode="In" Type="Int64" />
+            <Parameter Name="Status" Mode="In" Type="Int32" />
+            <Parameter Name="startdate" Mode="In" Type="DateTime" />
+            <Parameter Name="enddate" Mode="In" Type="DateTime" />
+            <Parameter Name="Start" Mode="In" Type="Int32" />
+            <Parameter Name="Length" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="spGetStickerDataListhandler" ReturnType="Collection(FieldOfficerModel.spGetStickerDataListhandler_Result)">
+            <Parameter Name="DisplayLength" Mode="In" Type="Int32" />
+            <Parameter Name="DisplayStart" Mode="In" Type="Int32" />
+            <Parameter Name="SortCol" Mode="In" Type="Int32" />
+            <Parameter Name="SortDir" Mode="In" Type="String" />
+            <Parameter Name="Search" Mode="In" Type="String" />
+            <Parameter Name="startdate" Mode="In" Type="String" />
+            <Parameter Name="enddate" Mode="In" Type="String" />
+            <Parameter Name="userid" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="AdminDasboardMaster_Result">
+          <Property Type="Int64" Name="FovmId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Mobile" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="EmailId" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Address" Nullable="true" />
+          <Property Type="String" Name="OwnType" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="VisitDate" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="VisitTime" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="StickeringStatus" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="Company" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="ImageCounts" Nullable="false" />
+          <Property Type="Int32" Name="VehicleCount" Nullable="false" />
+          <Property Type="String" Name="createdbyname" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="IsMobileVerified" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="Status" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Remarks" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="downloadapp" Nullable="false" MaxLength="1" />
+        </ComplexType>
+        <ComplexType Name="getadmindatabydate_Result">
+          <Property Type="Int64" Name="FovmId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Mobile" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="EmailId" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Address" Nullable="true" />
+          <Property Type="String" Name="OwnType" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="VisitDate" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="VisitTime" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="StickeringStatus" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="Company" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="ImageCounts" Nullable="false" />
+          <Property Type="Int32" Name="VehicleCount" Nullable="false" />
+          <Property Type="String" Name="createdbyname" Nullable="true" MaxLength="150" />
+          <Property Type="String" Name="IsMobileVerified" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="Status" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Remarks" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="downloadapp" Nullable="false" MaxLength="1" />
+        </ComplexType>
+        <ComplexType Name="getAdminDetails_Result">
+          <Property Type="String" Name="username" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="password" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Token" Nullable="true" MaxLength="100" />
+          <Property Type="Int32" Name="UserType" Nullable="true" />
+          <Property Type="Int64" Name="Userid" Nullable="false" />
+          <Property Type="String" Name="IsAdmin" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="Mobile" Nullable="false" MaxLength="15" />
+          <Property Type="String" Name="Email" Nullable="false" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="GetScheduledMeeting_Result">
+          <Property Type="String" Name="FirmName" Nullable="true" MaxLength="50" />
+          <Property Type="Int32" Name="ScheduledId" Nullable="false" />
+          <Property Type="String" Name="MobileNo1" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Location" Nullable="false" MaxLength="1" />
+          <Property Type="String" Name="ContactPerson" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="BrokerStatus" Nullable="false" MaxLength="10" />
+          <Property Type="Int32" Name="LastLoadAdded" Nullable="true" />
+          <Property Type="String" Name="PhysicallyVerified" Nullable="false" MaxLength="10" />
+          <Property Type="DateTime" Name="ScheduledDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="ScheduledTime" Nullable="true" MaxLength="100" />
+          <Property Type="DateTime" Name="CompletedDate" Nullable="true" Precision="23" />
+        </ComplexType>
+        <ComplexType Name="Pro_UserLogin_Result">
+          <Property Type="String" Name="username" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="password" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Token" Nullable="true" MaxLength="200" />
+          <Property Type="Int32" Name="UserType" Nullable="true" />
+          <Property Type="Int64" Name="Userid" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="IsAdmin" Nullable="true" MaxLength="1" />
+        </ComplexType>
+        <ComplexType Name="Proc_TruksupFOAppAPI_Result">
+          <Property Type="String" Name="username" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="password" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Token" Nullable="true" MaxLength="200" />
+          <Property Type="Int32" Name="UserType" Nullable="true" />
+          <Property Type="Int64" Name="Userid" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+        </ComplexType>
+        <ComplexType Name="ProcGetFodetails_Result">
+          <Property Type="String" Name="name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="ProfileImage" Nullable="true" MaxLength="200" />
+          <Property Type="String" Name="Mobile" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="AltMobile" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="Email" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="FullAddress" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="EmployeeID" Nullable="true" MaxLength="10" />
+          <Property Type="Int32" Name="EmployeeType" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="ProUpdateVisitData_Result">
+          <Property Type="Int64" Name="FovmId" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Mobile" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="EmailId" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Address" Nullable="true" />
+          <Property Type="String" Name="OwnType" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="StickeringStatus" Nullable="true" MaxLength="1" />
+          <Property Type="String" Name="Company" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VisitDate" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="VisitTime" Nullable="true" MaxLength="4000" />
+          <Property Type="String" Name="Latitude" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Longitude" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Status" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="Remarks" Nullable="true" MaxLength="255" />
+        </ComplexType>
+        <ComplexType Name="SP_VerificationData_Result">
+          <Property Type="Int64" Name="Id" Nullable="false" />
+          <Property Type="String" Name="FullName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="DriverNumber" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="OperatorNumber" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="Downloads" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="StickerImage" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="StickerSize" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="LaneFrom" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="LaneTo" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VehicleType" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VehicleSize" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VehicleCapacity" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VechileNumber" Nullable="true" MaxLength="255" />
+          <Property Type="Boolean" Name="VerifiedStatus" Nullable="true" />
+          <Property Type="String" Name="StickerDimension" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="VerifiedBy" Nullable="false" MaxLength="100" />
+          <Property Type="Boolean" Name="ActiveFlag" Nullable="true" />
+          <Property Type="Int64" Name="CreatedBy" Nullable="true" />
+          <Property Type="String" Name="CreatedDate" Nullable="true" MaxLength="4000" />
+          <Property Type="Int64" Name="ModifiedBy" Nullable="true" />
+          <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DoneBy" Nullable="true" MaxLength="150" />
+        </ComplexType>
+        <ComplexType Name="spGetStickerDataListhandler_Result">
+          <Property Type="Int64" Name="RowNum" Nullable="true" />
+          <Property Type="Int32" Name="TotalCount" Nullable="true" />
+          <Property Type="Int64" Name="Id" Nullable="false" />
+          <Property Type="String" Name="FullName" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="DriverNumber" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="OperatorNumber" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="Downloads" Nullable="true" MaxLength="100" />
+          <Property Type="String" Name="StickerImage" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="StickerSize" Nullable="true" MaxLength="20" />
+          <Property Type="String" Name="LaneFrom" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="LaneTo" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VehicleType" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VehicleSize" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VehicleCapacity" Nullable="true" MaxLength="255" />
+          <Property Type="String" Name="VechileNumber" Nullable="true" MaxLength="255" />
+          <Property Type="Boolean" Name="VerifiedStatus" Nullable="true" />
+          <Property Type="String" Name="VerifiedBy" Nullable="false" MaxLength="100" />
+          <Property Type="Boolean" Name="ActiveFlag" Nullable="true" />
+          <Property Type="Int64" Name="CreatedBy" Nullable="true" />
+          <Property Type="String" Name="CreatedDate" Nullable="true" MaxLength="4000" />
+          <Property Type="Int64" Name="ModifiedBy" Nullable="true" />
+          <Property Type="DateTime" Name="ModifiedDate" Nullable="true" Precision="23" />
+          <Property Type="String" Name="DoneBy" Nullable="true" MaxLength="150" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FieldOfficerModelStoreContainer" CdmEntityContainer="fieldofficerentities">
+          <EntitySetMapping Name="FieldOfficerTrackings">
+            <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerTracking">
+              <MappingFragment StoreEntitySet="FieldOfficerTracking">
+                <ScalarProperty Name="trackingId" ColumnName="trackingId" />
+                <ScalarProperty Name="FoId" ColumnName="FoId" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StickerMaster_Dhaba">
+            <EntityTypeMapping TypeName="FieldOfficerModel.StickerMaster_Dhaba">
+              <MappingFragment StoreEntitySet="StickerMaster_Dhaba">
+                <ScalarProperty Name="DhabaID" ColumnName="DhabaID" />
+                <ScalarProperty Name="DhabaName" ColumnName="DhabaName" />
+                <ScalarProperty Name="DhabaOwnerNumber" ColumnName="DhabaOwnerNumber" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
+                <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FieldOfficerMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerMaster">
+              <MappingFragment StoreEntitySet="FieldOfficerMaster">
+                <ScalarProperty Name="EcecutiveId" ColumnName="EcecutiveId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="AltMobile" ColumnName="AltMobile" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="EmployeeType" ColumnName="EmployeeType" />
+                <ScalarProperty Name="DutyStatus" ColumnName="DutyStatus" />
+                <ScalarProperty Name="ProfileImage" ColumnName="ProfileImage" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FieldOfficerMeetings">
+            <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerMeeting">
+              <MappingFragment StoreEntitySet="FieldOfficerMeeting">
+                <ScalarProperty Name="ScheduledId" ColumnName="ScheduledId" />
+                <ScalarProperty Name="FieldOfficerID" ColumnName="FieldOfficerID" />
+                <ScalarProperty Name="FieldOfficerName" ColumnName="FieldOfficerName" />
+                <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+                <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+                <ScalarProperty Name="Alternatename" ColumnName="Alternatename" />
+                <ScalarProperty Name="AlternateMobileNo" ColumnName="AlternateMobileNo" />
+                <ScalarProperty Name="BrokerMeet" ColumnName="BrokerMeet" />
+                <ScalarProperty Name="LoadGiven" ColumnName="LoadGiven" />
+                <ScalarProperty Name="AdditionalComment" ColumnName="AdditionalComment" />
+                <ScalarProperty Name="ScheduledDate" ColumnName="ScheduledDate" />
+                <ScalarProperty Name="Scheduledtime" ColumnName="Scheduledtime" />
+                <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+                <ScalarProperty Name="Scheduled" ColumnName="Scheduled" />
+                <ScalarProperty Name="Completed" ColumnName="Completed" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="Updatedby" ColumnName="Updatedby" />
+                <ScalarProperty Name="BrokerImagePath" ColumnName="BrokerImagePath" />
+                <ScalarProperty Name="UserImagePath" ColumnName="UserImagePath" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="GPS" ColumnName="GPS" />
+                <ScalarProperty Name="Insurance" ColumnName="Insurance" />
+                <ScalarProperty Name="FastTag" ColumnName="FastTag" />
+                <ScalarProperty Name="Sell_BuyTruck" ColumnName="Sell_BuyTruck" />
+                <ScalarProperty Name="GIFT" ColumnName="GIFT" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="RemarksforLoadNotgiven" ColumnName="RemarksforLoadNotgiven" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FieldOfficerVisitMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerVisitMaster">
+              <MappingFragment StoreEntitySet="FieldOfficerVisitMaster">
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+                <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+                <ScalarProperty Name="Vehiclecapacity" ColumnName="Vehiclecapacity" />
+                <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+                <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+                <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="VisitingCardUrl" ColumnName="VisitingCardUrl" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+                <ScalarProperty Name="imagewithstickerurl" ColumnName="imagewithstickerurl" />
+                <ScalarProperty Name="imagewithownerurl" ColumnName="imagewithownerurl" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="IsMobileVerified" ColumnName="IsMobileVerified" />
+                <ScalarProperty Name="verifytype" ColumnName="verifytype" />
+                <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+                <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FieldOffiecrLocations">
+            <EntityTypeMapping TypeName="FieldOfficerModel.FieldOffiecrLocation">
+              <MappingFragment StoreEntitySet="FieldOffiecrLocation">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FoId" ColumnName="FoId" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GeoLocationCordinates">
+            <EntityTypeMapping TypeName="FieldOfficerModel.GeoLocationCordinate">
+              <MappingFragment StoreEntitySet="GeoLocationCordinates">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="OwnerInfoMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.OwnerInfoMaster">
+              <MappingFragment StoreEntitySet="OwnerInfoMaster">
+                <ScalarProperty Name="OIID" ColumnName="OIID" />
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PreferredLocationMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.PreferredLocationMaster">
+              <MappingFragment StoreEntitySet="PreferredLocationMaster">
+                <ScalarProperty Name="PLMId" ColumnName="PLMId" />
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="FromLoction" ColumnName="FromLoction" />
+                <ScalarProperty Name="ToLocation" ColumnName="ToLocation" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SharedLinkAudits">
+            <EntityTypeMapping TypeName="FieldOfficerModel.SharedLinkAudit">
+              <MappingFragment StoreEntitySet="SharedLinkAudit">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="SharedSMS" ColumnName="SharedSMS" />
+                <ScalarProperty Name="SharedBy" ColumnName="SharedBy" />
+                <ScalarProperty Name="SharedDateTime" ColumnName="SharedDateTime" />
+                <ScalarProperty Name="SharedTo" ColumnName="SharedTo" />
+                <ScalarProperty Name="SMSDelivered" ColumnName="SMSDelivered" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SQL_Error">
+            <EntityTypeMapping TypeName="FieldOfficerModel.SQL_Error">
+              <MappingFragment StoreEntitySet="SQL_Error">
+                <ScalarProperty Name="ErrorId" ColumnName="ErrorId" />
+                <ScalarProperty Name="ErrorNumber" ColumnName="ErrorNumber" />
+                <ScalarProperty Name="ErrorState" ColumnName="ErrorState" />
+                <ScalarProperty Name="ErrorSeverity" ColumnName="ErrorSeverity" />
+                <ScalarProperty Name="ErrorProcedure" ColumnName="ErrorProcedure" />
+                <ScalarProperty Name="ErrorLine" ColumnName="ErrorLine" />
+                <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+                <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StickerMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.StickerMaster">
+              <MappingFragment StoreEntitySet="StickerMaster">
+                <ScalarProperty Name="STID" ColumnName="STID" />
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StickerVisitMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.StickerVisitMaster">
+              <MappingFragment StoreEntitySet="StickerVisitMaster">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="DriverNumber" ColumnName="DriverNumber" />
+                <ScalarProperty Name="OperatorNumber" ColumnName="OperatorNumber" />
+                <ScalarProperty Name="Downloads" ColumnName="Downloads" />
+                <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+                <ScalarProperty Name="StickerSize" ColumnName="StickerSize" />
+                <ScalarProperty Name="LaneFrom" ColumnName="LaneFrom" />
+                <ScalarProperty Name="LaneTo" ColumnName="LaneTo" />
+                <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+                <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+                <ScalarProperty Name="VehicleCapacity" ColumnName="VehicleCapacity" />
+                <ScalarProperty Name="VechileNumber" ColumnName="VechileNumber" />
+                <ScalarProperty Name="DoneBy" ColumnName="DoneBy" />
+                <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+                <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="StickerDimension" ColumnName="StickerDimension" />
+                <ScalarProperty Name="Verification" ColumnName="Verification" />
+                <ScalarProperty Name="VerificationComment" ColumnName="VerificationComment" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblAwsImages">
+            <EntityTypeMapping TypeName="FieldOfficerModel.TblAwsImage">
+              <MappingFragment StoreEntitySet="TblAwsImages">
+                <ScalarProperty Name="ScheduledId" ColumnName="ScheduledId" />
+                <ScalarProperty Name="BrokerImagePath" ColumnName="BrokerImagePath" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="FieldOfficerID" ColumnName="FieldOfficerID" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblFODutyStatus">
+            <EntityTypeMapping TypeName="FieldOfficerModel.TblFODutyStatu">
+              <MappingFragment StoreEntitySet="TblFODutyStatus">
+                <ScalarProperty Name="DID" ColumnName="DID" />
+                <ScalarProperty Name="FOID" ColumnName="FOID" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="OffDutyDate" ColumnName="OffDutyDate" />
+                <ScalarProperty Name="OffDutyTime" ColumnName="OffDutyTime" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TruksupFOMobileNavigators">
+            <EntityTypeMapping TypeName="FieldOfficerModel.TruksupFOMobileNavigator">
+              <MappingFragment StoreEntitySet="TruksupFOMobileNavigator">
+                <ScalarProperty Name="MNID" ColumnName="MNID" />
+                <ScalarProperty Name="USER_TYPE" ColumnName="USER_TYPE" />
+                <ScalarProperty Name="MENU_NAME" ColumnName="MENU_NAME" />
+                <ScalarProperty Name="REDIRECT_URL" ColumnName="REDIRECT_URL" />
+                <ScalarProperty Name="ACTIVE_FLAG" ColumnName="ACTIVE_FLAG" />
+                <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+                <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+                <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+                <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+                <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+                <ScalarProperty Name="ICON" ColumnName="ICON" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserLogins">
+            <EntityTypeMapping TypeName="FieldOfficerModel.UserLogin">
+              <MappingFragment StoreEntitySet="UserLogin">
+                <ScalarProperty Name="Userid" ColumnName="Userid" />
+                <ScalarProperty Name="ExecutiveId" ColumnName="ExecutiveId" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="LoginPin" ColumnName="LoginPin" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="Source" ColumnName="Source" />
+                <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="DeviceType" ColumnName="DeviceType" />
+                <ScalarProperty Name="Activeflag" ColumnName="Activeflag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserLoginTokens">
+            <EntityTypeMapping TypeName="FieldOfficerModel.UserLoginToken">
+              <MappingFragment StoreEntitySet="UserLoginToken">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="UserIP" ColumnName="UserIP" />
+                <ScalarProperty Name="UserMacAddress" ColumnName="UserMacAddress" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="TokenValidTill" ColumnName="TokenValidTill" />
+                <ScalarProperty Name="TokenExpired" ColumnName="TokenExpired" />
+                <ScalarProperty Name="isActive" ColumnName="isActive" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="Creationdate" ColumnName="Creationdate" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+                <ScalarProperty Name="PlatformCalledFrom" ColumnName="PlatformCalledFrom" />
+                <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+                <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VehicleInfoMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.VehicleInfoMaster">
+              <MappingFragment StoreEntitySet="VehicleInfoMaster">
+                <ScalarProperty Name="ViId" ColumnName="ViId" />
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+                <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+                <ScalarProperty Name="Vehiclecapacity" ColumnName="Vehiclecapacity" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+                <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+                <ScalarProperty Name="VehicleOwnType" ColumnName="VehicleOwnType" />
+                <ScalarProperty Name="VehicleRC" ColumnName="VehicleRC" />
+                <ScalarProperty Name="VehicleNum" ColumnName="VehicleNum" />
+                <ScalarProperty Name="DriverNum" ColumnName="DriverNum" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="VisitingCardMasters">
+            <EntityTypeMapping TypeName="FieldOfficerModel.VisitingCardMaster">
+              <MappingFragment StoreEntitySet="VisitingCardMaster">
+                <ScalarProperty Name="VCID" ColumnName="VCID" />
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="AdminDasboardMaster" FunctionName="FieldOfficerModel.Store.AdminDasboardMaster">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.AdminDasboardMaster_Result">
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+                <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+                <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+                <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="ImageCounts" ColumnName="ImageCounts" />
+                <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+                <ScalarProperty Name="createdbyname" ColumnName="createdbyname" />
+                <ScalarProperty Name="IsMobileVerified" ColumnName="IsMobileVerified" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="downloadapp" ColumnName="downloadapp" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="DutyStatusupdate" FunctionName="FieldOfficerModel.Store.DutyStatusupdate" />
+          <FunctionImportMapping FunctionImportName="getadmindatabydate" FunctionName="FieldOfficerModel.Store.getadmindatabydate">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.getadmindatabydate_Result">
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+                <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+                <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+                <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="ImageCounts" ColumnName="ImageCounts" />
+                <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+                <ScalarProperty Name="createdbyname" ColumnName="createdbyname" />
+                <ScalarProperty Name="IsMobileVerified" ColumnName="IsMobileVerified" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+                <ScalarProperty Name="downloadapp" ColumnName="downloadapp" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="getAdminDetails" FunctionName="FieldOfficerModel.Store.getAdminDetails">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.getAdminDetails_Result">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="Userid" ColumnName="Userid" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GetCompletedMeeting" FunctionName="FieldOfficerModel.Store.GetCompletedMeeting" />
+          <FunctionImportMapping FunctionImportName="GetFOBrokerDetails_V1" FunctionName="FieldOfficerModel.Store.GetFOBrokerDetails_V1" />
+          <FunctionImportMapping FunctionImportName="GetScheduledMeeting" FunctionName="FieldOfficerModel.Store.GetScheduledMeeting">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.GetScheduledMeeting_Result">
+                <ScalarProperty Name="FirmName" ColumnName="FirmName" />
+                <ScalarProperty Name="ScheduledId" ColumnName="ScheduledId" />
+                <ScalarProperty Name="MobileNo1" ColumnName="MobileNo1" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+                <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+                <ScalarProperty Name="BrokerStatus" ColumnName="BrokerStatus" />
+                <ScalarProperty Name="LastLoadAdded" ColumnName="LastLoadAdded" />
+                <ScalarProperty Name="PhysicallyVerified" ColumnName="PhysicallyVerified" />
+                <ScalarProperty Name="ScheduledDate" ColumnName="ScheduledDate" />
+                <ScalarProperty Name="ScheduledTime" ColumnName="ScheduledTime" />
+                <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="Pro_GetEncrptedKey" FunctionName="FieldOfficerModel.Store.Pro_GetEncrptedKey" />
+          <FunctionImportMapping FunctionImportName="Pro_SQL_Error" FunctionName="FieldOfficerModel.Store.Pro_SQL_Error" />
+          <FunctionImportMapping FunctionImportName="Pro_UserLogin" FunctionName="FieldOfficerModel.Store.Pro_UserLogin">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.Pro_UserLogin_Result">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="Userid" ColumnName="Userid" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ProAddNewVisit" FunctionName="FieldOfficerModel.Store.ProAddNewVisit" />
+          <FunctionImportMapping FunctionImportName="Proc_checkdownloadstatus" FunctionName="FieldOfficerModel.Store.Proc_checkdownloadstatus" />
+          <FunctionImportMapping FunctionImportName="Proc_InsertNewLead" FunctionName="FieldOfficerModel.Store.Proc_InsertNewLead" />
+          <FunctionImportMapping FunctionImportName="Proc_TruksupFOAppAPI" FunctionName="FieldOfficerModel.Store.Proc_TruksupFOAppAPI">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.Proc_TruksupFOAppAPI_Result">
+                <ScalarProperty Name="username" ColumnName="username" />
+                <ScalarProperty Name="password" ColumnName="password" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
+                <ScalarProperty Name="Userid" ColumnName="Userid" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ProcGetFodetails" FunctionName="FieldOfficerModel.Store.ProcGetFodetails">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.ProcGetFodetails_Result">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="ProfileImage" ColumnName="ProfileImage" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="AltMobile" ColumnName="AltMobile" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+                <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+                <ScalarProperty Name="EmployeeType" ColumnName="EmployeeType" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ProUpdateVisitData" FunctionName="FieldOfficerModel.Store.ProUpdateVisitData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.ProUpdateVisitData_Result">
+                <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+                <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+                <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+                <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+                <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="SP_BrokerDataSendWebx" FunctionName="FieldOfficerModel.Store.SP_BrokerDataSendWebx" />
+          <FunctionImportMapping FunctionImportName="Sp_FOAwsImageDetails" FunctionName="FieldOfficerModel.Store.Sp_FOAwsImageDetails" />
+          <FunctionImportMapping FunctionImportName="SP_GetBrokerDetails" FunctionName="FieldOfficerModel.Store.SP_GetBrokerDetails" />
+          <FunctionImportMapping FunctionImportName="SP_GetStickerVisitReports" FunctionName="FieldOfficerModel.Store.SP_GetStickerVisitReports" />
+          <FunctionImportMapping FunctionImportName="Sp_InsertmeetingDetails" FunctionName="FieldOfficerModel.Store.Sp_InsertmeetingDetails" />
+          <FunctionImportMapping FunctionImportName="SP_StickerMasterDhaba" FunctionName="FieldOfficerModel.Store.SP_StickerMasterDhaba" />
+          <FunctionImportMapping FunctionImportName="SP_StickerVisits" FunctionName="FieldOfficerModel.Store.SP_StickerVisits" />
+          <FunctionImportMapping FunctionImportName="Sp_UpdateFOAwsImages" FunctionName="FieldOfficerModel.Store.Sp_UpdateFOAwsImages" />
+          <FunctionImportMapping FunctionImportName="Sp_updateFoDetails" FunctionName="FieldOfficerModel.Store.Sp_updateFoDetails" />
+          <FunctionImportMapping FunctionImportName="SP_UpdateFOLocation" FunctionName="FieldOfficerModel.Store.SP_UpdateFOLocation" />
+          <FunctionImportMapping FunctionImportName="SP_VerificationData" FunctionName="FieldOfficerModel.Store.SP_VerificationData">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.SP_VerificationData_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="DriverNumber" ColumnName="DriverNumber" />
+                <ScalarProperty Name="OperatorNumber" ColumnName="OperatorNumber" />
+                <ScalarProperty Name="Downloads" ColumnName="Downloads" />
+                <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+                <ScalarProperty Name="StickerSize" ColumnName="StickerSize" />
+                <ScalarProperty Name="LaneFrom" ColumnName="LaneFrom" />
+                <ScalarProperty Name="LaneTo" ColumnName="LaneTo" />
+                <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+                <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+                <ScalarProperty Name="VehicleCapacity" ColumnName="VehicleCapacity" />
+                <ScalarProperty Name="VechileNumber" ColumnName="VechileNumber" />
+                <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+                <ScalarProperty Name="StickerDimension" ColumnName="StickerDimension" />
+                <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="DoneBy" ColumnName="DoneBy" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="spGetStickerDataListhandler" FunctionName="FieldOfficerModel.Store.spGetStickerDataListhandler">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="FieldOfficerModel.spGetStickerDataListhandler_Result">
+                <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+                <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FullName" ColumnName="FullName" />
+                <ScalarProperty Name="DriverNumber" ColumnName="DriverNumber" />
+                <ScalarProperty Name="OperatorNumber" ColumnName="OperatorNumber" />
+                <ScalarProperty Name="Downloads" ColumnName="Downloads" />
+                <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+                <ScalarProperty Name="StickerSize" ColumnName="StickerSize" />
+                <ScalarProperty Name="LaneFrom" ColumnName="LaneFrom" />
+                <ScalarProperty Name="LaneTo" ColumnName="LaneTo" />
+                <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+                <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+                <ScalarProperty Name="VehicleCapacity" ColumnName="VehicleCapacity" />
+                <ScalarProperty Name="VechileNumber" ColumnName="VechileNumber" />
+                <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+                <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+                <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+                <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+                <ScalarProperty Name="DoneBy" ColumnName="DoneBy" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

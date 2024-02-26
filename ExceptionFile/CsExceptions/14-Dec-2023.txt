@@ -1,0 +1,240 @@
+-----------Exception Details on  14-12-2023 11.19.14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.19.14 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.19.31 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.19.31 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.19.33 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.19.33 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.19.33 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.19.33 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.22.14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.22.14 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.22.14 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.22.14 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.22.18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.22.18 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.22.18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.22.18 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.22.18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.22.18 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  14-12-2023 11.22.18 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-12-2023 11.22.18 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

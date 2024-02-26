@@ -1,0 +1,628 @@
+-----------Exception Details on  20-10-2023 12.34.50 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 12.34.50 PM
+
+Error Line No : status)
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Verification/GetAllDataAndExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 12.41.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 12.41.31 PM
+
+Error Line No : ine 199
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+Error Page Url: https://localhost:44303/Verification/GetAllDataAndExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 2.29.11 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 2.29.11 PM
+
+Error Line No : 2 draw)
+
+Error Message: TargetInvocationException
+
+Exception Type: System.Reflection.TargetInvocationException
+
+Error Location : Exception has been thrown by the target of an invocation.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 2.31.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 2.31.25 PM
+
+Error Line No : 2 draw)
+
+Error Message: TargetInvocationException
+
+Exception Type: System.Reflection.TargetInvocationException
+
+Error Location : Exception has been thrown by the target of an invocation.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 2.46.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 2.46.52 PM
+
+Error Line No : 2 draw)
+
+Error Message: TargetInvocationException
+
+Exception Type: System.Reflection.TargetInvocationException
+
+Error Location : Exception has been thrown by the target of an invocation.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 2.48.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 2.48.45 PM
+
+Error Line No : 2 draw)
+
+Error Message: TargetInvocationException
+
+Exception Type: System.Reflection.TargetInvocationException
+
+Error Location : Exception has been thrown by the target of an invocation.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.21 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The specified network name is no longer available.)
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.21 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.41 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot open database "FieldOfficer" requested by the login. The login failed.
+Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.41 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.45 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot open database "FieldOfficer" requested by the login. The login failed.
+Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.45 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.46 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot open database "FieldOfficer" requested by the login. The login failed.
+Login failed for user 'fieldofficer'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.10.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.10.46 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.20.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.20.36 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.21.06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.21.06 PM
+
+Error Line No : erText)
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.21.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.21.38 PM
+
+Error Line No : g sSql)
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 3.59.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 3.59.22 PM
+
+Error Line No : 2 draw)
+
+Error Message: TargetInvocationException
+
+Exception Type: System.Reflection.TargetInvocationException
+
+Error Location : Exception has been thrown by the target of an invocation.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.00.16 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.00.16 PM
+
+Error Line No : 2 draw)
+
+Error Message: TargetInvocationException
+
+Exception Type: System.Reflection.TargetInvocationException
+
+Error Location : Exception has been thrown by the target of an invocation.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.01.52 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.01.52 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Cannot continue the execution because the session is in the kill state.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.02.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.02.29 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The wait operation timed out.)
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.02.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.02.29 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardDataExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.04.07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.04.07 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The remote computer refused the network connection.)
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.04.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.04.27 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.04.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.04.38 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.)
+
+Error Page Url: https://localhost:44303/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  20-10-2023 4.08.03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 20-10-2023 4.08.03 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

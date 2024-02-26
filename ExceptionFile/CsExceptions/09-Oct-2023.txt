@@ -1,0 +1,144 @@
+-----------Exception Details on  09-10-2023 10.46.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-10-2023 10.46.42 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-10-2023 10.46.43 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-10-2023 10.46.43 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-10-2023 11.44.27 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-10-2023 11.44.27 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-10-2023 11.44.29 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-10-2023 11.44.29 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-10-2023 1.07.58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-10-2023 1.07.58 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-10-2023 1.08.01 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-10-2023 1.08.01 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Invalid object name 'TrucksUp.dbo.tbl_trucksup_profile'.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

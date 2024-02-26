@@ -1,0 +1,240 @@
+-----------Exception Details on  18-11-2023 11.34.52 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 11.34.52 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 11.34.53 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 11.34.53 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @mode is not a parameter for procedure SP_VerificationData.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 11.35.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 11.35.02 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 11.35.03 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 11.35.03 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @mode is not a parameter for procedure SP_VerificationData.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 11.35.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 11.35.05 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 11.35.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 11.35.06 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @mode is not a parameter for procedure SP_VerificationData.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 12.21.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 12.21.32 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Procedure or function SP_VerificationData has too many arguments specified.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 12.21.34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 12.21.34 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @mode is not a parameter for procedure SP_VerificationData.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 2.45.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 2.45.10 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+
+Error Page Url: https://localhost:44304/Home/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  18-11-2023 2.45.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 18-11-2023 2.45.10 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Home/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

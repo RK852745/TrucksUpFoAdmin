@@ -1,0 +1,1416 @@
+-----------Exception Details on  08-04-2023 7.46.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.29 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.35 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.36 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.38 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.38 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.40 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.40 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.42 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.42 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.46.51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.46.51 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.47.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.47.31 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.47.48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.47.48 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.49.05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.49.05 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.49.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.49.27 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.49.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.49.38 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.49.44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.49.44 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.50.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.50.29 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.50.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.50.47 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.53.19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.53.19 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.53.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.53.46 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.07 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.19 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.20 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.20 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.21 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.21 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.22 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.24 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.24 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.24 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.24 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.55.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.55.24 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.56.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.56.41 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.57.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.57.31 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 7.57.57 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 7.57.57 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.01.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.01.42 PM
+
+Error Line No : ine 350
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.02.03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.02.03 PM
+
+Error Line No : ine 350
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.03.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.03.41 PM
+
+Error Line No : line 72
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.05.31 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.05.31 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.05.34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.05.34 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/Dashboard?q=tOVMNHkAh8XHudUHiC6FnzMhVRHJKqnlcdwHKUDQlIAbTCVtev2KYJsJnWHtIoRECv8jgaiG6eXXt7bl7YpRnR4g9miMSj58B9ArU%252fWpAp3xPtvJX%252fPIFVPLpIRVU37K
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.05.43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.05.43 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.06.39 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.06.39 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.07.02 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.07.02 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.09.37 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.09.37 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.10.30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.10.30 PM
+
+Error Line No : ine 350
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.12.07 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.12.07 PM
+
+Error Line No : line 62
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Specified initialization vector (IV) does not match the block size for this algorithm.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.12.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.12.10 PM
+
+Error Line No : line 62
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Specified initialization vector (IV) does not match the block size for this algorithm.
+
+Error Page Url: https://localhost:44303/Admin/Dashboard?q=sl0sUPXkonyM8GBnEuzFvjRAtF7ux1mQ%252bbjUqA4qPq%252fqRMKXGLS2pKV5ZFojUz2C7On9n9V%252f9Pc2JK9UZe6rriKs6si049zLqiVpIaYVIJK5CPR7kSiuk0NwQOiuiaOS
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.12.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.12.32 PM
+
+Error Line No : line 24
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Specified initialization vector (IV) does not match the block size for this algorithm.
+
+Error Page Url: https://localhost:44303/Account/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.12.43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.12.43 PM
+
+Error Line No : line 62
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Specified initialization vector (IV) does not match the block size for this algorithm.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.13.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.13.42 PM
+
+Error Line No : Check()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.14.09 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.14.09 PM
+
+Error Line No : Check()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.15.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.15.10 PM
+
+Error Line No : Check()
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.15.18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.15.18 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 8.15.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 8.15.38 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 9.45.37 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 9.45.37 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 9.45.51 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 9.45.51 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 9.46.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 9.46.36 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 9.46.53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 9.46.53 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  08-04-2023 9.48.21 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 08-04-2023 9.48.21 PM
+
+Error Line No : erText)
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/Dashboard?q=Q4IfeMVB2OXrJxjf0kEdu4eReiqLOtcm0zbGEyvPslI11Fvo1%252fKz5F%252bA%252fXail0%252fgY7myLnuNk9873I6Beu2SPVki412QF540NJ5ZxYmWfG6pQ51FNZIrPZ0VucKmlHbZ
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

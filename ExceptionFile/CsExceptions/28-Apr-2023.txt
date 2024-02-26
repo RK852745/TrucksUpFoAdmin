@@ -1,0 +1,456 @@
+-----------Exception Details on  28-04-2023 2.11.49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 2.11.49 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.46.14 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.46.14 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.46.42 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.46.42 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.47.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.47.47 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.47.59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.47.59 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.50.38 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.50.38 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.50.45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.50.45 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @startdate is not a parameter for procedure SP_StickerVisits.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.59.12 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.59.12 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 3.59.12 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 3.59.12 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 4.45.59 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 4.45.59 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 4.46.14 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 4.46.14 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 4.46.19 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 4.46.19 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 4.46.44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 4.46.44 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The conversion of a nvarchar data type to a datetime data type resulted in an out-of-range value.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 8.30.53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 8.30.53 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 8.30.53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 8.30.53 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 8.35.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 8.35.22 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 8.35.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 8.35.22 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 8.38.48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 8.38.48 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - The network location cannot be reached. For information about network troubleshooting, see Windows Help.)
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-04-2023 8.38.48 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-04-2023 8.38.48 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

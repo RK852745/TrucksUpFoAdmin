@@ -1,0 +1,121 @@
+-----------Exception Details on  26-10-2023 1.12.35 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-10-2023 1.12.35 PM
+
+Error Line No : length)
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'VehicleNumber' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/GetAllDataAndExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  26-10-2023 1.19.15 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-10-2023 1.19.15 PM
+
+Error Line No : length)
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'VehicleNumber' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/GetAllDataAndExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  26-10-2023 2.17.25 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-10-2023 2.17.25 PM
+
+Error Line No : ine 202
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'VehicleNumber' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/GetAllDataAndExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  26-10-2023 2.35.09 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-10-2023 2.35.09 PM
+
+Error Line No : length)
+
+Error Message: ArgumentException
+
+Exception Type: System.ArgumentException
+
+Error Location : Column 'VehicleNumber' does not belong to table Table.
+
+Error Page Url: https://localhost:44303/Verification/GetAllDataAndExportToExcel
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  26-10-2023 6.00.27 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-10-2023 6.00.27 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : String or binary data would be truncated in table 'FieldOfficer.dbo.StickerVisitMaster', column 'DriverNumber'. Truncated value: '87654567876543456765'.
+The statement has been terminated.
+
+Error Page Url: https://localhost:44303/Verification/MethodUpdateverificationData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

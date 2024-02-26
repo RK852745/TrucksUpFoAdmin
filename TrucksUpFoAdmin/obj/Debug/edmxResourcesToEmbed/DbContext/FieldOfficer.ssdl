@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FieldOfficerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.FieldOfficerMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="FieldOfficerMaster">
+    <Key>
+      <PropertyRef Name="EcecutiveId" />
+    </Key>
+    <Property Name="EcecutiveId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="20" />
+    <Property Name="AltMobile" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="FullAddress" Type="nvarchar" MaxLength="255" />
+    <Property Name="EmployeeID" Type="nvarchar" MaxLength="100" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="EmployeeType" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.FieldOfficerVisitMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="FieldOfficerVisitMaster">
+    <Key>
+      <PropertyRef Name="FovmId" />
+    </Key>
+    <Property Name="FovmId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="20" />
+    <Property Name="EmailId" Type="nvarchar" MaxLength="100" />
+    <Property Name="Address" Type="nvarchar(max)" />
+    <Property Name="OwnType" Type="nvarchar" MaxLength="100" />
+    <Property Name="VehicleType" Type="nvarchar" MaxLength="100" />
+    <Property Name="Vehiclecapacity" Type="nvarchar" MaxLength="100" />
+    <Property Name="VehicleCount" Type="nvarchar" MaxLength="100" />
+    <Property Name="VisitDate" Type="datetime" />
+    <Property Name="VisitTime" Type="nvarchar" MaxLength="100" />
+    <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+    <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+    <Property Name="VisitingCardUrl" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="StickeringStatus" Type="char" MaxLength="1" />
+    <Property Name="imagewithstickerurl" Type="nvarchar" MaxLength="255" />
+    <Property Name="imagewithownerurl" Type="nvarchar" MaxLength="255" />
+    <Property Name="Company" Type="nvarchar" MaxLength="255" />
+    <Property Name="Status" Type="varchar" MaxLength="100" />
+    <Property Name="Remarks" Type="nvarchar" MaxLength="255" />
+    <Property Name="IsMobileVerified" Type="char" MaxLength="1" />
+    <Property Name="verifytype" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.GeoLocationCordinates' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="GeoLocationCordinates">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="bigint" />
+    <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+    <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="createdDate" Type="datetime" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.OwnerInfoMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="OwnerInfoMaster">
+    <Key>
+      <PropertyRef Name="OIID" />
+    </Key>
+    <Property Name="OIID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FovmId" Type="bigint" />
+    <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.PreferredLocationMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="PreferredLocationMaster">
+    <Key>
+      <PropertyRef Name="PLMId" />
+    </Key>
+    <Property Name="PLMId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FovmId" Type="bigint" />
+    <Property Name="FromLoction" Type="nvarchar" MaxLength="100" />
+    <Property Name="ToLocation" Type="nvarchar" MaxLength="100" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.SharedLinkAudit' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="SharedLinkAudit">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SharedSMS" Type="nvarchar(max)" />
+    <Property Name="SharedBy" Type="bigint" />
+    <Property Name="SharedDateTime" Type="datetime" />
+    <Property Name="SharedTo" Type="nvarchar" MaxLength="20" />
+    <Property Name="SMSDelivered" Type="char" MaxLength="1" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="bigint" />
+    <Property Name="createdDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="bigint" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.SQL_Error' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="SQL_Error">
+    <Key>
+      <PropertyRef Name="ErrorId" />
+    </Key>
+    <Property Name="ErrorId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ErrorNumber" Type="varchar" MaxLength="100" />
+    <Property Name="ErrorState" Type="varchar" MaxLength="100" />
+    <Property Name="ErrorSeverity" Type="varchar" MaxLength="100" />
+    <Property Name="ErrorProcedure" Type="nvarchar" MaxLength="100" />
+    <Property Name="ErrorLine" Type="varchar" MaxLength="100" />
+    <Property Name="ErrorMessage" Type="nvarchar(max)" />
+    <Property Name="ErrorDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.StickerMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="StickerMaster">
+    <Key>
+      <PropertyRef Name="STID" />
+    </Key>
+    <Property Name="STID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FovmId" Type="bigint" />
+    <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.TruksupFOMobileNavigator' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TruksupFOMobileNavigator">
+    <Key>
+      <PropertyRef Name="MNID" />
+    </Key>
+    <Property Name="MNID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="USER_TYPE" Type="nvarchar" MaxLength="100" />
+    <Property Name="MENU_NAME" Type="nvarchar" MaxLength="100" />
+    <Property Name="REDIRECT_URL" Type="nvarchar" MaxLength="100" />
+    <Property Name="ACTIVE_FLAG" Type="bit" />
+    <Property Name="CREATED_BY" Type="bigint" />
+    <Property Name="CREATED_DATE" Type="datetime" />
+    <Property Name="MODIFIED_BY" Type="bigint" />
+    <Property Name="MODIFIED_DATE" Type="datetime" />
+    <Property Name="SEQ_NO" Type="int" />
+    <Property Name="ICON" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.UserLogin' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="Userid" />
+    </Key>
+    <Property Name="Userid" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExecutiveId" Type="bigint" />
+    <Property Name="Username" Type="nvarchar" MaxLength="100" />
+    <Property Name="Password" Type="nvarchar" MaxLength="100" />
+    <Property Name="LoginPin" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserType" Type="int" />
+    <Property Name="Source" Type="nvarchar" MaxLength="100" />
+    <Property Name="DeviceId" Type="nvarchar(max)" />
+    <Property Name="Latitude" Type="nvarchar" MaxLength="100" />
+    <Property Name="Longitude" Type="nvarchar" MaxLength="100" />
+    <Property Name="DeviceType" Type="nvarchar" MaxLength="100" />
+    <Property Name="Activeflag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="bigint" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="IsAdmin" Type="char" MaxLength="1" />
+    <Property Name="Name" Type="varchar" MaxLength="100" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="15" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.UserLoginToken' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="UserLoginToken">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" />
+    <Property Name="UserIP" Type="nvarchar" MaxLength="100" />
+    <Property Name="UserMacAddress" Type="nvarchar" MaxLength="100" />
+    <Property Name="Token" Type="nvarchar" MaxLength="200" />
+    <Property Name="TokenValidTill" Type="datetime" />
+    <Property Name="TokenExpired" Type="bit" />
+    <Property Name="isActive" Type="bit" />
+    <Property Name="CreatedBy" Type="varchar" MaxLength="100" />
+    <Property Name="Creationdate" Type="datetime" />
+    <Property Name="UpdatedBy" Type="varchar" MaxLength="100" />
+    <Property Name="UpdatedDate" Type="datetime" />
+    <Property Name="PlatformCalledFrom" Type="char" MaxLength="1" />
+    <Property Name="DeviceId" Type="nvarchar" MaxLength="200" />
+    <Property Name="DeviceName" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.VehicleInfoMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VehicleInfoMaster">
+    <Key>
+      <PropertyRef Name="ViId" />
+    </Key>
+    <Property Name="ViId" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FovmId" Type="bigint" />
+    <Property Name="OwnType" Type="nvarchar" MaxLength="100" />
+    <Property Name="VehicleType" Type="nvarchar" MaxLength="100" />
+    <Property Name="Vehiclecapacity" Type="nvarchar" MaxLength="100" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="VehicleCount" Type="int" />
+    <Property Name="VehicleSize" Type="nvarchar" MaxLength="100" />
+    <Property Name="VehicleOwnType" Type="varchar" MaxLength="100" />
+    <Property Name="VehicleRC" Type="nvarchar" MaxLength="255" />
+    <Property Name="VehicleNum" Type="nvarchar" MaxLength="100" />
+    <Property Name="DriverNum" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'FieldOfficer.dbo.VisitingCardMaster' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="VisitingCardMaster">
+    <Key>
+      <PropertyRef Name="VCID" />
+    </Key>
+    <Property Name="VCID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FovmId" Type="bigint" />
+    <Property Name="ImageUrl" Type="nvarchar" MaxLength="255" />
+    <Property Name="ActiveFlag" Type="bit" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+    <Property Name="ModifiedDate" Type="datetime" />
+  </EntityType>
+  <Function Name="AdminDasboardMaster" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="mode" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserId" Type="bigint" Mode="In" />
+    <Parameter Name="startdate" Type="datetime" Mode="In" />
+    <Parameter Name="enddate" Type="datetime" Mode="In" />
+    <Parameter Name="fomid" Type="bigint" Mode="In" />
+    <Parameter Name="totalvisit" Type="varchar" Mode="In" />
+    <Parameter Name="owntype" Type="varchar" Mode="In" />
+    <Parameter Name="svisit" Type="varchar" Mode="In" />
+    <Parameter Name="FovmId" Type="bigint" Mode="In" />
+    <Parameter Name="Name" Type="varchar" Mode="In" />
+    <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="AltMobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="Email" Type="nvarchar" Mode="In" />
+    <Parameter Name="FullAddress" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmployeeID" Type="nvarchar" Mode="In" />
+    <Parameter Name="EcecutiveId" Type="bigint" Mode="In" />
+    <Parameter Name="CreatedBy" Type="bigint" Mode="In" />
+    <Parameter Name="ExecutiveId" Type="bigint" Mode="In" />
+    <Parameter Name="Username" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="xmluseridlist" Type="xml" Mode="In" />
+    <Parameter Name="Status" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmployeeType" Type="int" Mode="In" />
+    <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+    <Parameter Name="Start" Type="int" Mode="In" />
+    <Parameter Name="Length" Type="int" Mode="In" />
+    <Parameter Name="searchValue" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="getadmindatabydate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startdate" Type="nvarchar" Mode="In" />
+    <Parameter Name="enddate" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="getAdminDetails" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Token" Type="nvarchar" Mode="In" />
+    <Parameter Name="userid" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="getfieldofficernames" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="varchar">
+    <Parameter Name="id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Pro_GetEncrptedKey" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Pro_SQL_Error" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ErrorNumber" Type="varchar" Mode="In" />
+    <Parameter Name="ErrorState" Type="varchar" Mode="In" />
+    <Parameter Name="ErrorSeverity" Type="varchar" Mode="In" />
+    <Parameter Name="ErrorProcedure" Type="nvarchar" Mode="In" />
+    <Parameter Name="ErrorLine" Type="varchar" Mode="In" />
+    <Parameter Name="ErrorMessage" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="Pro_UserLogin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Token" Type="nvarchar" Mode="In" />
+    <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserIP" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserMacAddress" Type="nvarchar" Mode="In" />
+    <Parameter Name="DeviceName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Platfrom" Type="char" Mode="In" />
+    <Parameter Name="username" Type="nvarchar" Mode="In" />
+    <Parameter Name="LoginPin" Type="nvarchar" Mode="In" />
+    <Parameter Name="password" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="PartnerId" Type="int" Mode="In" />
+    <Parameter Name="Org" Type="bigint" Mode="In" />
+    <Parameter Name="bid" Type="bigint" Mode="In" />
+    <Parameter Name="ClientId" Type="bigint" Mode="In" />
+  </Function>
+  <Function Name="ProAddNewVisit" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FovmId" Type="bigint" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="OwnType" Type="nvarchar" Mode="In" />
+    <Parameter Name="VehicleType" Type="nvarchar" Mode="In" />
+    <Parameter Name="Vehiclecapacity" Type="nvarchar" Mode="In" />
+    <Parameter Name="VehicleCount" Type="int" Mode="In" />
+    <Parameter Name="VisitDate" Type="datetime" Mode="In" />
+    <Parameter Name="VisitTime" Type="nvarchar" Mode="In" />
+    <Parameter Name="Latitude" Type="nvarchar" Mode="In" />
+    <Parameter Name="Longitude" Type="nvarchar" Mode="In" />
+    <Parameter Name="VisitingCardUrl" Type="nvarchar" Mode="In" />
+    <Parameter Name="ActiveFlag" Type="bit" Mode="In" />
+    <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+    <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+    <Parameter Name="ModifiedBy" Type="nvarchar" Mode="In" />
+    <Parameter Name="ModifiedDate" Type="datetime" Mode="In" />
+    <Parameter Name="StickeringStatus" Type="char" Mode="In" />
+    <Parameter Name="PLMId" Type="bigint" Mode="In" />
+    <Parameter Name="FromLoction" Type="nvarchar" Mode="In" />
+    <Parameter Name="ToLocation" Type="nvarchar" Mode="In" />
+    <Parameter Name="ViId" Type="bigint" Mode="In" />
+    <Parameter Name="VehicleSize" Type="nvarchar" Mode="In" />
+    <Parameter Name="xmlvehicleInfolist" Type="xml" Mode="In" />
+    <Parameter Name="xmlprefloctaionlist" Type="xml" Mode="In" />
+    <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+    <Parameter Name="fovid" Type="bigint" Mode="In" />
+    <Parameter Name="imagewithstickerurl" Type="nvarchar" Mode="In" />
+    <Parameter Name="imagewithownerurl" Type="nvarchar" Mode="In" />
+    <Parameter Name="enddate" Type="datetime" Mode="In" />
+    <Parameter Name="startdate" Type="datetime" Mode="In" />
+    <Parameter Name="Company" Type="nvarchar" Mode="In" />
+    <Parameter Name="VisitingCardUrlXML" Type="xml" Mode="In" />
+    <Parameter Name="imagewithstickerurlXML" Type="xml" Mode="In" />
+    <Parameter Name="imagewithownerurlXML" Type="xml" Mode="In" />
+    <Parameter Name="userid" Type="bigint" Mode="In" />
+    <Parameter Name="Status" Type="varchar" Mode="In" />
+    <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+    <Parameter Name="VehicleOwnType" Type="varchar" Mode="In" />
+    <Parameter Name="IsMobileVerified" Type="char" Mode="In" />
+    <Parameter Name="verifytype" Type="varchar" Mode="In" />
+    <Parameter Name="SharedSMS" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="SharedBy" Type="bigint" Mode="In" />
+    <Parameter Name="SharedDateTime" Type="datetime" Mode="In" />
+    <Parameter Name="SharedTo" Type="nvarchar" Mode="In" />
+    <Parameter Name="SMSDelivered" Type="char" Mode="In" />
+  </Function>
+  <Function Name="Proc_TruksupFOAppAPI" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Password" Type="nvarchar" Mode="In" />
+    <Parameter Name="type" Type="varchar" Mode="In" />
+    <Parameter Name="rid" Type="int" Mode="In" />
+    <Parameter Name="firstpage" Type="nvarchar" Mode="In" />
+    <Parameter Name="Token" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserIP" Type="nvarchar" Mode="In" />
+    <Parameter Name="UserMacAddress" Type="nvarchar" Mode="In" />
+    <Parameter Name="DeviceName" Type="nvarchar" Mode="In" />
+    <Parameter Name="Platfrom" Type="char" Mode="In" />
+    <Parameter Name="UserId" Type="int" Mode="In" />
+    <Parameter Name="deviceid" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="longitude" Type="nvarchar" Mode="In" />
+    <Parameter Name="lattitude" Type="nvarchar" Mode="In" />
+    <Parameter Name="Mobile" Type="varchar" Mode="In" />
+    <Parameter Name="OTP" Type="varchar" Mode="In" />
+    <Parameter Name="user_id" Type="int" Mode="In" />
+    <Parameter Name="Org" Type="bigint" Mode="In" />
+    <Parameter Name="msg" Type="varchar" Mode="In" />
+    <Parameter Name="cid" Type="bigint" Mode="In" />
+    <Parameter Name="usertype" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="ProUpdateVisitData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="FovmId" Type="bigint" Mode="In" />
+    <Parameter Name="Name" Type="nvarchar" Mode="In" />
+    <Parameter Name="Mobile" Type="nvarchar" Mode="In" />
+    <Parameter Name="EmailId" Type="nvarchar" Mode="In" />
+    <Parameter Name="Address" Type="nvarchar" Mode="In" />
+    <Parameter Name="OwnType" Type="nvarchar" Mode="In" />
+    <Parameter Name="VehicleType" Type="nvarchar" Mode="In" />
+    <Parameter Name="Vehiclecapacity" Type="nvarchar" Mode="In" />
+    <Parameter Name="VehicleCount" Type="int" Mode="In" />
+    <Parameter Name="VisitDate" Type="datetime" Mode="In" />
+    <Parameter Name="VisitTime" Type="nvarchar" Mode="In" />
+    <Parameter Name="Latitude" Type="nvarchar" Mode="In" />
+    <Parameter Name="Longitude" Type="nvarchar" Mode="In" />
+    <Parameter Name="VisitingCardUrl" Type="nvarchar" Mode="In" />
+    <Parameter Name="ActiveFlag" Type="bit" Mode="In" />
+    <Parameter Name="CreatedBy" Type="nvarchar" Mode="In" />
+    <Parameter Name="CreatedDate" Type="datetime" Mode="In" />
+    <Parameter Name="ModifiedBy" Type="nvarchar" Mode="In" />
+    <Parameter Name="ModifiedDate" Type="datetime" Mode="In" />
+    <Parameter Name="StickeringStatus" Type="char" Mode="In" />
+    <Parameter Name="PLMId" Type="bigint" Mode="In" />
+    <Parameter Name="FromLoction" Type="nvarchar" Mode="In" />
+    <Parameter Name="ToLocation" Type="nvarchar" Mode="In" />
+    <Parameter Name="ViId" Type="bigint" Mode="In" />
+    <Parameter Name="VehicleSize" Type="nvarchar" Mode="In" />
+    <Parameter Name="xmlvehicleInfolist" Type="xml" Mode="In" />
+    <Parameter Name="xmlprefloctaionlist" Type="xml" Mode="In" />
+    <Parameter Name="Mode" Type="nvarchar" Mode="In" />
+    <Parameter Name="fovid" Type="bigint" Mode="In" />
+    <Parameter Name="imagewithstickerurl" Type="nvarchar" Mode="In" />
+    <Parameter Name="imagewithownerurl" Type="nvarchar" Mode="In" />
+    <Parameter Name="enddate" Type="datetime" Mode="In" />
+    <Parameter Name="startdate" Type="datetime" Mode="In" />
+    <Parameter Name="Company" Type="nvarchar" Mode="In" />
+    <Parameter Name="VisitingCardUrlXML" Type="xml" Mode="In" />
+    <Parameter Name="imagewithstickerurlXML" Type="xml" Mode="In" />
+    <Parameter Name="imagewithownerurlXML" Type="xml" Mode="In" />
+    <Parameter Name="updatefor" Type="nvarchar" Mode="In" />
+    <Parameter Name="updateid" Type="bigint" Mode="In" />
+    <Parameter Name="Status" Type="varchar" Mode="In" />
+    <Parameter Name="Remarks" Type="nvarchar" Mode="In" />
+    <Parameter Name="VehicleOwnType" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_VerificationData" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="doneby" Type="bigint" Mode="In" />
+    <Parameter Name="Status" Type="int" Mode="In" />
+    <Parameter Name="startdate" Type="datetime" Mode="In" />
+    <Parameter Name="enddate" Type="datetime" Mode="In" />
+    <Parameter Name="Start" Type="int" Mode="In" />
+    <Parameter Name="Length" Type="int" Mode="In" />
+  </Function>
+  <EntityContainer Name="FieldOfficerModelStoreContainer">
+    <EntitySet Name="FieldOfficerMaster" EntityType="Self.FieldOfficerMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [FieldOfficerMaster].[EcecutiveId] AS [EcecutiveId], 
+    [FieldOfficerMaster].[Name] AS [Name], 
+    [FieldOfficerMaster].[Mobile] AS [Mobile], 
+    [FieldOfficerMaster].[AltMobile] AS [AltMobile], 
+    [FieldOfficerMaster].[Email] AS [Email], 
+    [FieldOfficerMaster].[FullAddress] AS [FullAddress], 
+    [FieldOfficerMaster].[EmployeeID] AS [EmployeeID], 
+    [FieldOfficerMaster].[ActiveFlag] AS [ActiveFlag], 
+    [FieldOfficerMaster].[CreatedBy] AS [CreatedBy], 
+    [FieldOfficerMaster].[CreatedDate] AS [CreatedDate], 
+    [FieldOfficerMaster].[ModifiedBy] AS [ModifiedBy], 
+    [FieldOfficerMaster].[ModifiedDate] AS [ModifiedDate], 
+    [FieldOfficerMaster].[EmployeeType] AS [EmployeeType]
+    FROM [dbo].[FieldOfficerMaster] AS [FieldOfficerMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="FieldOfficerVisitMaster" EntityType="Self.FieldOfficerVisitMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [FieldOfficerVisitMaster].[FovmId] AS [FovmId], 
+    [FieldOfficerVisitMaster].[Name] AS [Name], 
+    [FieldOfficerVisitMaster].[Mobile] AS [Mobile], 
+    [FieldOfficerVisitMaster].[EmailId] AS [EmailId], 
+    [FieldOfficerVisitMaster].[Address] AS [Address], 
+    [FieldOfficerVisitMaster].[OwnType] AS [OwnType], 
+    [FieldOfficerVisitMaster].[VehicleType] AS [VehicleType], 
+    [FieldOfficerVisitMaster].[Vehiclecapacity] AS [Vehiclecapacity], 
+    [FieldOfficerVisitMaster].[VehicleCount] AS [VehicleCount], 
+    [FieldOfficerVisitMaster].[VisitDate] AS [VisitDate], 
+    [FieldOfficerVisitMaster].[VisitTime] AS [VisitTime], 
+    [FieldOfficerVisitMaster].[Latitude] AS [Latitude], 
+    [FieldOfficerVisitMaster].[Longitude] AS [Longitude], 
+    [FieldOfficerVisitMaster].[VisitingCardUrl] AS [VisitingCardUrl], 
+    [FieldOfficerVisitMaster].[ActiveFlag] AS [ActiveFlag], 
+    [FieldOfficerVisitMaster].[CreatedBy] AS [CreatedBy], 
+    [FieldOfficerVisitMaster].[CreatedDate] AS [CreatedDate], 
+    [FieldOfficerVisitMaster].[ModifiedBy] AS [ModifiedBy], 
+    [FieldOfficerVisitMaster].[ModifiedDate] AS [ModifiedDate], 
+    [FieldOfficerVisitMaster].[StickeringStatus] AS [StickeringStatus], 
+    [FieldOfficerVisitMaster].[imagewithstickerurl] AS [imagewithstickerurl], 
+    [FieldOfficerVisitMaster].[imagewithownerurl] AS [imagewithownerurl], 
+    [FieldOfficerVisitMaster].[Company] AS [Company], 
+    [FieldOfficerVisitMaster].[Status] AS [Status], 
+    [FieldOfficerVisitMaster].[Remarks] AS [Remarks], 
+    [FieldOfficerVisitMaster].[IsMobileVerified] AS [IsMobileVerified], 
+    [FieldOfficerVisitMaster].[verifytype] AS [verifytype]
+    FROM [dbo].[FieldOfficerVisitMaster] AS [FieldOfficerVisitMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="GeoLocationCordinates" EntityType="Self.GeoLocationCordinates" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [GeoLocationCordinates].[Id] AS [Id], 
+    [GeoLocationCordinates].[UserId] AS [UserId], 
+    [GeoLocationCordinates].[Latitude] AS [Latitude], 
+    [GeoLocationCordinates].[Longitude] AS [Longitude], 
+    [GeoLocationCordinates].[ActiveFlag] AS [ActiveFlag], 
+    [GeoLocationCordinates].[createdDate] AS [createdDate], 
+    [GeoLocationCordinates].[CreatedBy] AS [CreatedBy], 
+    [GeoLocationCordinates].[ModifiedDate] AS [ModifiedDate], 
+    [GeoLocationCordinates].[ModifiedBy] AS [ModifiedBy]
+    FROM [dbo].[GeoLocationCordinates] AS [GeoLocationCordinates]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="OwnerInfoMaster" EntityType="Self.OwnerInfoMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [OwnerInfoMaster].[OIID] AS [OIID], 
+    [OwnerInfoMaster].[FovmId] AS [FovmId], 
+    [OwnerInfoMaster].[ImageUrl] AS [ImageUrl], 
+    [OwnerInfoMaster].[ActiveFlag] AS [ActiveFlag], 
+    [OwnerInfoMaster].[CreatedBy] AS [CreatedBy], 
+    [OwnerInfoMaster].[CreatedDate] AS [CreatedDate], 
+    [OwnerInfoMaster].[ModifiedBy] AS [ModifiedBy], 
+    [OwnerInfoMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[OwnerInfoMaster] AS [OwnerInfoMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PreferredLocationMaster" EntityType="Self.PreferredLocationMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [PreferredLocationMaster].[PLMId] AS [PLMId], 
+    [PreferredLocationMaster].[FovmId] AS [FovmId], 
+    [PreferredLocationMaster].[FromLoction] AS [FromLoction], 
+    [PreferredLocationMaster].[ToLocation] AS [ToLocation], 
+    [PreferredLocationMaster].[ActiveFlag] AS [ActiveFlag], 
+    [PreferredLocationMaster].[CreatedBy] AS [CreatedBy], 
+    [PreferredLocationMaster].[CreatedDate] AS [CreatedDate], 
+    [PreferredLocationMaster].[ModifiedBy] AS [ModifiedBy], 
+    [PreferredLocationMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[PreferredLocationMaster] AS [PreferredLocationMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SharedLinkAudit" EntityType="Self.SharedLinkAudit" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [SharedLinkAudit].[Id] AS [Id], 
+    [SharedLinkAudit].[SharedSMS] AS [SharedSMS], 
+    [SharedLinkAudit].[SharedBy] AS [SharedBy], 
+    [SharedLinkAudit].[SharedDateTime] AS [SharedDateTime], 
+    [SharedLinkAudit].[SharedTo] AS [SharedTo], 
+    [SharedLinkAudit].[SMSDelivered] AS [SMSDelivered], 
+    [SharedLinkAudit].[ActiveFlag] AS [ActiveFlag], 
+    [SharedLinkAudit].[CreatedBy] AS [CreatedBy], 
+    [SharedLinkAudit].[createdDate] AS [createdDate], 
+    [SharedLinkAudit].[ModifiedBy] AS [ModifiedBy], 
+    [SharedLinkAudit].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[SharedLinkAudit] AS [SharedLinkAudit]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SQL_Error" EntityType="Self.SQL_Error" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [SQL_Error].[ErrorId] AS [ErrorId], 
+    [SQL_Error].[ErrorNumber] AS [ErrorNumber], 
+    [SQL_Error].[ErrorState] AS [ErrorState], 
+    [SQL_Error].[ErrorSeverity] AS [ErrorSeverity], 
+    [SQL_Error].[ErrorProcedure] AS [ErrorProcedure], 
+    [SQL_Error].[ErrorLine] AS [ErrorLine], 
+    [SQL_Error].[ErrorMessage] AS [ErrorMessage], 
+    [SQL_Error].[ErrorDate] AS [ErrorDate]
+    FROM [dbo].[SQL_Error] AS [SQL_Error]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="StickerMaster" EntityType="Self.StickerMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [StickerMaster].[STID] AS [STID], 
+    [StickerMaster].[FovmId] AS [FovmId], 
+    [StickerMaster].[ImageUrl] AS [ImageUrl], 
+    [StickerMaster].[ActiveFlag] AS [ActiveFlag], 
+    [StickerMaster].[CreatedBy] AS [CreatedBy], 
+    [StickerMaster].[CreatedDate] AS [CreatedDate], 
+    [StickerMaster].[ModifiedBy] AS [ModifiedBy], 
+    [StickerMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[StickerMaster] AS [StickerMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TruksupFOMobileNavigator" EntityType="Self.TruksupFOMobileNavigator" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TruksupFOMobileNavigator].[MNID] AS [MNID], 
+    [TruksupFOMobileNavigator].[USER_TYPE] AS [USER_TYPE], 
+    [TruksupFOMobileNavigator].[MENU_NAME] AS [MENU_NAME], 
+    [TruksupFOMobileNavigator].[REDIRECT_URL] AS [REDIRECT_URL], 
+    [TruksupFOMobileNavigator].[ACTIVE_FLAG] AS [ACTIVE_FLAG], 
+    [TruksupFOMobileNavigator].[CREATED_BY] AS [CREATED_BY], 
+    [TruksupFOMobileNavigator].[CREATED_DATE] AS [CREATED_DATE], 
+    [TruksupFOMobileNavigator].[MODIFIED_BY] AS [MODIFIED_BY], 
+    [TruksupFOMobileNavigator].[MODIFIED_DATE] AS [MODIFIED_DATE], 
+    [TruksupFOMobileNavigator].[SEQ_NO] AS [SEQ_NO], 
+    [TruksupFOMobileNavigator].[ICON] AS [ICON]
+    FROM [dbo].[TruksupFOMobileNavigator] AS [TruksupFOMobileNavigator]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="UserLogin" EntityType="Self.UserLogin" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [UserLogin].[Userid] AS [Userid], 
+    [UserLogin].[ExecutiveId] AS [ExecutiveId], 
+    [UserLogin].[Username] AS [Username], 
+    [UserLogin].[Password] AS [Password], 
+    [UserLogin].[LoginPin] AS [LoginPin], 
+    [UserLogin].[UserType] AS [UserType], 
+    [UserLogin].[Source] AS [Source], 
+    [UserLogin].[DeviceId] AS [DeviceId], 
+    [UserLogin].[Latitude] AS [Latitude], 
+    [UserLogin].[Longitude] AS [Longitude], 
+    [UserLogin].[DeviceType] AS [DeviceType], 
+    [UserLogin].[Activeflag] AS [Activeflag], 
+    [UserLogin].[CreatedBy] AS [CreatedBy], 
+    [UserLogin].[CreatedDate] AS [CreatedDate], 
+    [UserLogin].[ModifiedBy] AS [ModifiedBy], 
+    [UserLogin].[ModifiedDate] AS [ModifiedDate], 
+    [UserLogin].[IsAdmin] AS [IsAdmin], 
+    [UserLogin].[Name] AS [Name], 
+    [UserLogin].[Mobile] AS [Mobile], 
+    [UserLogin].[Email] AS [Email]
+    FROM [dbo].[UserLogin] AS [UserLogin]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="UserLoginToken" EntityType="Self.UserLoginToken" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [UserLoginToken].[Id] AS [Id], 
+    [UserLoginToken].[UserId] AS [UserId], 
+    [UserLoginToken].[UserIP] AS [UserIP], 
+    [UserLoginToken].[UserMacAddress] AS [UserMacAddress], 
+    [UserLoginToken].[Token] AS [Token], 
+    [UserLoginToken].[TokenValidTill] AS [TokenValidTill], 
+    [UserLoginToken].[TokenExpired] AS [TokenExpired], 
+    [UserLoginToken].[isActive] AS [isActive], 
+    [UserLoginToken].[CreatedBy] AS [CreatedBy], 
+    [UserLoginToken].[Creationdate] AS [Creationdate], 
+    [UserLoginToken].[UpdatedBy] AS [UpdatedBy], 
+    [UserLoginToken].[UpdatedDate] AS [UpdatedDate], 
+    [UserLoginToken].[PlatformCalledFrom] AS [PlatformCalledFrom], 
+    [UserLoginToken].[DeviceId] AS [DeviceId], 
+    [UserLoginToken].[DeviceName] AS [DeviceName]
+    FROM [dbo].[UserLoginToken] AS [UserLoginToken]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VehicleInfoMaster" EntityType="Self.VehicleInfoMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VehicleInfoMaster].[ViId] AS [ViId], 
+    [VehicleInfoMaster].[FovmId] AS [FovmId], 
+    [VehicleInfoMaster].[OwnType] AS [OwnType], 
+    [VehicleInfoMaster].[VehicleType] AS [VehicleType], 
+    [VehicleInfoMaster].[Vehiclecapacity] AS [Vehiclecapacity], 
+    [VehicleInfoMaster].[ActiveFlag] AS [ActiveFlag], 
+    [VehicleInfoMaster].[CreatedBy] AS [CreatedBy], 
+    [VehicleInfoMaster].[CreatedDate] AS [CreatedDate], 
+    [VehicleInfoMaster].[ModifiedBy] AS [ModifiedBy], 
+    [VehicleInfoMaster].[ModifiedDate] AS [ModifiedDate], 
+    [VehicleInfoMaster].[VehicleCount] AS [VehicleCount], 
+    [VehicleInfoMaster].[VehicleSize] AS [VehicleSize], 
+    [VehicleInfoMaster].[VehicleOwnType] AS [VehicleOwnType], 
+    [VehicleInfoMaster].[VehicleRC] AS [VehicleRC], 
+    [VehicleInfoMaster].[VehicleNum] AS [VehicleNum], 
+    [VehicleInfoMaster].[DriverNum] AS [DriverNum]
+    FROM [dbo].[VehicleInfoMaster] AS [VehicleInfoMaster]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VisitingCardMaster" EntityType="Self.VisitingCardMaster" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [VisitingCardMaster].[VCID] AS [VCID], 
+    [VisitingCardMaster].[FovmId] AS [FovmId], 
+    [VisitingCardMaster].[ImageUrl] AS [ImageUrl], 
+    [VisitingCardMaster].[ActiveFlag] AS [ActiveFlag], 
+    [VisitingCardMaster].[CreatedBy] AS [CreatedBy], 
+    [VisitingCardMaster].[CreatedDate] AS [CreatedDate], 
+    [VisitingCardMaster].[ModifiedBy] AS [ModifiedBy], 
+    [VisitingCardMaster].[ModifiedDate] AS [ModifiedDate]
+    FROM [dbo].[VisitingCardMaster] AS [VisitingCardMaster]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

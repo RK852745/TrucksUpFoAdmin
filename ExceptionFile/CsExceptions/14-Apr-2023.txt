@@ -1,0 +1,24 @@
+-----------Exception Details on  14-04-2023 4.09.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 14-04-2023 4.09.41 PM
+
+Error Line No : g sSql)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : @Remarks is not a parameter for procedure AdminDasboardMaster.
+
+Error Page Url: https://localhost:44303/Admin/MethodUpdateDownloadedby
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

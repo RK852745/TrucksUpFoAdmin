@@ -1,0 +1,96 @@
+-----------Exception Details on  09-04-2023 3.22.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-04-2023 3.22.46 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-04-2023 3.22.47 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-04-2023 3.22.47 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-04-2023 3.24.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-04-2023 3.24.24 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  09-04-2023 3.24.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 09-04-2023 3.24.24 PM
+
+Error Line No : line 71
+
+Error Message: CryptographicException
+
+Exception Type: System.Security.Cryptography.CryptographicException
+
+Error Location : Padding is invalid and cannot be removed.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

@@ -1,0 +1,49 @@
+-----------Exception Details on  05-06-2023 11.19.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-06-2023 11.19.28 PM
+
+Error Line No : line 39
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Home/GetProducts/?startdate=&enddate=&_search=false&nd=1685987364081&rows=100&page=1&sidx=&sord=asc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  05-06-2023 11.25.44 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 05-06-2023 11.25.44 PM
+
+Error Line No : line 39
+
+Error Message: ArgumentOutOfRangeException
+
+Exception Type: System.ArgumentOutOfRangeException
+
+Error Location : Non-negative number required.
+Parameter name: count
+
+Error Page Url: https://localhost:44303/Home/GetProducts/?startdate=&enddate=&_search=false&nd=1685987742692&rows=100&page=1&sidx=&sord=asc
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

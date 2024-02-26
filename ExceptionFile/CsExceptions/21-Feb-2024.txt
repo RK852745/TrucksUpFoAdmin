@@ -1,0 +1,240 @@
+-----------Exception Details on  21-02-2024 11.31.16 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 11.31.16 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 12.07.22 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 12.07.22 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 12.07.32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 12.07.32 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 12.10.28 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 12.10.28 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 12.12.29 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 12.12.29 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 12.12.53 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 12.12.53 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 1.17.03 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 1.17.03 PM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 1.17.12 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 1.17.12 PM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 2.15.08 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 2.15.08 PM
+
+Error Line No : line 36
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Login failed for user 'sa'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  21-02-2024 2.18.12 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-02-2024 2.18.12 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

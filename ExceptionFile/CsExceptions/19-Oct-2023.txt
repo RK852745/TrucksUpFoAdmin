@@ -1,0 +1,744 @@
+-----------Exception Details on  19-10-2023 11.15.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.15.42 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.15.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.15.42 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.15.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.15.42 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.15.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.15.42 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.10 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.10 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.10 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.10 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.23 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.23 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.24 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.24 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.25 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.25 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.34 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.34 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.35 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.35 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.36 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.36 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.36 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.36 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.58 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.58 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.16.59 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.16.59 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.28.38 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.28.38 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.28.38 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.28.38 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetStickerData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.28.57 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.28.57 AM
+
+Error Line No : line 36
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Dhaba/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.29.27 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.29.27 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Dhaba/GetCountsByDateRange
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.30.51 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.30.51 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Dhaba/GetDhabaDetails
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.30.53 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.30.53 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Dhaba/GetDhabaDetails
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.52.01 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.52.01 AM
+
+Error Line No : line 61
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 11.55.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 11.55.06 AM
+
+Error Line No : line 61
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.07.58 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.07.58 PM
+
+Error Line No : line 61
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.08.02 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.08.02 PM
+
+Error Line No : ine 119
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.08.05 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.08.05 PM
+
+Error Line No : ine 184
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.08.16 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.08.16 PM
+
+Error Line No : ine 119
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.08.18 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.08.18 PM
+
+Error Line No : ine 184
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.28.36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.28.36 PM
+
+Error Line No : ine 119
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/DashboardData
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  19-10-2023 12.28.41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 19-10-2023 12.28.41 PM
+
+Error Line No : ine 184
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44303/Admin/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

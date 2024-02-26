@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FieldOfficerModelStoreContainer" CdmEntityContainer="fieldofficerentities">
+    <EntitySetMapping Name="FieldOfficerTrackings">
+      <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerTracking">
+        <MappingFragment StoreEntitySet="FieldOfficerTracking">
+          <ScalarProperty Name="trackingId" ColumnName="trackingId" />
+          <ScalarProperty Name="FoId" ColumnName="FoId" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StickerMaster_Dhaba">
+      <EntityTypeMapping TypeName="FieldOfficerModel.StickerMaster_Dhaba">
+        <MappingFragment StoreEntitySet="StickerMaster_Dhaba">
+          <ScalarProperty Name="DhabaID" ColumnName="DhabaID" />
+          <ScalarProperty Name="DhabaName" ColumnName="DhabaName" />
+          <ScalarProperty Name="DhabaOwnerNumber" ColumnName="DhabaOwnerNumber" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="OwnerName" ColumnName="OwnerName" />
+          <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FieldOfficerMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerMaster">
+        <MappingFragment StoreEntitySet="FieldOfficerMaster">
+          <ScalarProperty Name="EcecutiveId" ColumnName="EcecutiveId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="AltMobile" ColumnName="AltMobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="EmployeeType" ColumnName="EmployeeType" />
+          <ScalarProperty Name="DutyStatus" ColumnName="DutyStatus" />
+          <ScalarProperty Name="ProfileImage" ColumnName="ProfileImage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FieldOfficerMeetings">
+      <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerMeeting">
+        <MappingFragment StoreEntitySet="FieldOfficerMeeting">
+          <ScalarProperty Name="ScheduledId" ColumnName="ScheduledId" />
+          <ScalarProperty Name="FieldOfficerID" ColumnName="FieldOfficerID" />
+          <ScalarProperty Name="FieldOfficerName" ColumnName="FieldOfficerName" />
+          <ScalarProperty Name="BrokerName" ColumnName="BrokerName" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="Alternatename" ColumnName="Alternatename" />
+          <ScalarProperty Name="AlternateMobileNo" ColumnName="AlternateMobileNo" />
+          <ScalarProperty Name="BrokerMeet" ColumnName="BrokerMeet" />
+          <ScalarProperty Name="LoadGiven" ColumnName="LoadGiven" />
+          <ScalarProperty Name="AdditionalComment" ColumnName="AdditionalComment" />
+          <ScalarProperty Name="ScheduledDate" ColumnName="ScheduledDate" />
+          <ScalarProperty Name="Scheduledtime" ColumnName="Scheduledtime" />
+          <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+          <ScalarProperty Name="Scheduled" ColumnName="Scheduled" />
+          <ScalarProperty Name="Completed" ColumnName="Completed" />
+          <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+          <ScalarProperty Name="Updatedby" ColumnName="Updatedby" />
+          <ScalarProperty Name="BrokerImagePath" ColumnName="BrokerImagePath" />
+          <ScalarProperty Name="UserImagePath" ColumnName="UserImagePath" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="GPS" ColumnName="GPS" />
+          <ScalarProperty Name="Insurance" ColumnName="Insurance" />
+          <ScalarProperty Name="FastTag" ColumnName="FastTag" />
+          <ScalarProperty Name="Sell_BuyTruck" ColumnName="Sell_BuyTruck" />
+          <ScalarProperty Name="GIFT" ColumnName="GIFT" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="RemarksforLoadNotgiven" ColumnName="RemarksforLoadNotgiven" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FieldOfficerVisitMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.FieldOfficerVisitMaster">
+        <MappingFragment StoreEntitySet="FieldOfficerVisitMaster">
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="Vehiclecapacity" ColumnName="Vehiclecapacity" />
+          <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+          <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+          <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="VisitingCardUrl" ColumnName="VisitingCardUrl" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+          <ScalarProperty Name="imagewithstickerurl" ColumnName="imagewithstickerurl" />
+          <ScalarProperty Name="imagewithownerurl" ColumnName="imagewithownerurl" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="IsMobileVerified" ColumnName="IsMobileVerified" />
+          <ScalarProperty Name="verifytype" ColumnName="verifytype" />
+          <ScalarProperty Name="BusinessName" ColumnName="BusinessName" />
+          <ScalarProperty Name="CompanyAddress" ColumnName="CompanyAddress" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FieldOffiecrLocations">
+      <EntityTypeMapping TypeName="FieldOfficerModel.FieldOffiecrLocation">
+        <MappingFragment StoreEntitySet="FieldOffiecrLocation">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FoId" ColumnName="FoId" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GeoLocationCordinates">
+      <EntityTypeMapping TypeName="FieldOfficerModel.GeoLocationCordinate">
+        <MappingFragment StoreEntitySet="GeoLocationCordinates">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OwnerInfoMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.OwnerInfoMaster">
+        <MappingFragment StoreEntitySet="OwnerInfoMaster">
+          <ScalarProperty Name="OIID" ColumnName="OIID" />
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PreferredLocationMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.PreferredLocationMaster">
+        <MappingFragment StoreEntitySet="PreferredLocationMaster">
+          <ScalarProperty Name="PLMId" ColumnName="PLMId" />
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="FromLoction" ColumnName="FromLoction" />
+          <ScalarProperty Name="ToLocation" ColumnName="ToLocation" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SharedLinkAudits">
+      <EntityTypeMapping TypeName="FieldOfficerModel.SharedLinkAudit">
+        <MappingFragment StoreEntitySet="SharedLinkAudit">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SharedSMS" ColumnName="SharedSMS" />
+          <ScalarProperty Name="SharedBy" ColumnName="SharedBy" />
+          <ScalarProperty Name="SharedDateTime" ColumnName="SharedDateTime" />
+          <ScalarProperty Name="SharedTo" ColumnName="SharedTo" />
+          <ScalarProperty Name="SMSDelivered" ColumnName="SMSDelivered" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="createdDate" ColumnName="createdDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SQL_Error">
+      <EntityTypeMapping TypeName="FieldOfficerModel.SQL_Error">
+        <MappingFragment StoreEntitySet="SQL_Error">
+          <ScalarProperty Name="ErrorId" ColumnName="ErrorId" />
+          <ScalarProperty Name="ErrorNumber" ColumnName="ErrorNumber" />
+          <ScalarProperty Name="ErrorState" ColumnName="ErrorState" />
+          <ScalarProperty Name="ErrorSeverity" ColumnName="ErrorSeverity" />
+          <ScalarProperty Name="ErrorProcedure" ColumnName="ErrorProcedure" />
+          <ScalarProperty Name="ErrorLine" ColumnName="ErrorLine" />
+          <ScalarProperty Name="ErrorMessage" ColumnName="ErrorMessage" />
+          <ScalarProperty Name="ErrorDate" ColumnName="ErrorDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StickerMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.StickerMaster">
+        <MappingFragment StoreEntitySet="StickerMaster">
+          <ScalarProperty Name="STID" ColumnName="STID" />
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StickerVisitMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.StickerVisitMaster">
+        <MappingFragment StoreEntitySet="StickerVisitMaster">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="DriverNumber" ColumnName="DriverNumber" />
+          <ScalarProperty Name="OperatorNumber" ColumnName="OperatorNumber" />
+          <ScalarProperty Name="Downloads" ColumnName="Downloads" />
+          <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+          <ScalarProperty Name="StickerSize" ColumnName="StickerSize" />
+          <ScalarProperty Name="LaneFrom" ColumnName="LaneFrom" />
+          <ScalarProperty Name="LaneTo" ColumnName="LaneTo" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+          <ScalarProperty Name="VehicleCapacity" ColumnName="VehicleCapacity" />
+          <ScalarProperty Name="VechileNumber" ColumnName="VechileNumber" />
+          <ScalarProperty Name="DoneBy" ColumnName="DoneBy" />
+          <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+          <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="StickerDimension" ColumnName="StickerDimension" />
+          <ScalarProperty Name="Verification" ColumnName="Verification" />
+          <ScalarProperty Name="VerificationComment" ColumnName="VerificationComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblAwsImages">
+      <EntityTypeMapping TypeName="FieldOfficerModel.TblAwsImage">
+        <MappingFragment StoreEntitySet="TblAwsImages">
+          <ScalarProperty Name="ScheduledId" ColumnName="ScheduledId" />
+          <ScalarProperty Name="BrokerImagePath" ColumnName="BrokerImagePath" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="FieldOfficerID" ColumnName="FieldOfficerID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblFODutyStatus">
+      <EntityTypeMapping TypeName="FieldOfficerModel.TblFODutyStatu">
+        <MappingFragment StoreEntitySet="TblFODutyStatus">
+          <ScalarProperty Name="DID" ColumnName="DID" />
+          <ScalarProperty Name="FOID" ColumnName="FOID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="OffDutyDate" ColumnName="OffDutyDate" />
+          <ScalarProperty Name="OffDutyTime" ColumnName="OffDutyTime" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TruksupFOMobileNavigators">
+      <EntityTypeMapping TypeName="FieldOfficerModel.TruksupFOMobileNavigator">
+        <MappingFragment StoreEntitySet="TruksupFOMobileNavigator">
+          <ScalarProperty Name="MNID" ColumnName="MNID" />
+          <ScalarProperty Name="USER_TYPE" ColumnName="USER_TYPE" />
+          <ScalarProperty Name="MENU_NAME" ColumnName="MENU_NAME" />
+          <ScalarProperty Name="REDIRECT_URL" ColumnName="REDIRECT_URL" />
+          <ScalarProperty Name="ACTIVE_FLAG" ColumnName="ACTIVE_FLAG" />
+          <ScalarProperty Name="CREATED_BY" ColumnName="CREATED_BY" />
+          <ScalarProperty Name="CREATED_DATE" ColumnName="CREATED_DATE" />
+          <ScalarProperty Name="MODIFIED_BY" ColumnName="MODIFIED_BY" />
+          <ScalarProperty Name="MODIFIED_DATE" ColumnName="MODIFIED_DATE" />
+          <ScalarProperty Name="SEQ_NO" ColumnName="SEQ_NO" />
+          <ScalarProperty Name="ICON" ColumnName="ICON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLogins">
+      <EntityTypeMapping TypeName="FieldOfficerModel.UserLogin">
+        <MappingFragment StoreEntitySet="UserLogin">
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="ExecutiveId" ColumnName="ExecutiveId" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LoginPin" ColumnName="LoginPin" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="DeviceType" ColumnName="DeviceType" />
+          <ScalarProperty Name="Activeflag" ColumnName="Activeflag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLoginTokens">
+      <EntityTypeMapping TypeName="FieldOfficerModel.UserLoginToken">
+        <MappingFragment StoreEntitySet="UserLoginToken">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserIP" ColumnName="UserIP" />
+          <ScalarProperty Name="UserMacAddress" ColumnName="UserMacAddress" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="TokenValidTill" ColumnName="TokenValidTill" />
+          <ScalarProperty Name="TokenExpired" ColumnName="TokenExpired" />
+          <ScalarProperty Name="isActive" ColumnName="isActive" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Creationdate" ColumnName="Creationdate" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="UpdatedDate" ColumnName="UpdatedDate" />
+          <ScalarProperty Name="PlatformCalledFrom" ColumnName="PlatformCalledFrom" />
+          <ScalarProperty Name="DeviceId" ColumnName="DeviceId" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VehicleInfoMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.VehicleInfoMaster">
+        <MappingFragment StoreEntitySet="VehicleInfoMaster">
+          <ScalarProperty Name="ViId" ColumnName="ViId" />
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="Vehiclecapacity" ColumnName="Vehiclecapacity" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+          <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+          <ScalarProperty Name="VehicleOwnType" ColumnName="VehicleOwnType" />
+          <ScalarProperty Name="VehicleRC" ColumnName="VehicleRC" />
+          <ScalarProperty Name="VehicleNum" ColumnName="VehicleNum" />
+          <ScalarProperty Name="DriverNum" ColumnName="DriverNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VisitingCardMasters">
+      <EntityTypeMapping TypeName="FieldOfficerModel.VisitingCardMaster">
+        <MappingFragment StoreEntitySet="VisitingCardMaster">
+          <ScalarProperty Name="VCID" ColumnName="VCID" />
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AdminDasboardMaster" FunctionName="FieldOfficerModel.Store.AdminDasboardMaster">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.AdminDasboardMaster_Result">
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+          <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+          <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+          <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="ImageCounts" ColumnName="ImageCounts" />
+          <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+          <ScalarProperty Name="createdbyname" ColumnName="createdbyname" />
+          <ScalarProperty Name="IsMobileVerified" ColumnName="IsMobileVerified" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="downloadapp" ColumnName="downloadapp" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="DutyStatusupdate" FunctionName="FieldOfficerModel.Store.DutyStatusupdate" />
+    <FunctionImportMapping FunctionImportName="getadmindatabydate" FunctionName="FieldOfficerModel.Store.getadmindatabydate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.getadmindatabydate_Result">
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+          <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+          <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+          <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="ImageCounts" ColumnName="ImageCounts" />
+          <ScalarProperty Name="VehicleCount" ColumnName="VehicleCount" />
+          <ScalarProperty Name="createdbyname" ColumnName="createdbyname" />
+          <ScalarProperty Name="IsMobileVerified" ColumnName="IsMobileVerified" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="downloadapp" ColumnName="downloadapp" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="getAdminDetails" FunctionName="FieldOfficerModel.Store.getAdminDetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.getAdminDetails_Result">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetCompletedMeeting" FunctionName="FieldOfficerModel.Store.GetCompletedMeeting" />
+    <FunctionImportMapping FunctionImportName="GetFOBrokerDetails_V1" FunctionName="FieldOfficerModel.Store.GetFOBrokerDetails_V1" />
+    <FunctionImportMapping FunctionImportName="GetScheduledMeeting" FunctionName="FieldOfficerModel.Store.GetScheduledMeeting">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.GetScheduledMeeting_Result">
+          <ScalarProperty Name="FirmName" ColumnName="FirmName" />
+          <ScalarProperty Name="ScheduledId" ColumnName="ScheduledId" />
+          <ScalarProperty Name="MobileNo1" ColumnName="MobileNo1" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="ContactPerson" ColumnName="ContactPerson" />
+          <ScalarProperty Name="BrokerStatus" ColumnName="BrokerStatus" />
+          <ScalarProperty Name="LastLoadAdded" ColumnName="LastLoadAdded" />
+          <ScalarProperty Name="PhysicallyVerified" ColumnName="PhysicallyVerified" />
+          <ScalarProperty Name="ScheduledDate" ColumnName="ScheduledDate" />
+          <ScalarProperty Name="ScheduledTime" ColumnName="ScheduledTime" />
+          <ScalarProperty Name="CompletedDate" ColumnName="CompletedDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Pro_GetEncrptedKey" FunctionName="FieldOfficerModel.Store.Pro_GetEncrptedKey" />
+    <FunctionImportMapping FunctionImportName="Pro_SQL_Error" FunctionName="FieldOfficerModel.Store.Pro_SQL_Error" />
+    <FunctionImportMapping FunctionImportName="Pro_UserLogin" FunctionName="FieldOfficerModel.Store.Pro_UserLogin">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.Pro_UserLogin_Result">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="IsAdmin" ColumnName="IsAdmin" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ProAddNewVisit" FunctionName="FieldOfficerModel.Store.ProAddNewVisit" />
+    <FunctionImportMapping FunctionImportName="Proc_checkdownloadstatus" FunctionName="FieldOfficerModel.Store.Proc_checkdownloadstatus" />
+    <FunctionImportMapping FunctionImportName="Proc_InsertNewLead" FunctionName="FieldOfficerModel.Store.Proc_InsertNewLead" />
+    <FunctionImportMapping FunctionImportName="Proc_TruksupFOAppAPI" FunctionName="FieldOfficerModel.Store.Proc_TruksupFOAppAPI">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.Proc_TruksupFOAppAPI_Result">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+          <ScalarProperty Name="Userid" ColumnName="Userid" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ProcGetFodetails" FunctionName="FieldOfficerModel.Store.ProcGetFodetails">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.ProcGetFodetails_Result">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="ProfileImage" ColumnName="ProfileImage" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="AltMobile" ColumnName="AltMobile" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullAddress" ColumnName="FullAddress" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeType" ColumnName="EmployeeType" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ProUpdateVisitData" FunctionName="FieldOfficerModel.Store.ProUpdateVisitData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.ProUpdateVisitData_Result">
+          <ScalarProperty Name="FovmId" ColumnName="FovmId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="OwnType" ColumnName="OwnType" />
+          <ScalarProperty Name="StickeringStatus" ColumnName="StickeringStatus" />
+          <ScalarProperty Name="Company" ColumnName="Company" />
+          <ScalarProperty Name="VisitDate" ColumnName="VisitDate" />
+          <ScalarProperty Name="VisitTime" ColumnName="VisitTime" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_BrokerDataSendWebx" FunctionName="FieldOfficerModel.Store.SP_BrokerDataSendWebx" />
+    <FunctionImportMapping FunctionImportName="Sp_FOAwsImageDetails" FunctionName="FieldOfficerModel.Store.Sp_FOAwsImageDetails" />
+    <FunctionImportMapping FunctionImportName="SP_GetBrokerDetails" FunctionName="FieldOfficerModel.Store.SP_GetBrokerDetails" />
+    <FunctionImportMapping FunctionImportName="SP_GetStickerVisitReports" FunctionName="FieldOfficerModel.Store.SP_GetStickerVisitReports" />
+    <FunctionImportMapping FunctionImportName="Sp_InsertmeetingDetails" FunctionName="FieldOfficerModel.Store.Sp_InsertmeetingDetails" />
+    <FunctionImportMapping FunctionImportName="SP_StickerMasterDhaba" FunctionName="FieldOfficerModel.Store.SP_StickerMasterDhaba" />
+    <FunctionImportMapping FunctionImportName="SP_StickerVisits" FunctionName="FieldOfficerModel.Store.SP_StickerVisits" />
+    <FunctionImportMapping FunctionImportName="Sp_UpdateFOAwsImages" FunctionName="FieldOfficerModel.Store.Sp_UpdateFOAwsImages" />
+    <FunctionImportMapping FunctionImportName="Sp_updateFoDetails" FunctionName="FieldOfficerModel.Store.Sp_updateFoDetails" />
+    <FunctionImportMapping FunctionImportName="SP_UpdateFOLocation" FunctionName="FieldOfficerModel.Store.SP_UpdateFOLocation" />
+    <FunctionImportMapping FunctionImportName="SP_VerificationData" FunctionName="FieldOfficerModel.Store.SP_VerificationData">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.SP_VerificationData_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="DriverNumber" ColumnName="DriverNumber" />
+          <ScalarProperty Name="OperatorNumber" ColumnName="OperatorNumber" />
+          <ScalarProperty Name="Downloads" ColumnName="Downloads" />
+          <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+          <ScalarProperty Name="StickerSize" ColumnName="StickerSize" />
+          <ScalarProperty Name="LaneFrom" ColumnName="LaneFrom" />
+          <ScalarProperty Name="LaneTo" ColumnName="LaneTo" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+          <ScalarProperty Name="VehicleCapacity" ColumnName="VehicleCapacity" />
+          <ScalarProperty Name="VechileNumber" ColumnName="VechileNumber" />
+          <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+          <ScalarProperty Name="StickerDimension" ColumnName="StickerDimension" />
+          <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="DoneBy" ColumnName="DoneBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="spGetStickerDataListhandler" FunctionName="FieldOfficerModel.Store.spGetStickerDataListhandler">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="FieldOfficerModel.spGetStickerDataListhandler_Result">
+          <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+          <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="DriverNumber" ColumnName="DriverNumber" />
+          <ScalarProperty Name="OperatorNumber" ColumnName="OperatorNumber" />
+          <ScalarProperty Name="Downloads" ColumnName="Downloads" />
+          <ScalarProperty Name="StickerImage" ColumnName="StickerImage" />
+          <ScalarProperty Name="StickerSize" ColumnName="StickerSize" />
+          <ScalarProperty Name="LaneFrom" ColumnName="LaneFrom" />
+          <ScalarProperty Name="LaneTo" ColumnName="LaneTo" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="VehicleSize" ColumnName="VehicleSize" />
+          <ScalarProperty Name="VehicleCapacity" ColumnName="VehicleCapacity" />
+          <ScalarProperty Name="VechileNumber" ColumnName="VechileNumber" />
+          <ScalarProperty Name="VerifiedStatus" ColumnName="VerifiedStatus" />
+          <ScalarProperty Name="VerifiedBy" ColumnName="VerifiedBy" />
+          <ScalarProperty Name="ActiveFlag" ColumnName="ActiveFlag" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedBy" ColumnName="ModifiedBy" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+          <ScalarProperty Name="DoneBy" ColumnName="DoneBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

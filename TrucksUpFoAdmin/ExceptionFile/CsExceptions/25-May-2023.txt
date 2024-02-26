@@ -1,0 +1,120 @@
+-----------Exception Details on  25-05-2023 2.47.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25-05-2023 2.47.10 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44303/Verification?q=SWvH0Ls3m2xsTuhvEzwgaRdUg%252fbpNW5ZoNQikmg1JRTSfVCCPk9Yimbhmf7jJa3%252bCqZea44RE4VljDS3h0%252fbpknjpqn3FroM6tCA6WcajOvN%252bxCkBSoSxeN1BDPtpMT1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  25-05-2023 2.47.10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25-05-2023 2.47.10 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification?q=SWvH0Ls3m2xsTuhvEzwgaRdUg%252fbpNW5ZoNQikmg1JRTSfVCCPk9Yimbhmf7jJa3%252bCqZea44RE4VljDS3h0%252fbpknjpqn3FroM6tCA6WcajOvN%252bxCkBSoSxeN1BDPtpMT1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  25-05-2023 2.47.13 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25-05-2023 2.47.13 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification?q=SWvH0Ls3m2xsTuhvEzwgaRdUg%252fbpNW5ZoNQikmg1JRTSfVCCPk9Yimbhmf7jJa3%252bCqZea44RE4VljDS3h0%252fbpknjpqn3FroM6tCA6WcajOvN%252bxCkBSoSxeN1BDPtpMT1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  25-05-2023 2.47.16 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25-05-2023 2.47.16 PM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : Internal connection fatal error. Error state: 15, Token : 0
+
+Error Page Url: https://localhost:44303/Verification?q=SWvH0Ls3m2xsTuhvEzwgaRdUg%252fbpNW5ZoNQikmg1JRTSfVCCPk9Yimbhmf7jJa3%252bCqZea44RE4VljDS3h0%252fbpknjpqn3FroM6tCA6WcajOvN%252bxCkBSoSxeN1BDPtpMT1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  25-05-2023 2.47.16 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 25-05-2023 2.47.16 PM
+
+Error Line No : line 23
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44303/Verification?q=SWvH0Ls3m2xsTuhvEzwgaRdUg%252fbpNW5ZoNQikmg1JRTSfVCCPk9Yimbhmf7jJa3%252bCqZea44RE4VljDS3h0%252fbpknjpqn3FroM6tCA6WcajOvN%252bxCkBSoSxeN1BDPtpMT1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

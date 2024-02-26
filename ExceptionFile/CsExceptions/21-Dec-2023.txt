@@ -1,0 +1,24 @@
+-----------Exception Details on  21-12-2023 10.29.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 21-12-2023 10.29.42 AM
+
+Error Line No : line 95
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersStickerReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
