@@ -1,0 +1,1032 @@
+-----------Exception Details on  28-02-2024 11.39.13 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.39.13 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.41.16 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.41.16 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.43.21 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.43.21 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.44.35 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.44.35 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.45.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.45.05 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.45.59 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.45.59 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.47.25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.47.25 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.47.25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.47.25 AM
+
+Error Line No : ine 330
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.02 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.02 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.02 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.31 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.31 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.42 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.42 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.48.42 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.48.42 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.49.25 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.49.25 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.49.26 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.49.26 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.49.26 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.49.26 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.49.26 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.49.26 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.50.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.50.30 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.50.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.50.30 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.50.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.50.30 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.50.30 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.50.30 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.01 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.01 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.01 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.01 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.02 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.02 AM
+
+Error Line No : ine 330
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.02 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.02 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.05 AM
+
+Error Line No : line 36
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.05 AM
+
+Error Line No : ine 330
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.05 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.05 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.05 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.06 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.06 AM
+
+Error Line No : ine 330
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.07 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.07 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.07 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.07 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.07 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.07 AM
+
+Error Line No : ine 330
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.08 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.08 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.08 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.08 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.08 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.08 AM
+
+Error Line No : ine 330
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.28 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.28 AM
+
+Error Line No : ine 363
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetFieldofficers
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.28 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.28 AM
+
+Error Line No : line 39
+
+Error Message: InvalidOperationException
+
+Exception Type: System.InvalidOperationException
+
+Error Location : ExecuteReader requires an open and available Connection. The connection's current state is connecting.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.28 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.28 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetcounts
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  28-02-2024 11.51.28 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 28-02-2024 11.51.28 AM
+
+Error Line No : ine 128
+
+Error Message: NullReferenceException
+
+Exception Type: System.NullReferenceException
+
+Error Location : Object reference not set to an instance of an object.
+
+Error Page Url: https://localhost:44304/Verification/MethodGetDataforverification
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

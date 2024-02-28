@@ -1,6 +1,6 @@
 ﻿
 $(function () {
-    GetUserList();
+   GetUserList();
     var start = moment();  //moment().subtract(29, 'days');
     var end = moment();
     cdate = start.format('YYYY/MM/D');
@@ -17,6 +17,7 @@ $(function () {
     $('#reportrange').daterangepicker({
         startDate: start,
         endDate: end,
+        minDate: moment('2023-10-15'),
         ranges: {
             'Today': [moment(), moment()],
             'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
@@ -53,6 +54,7 @@ $(function () {
     cb(start, end);
 
 });
+ 
 
 function Logout() {
     var url = "/Reports/LogOut";
@@ -292,32 +294,40 @@ function GetUserList() {
     var url = "/Verification/MethodGetFieldofficers";
     var data = {};
     var JsonResult = doAjax(url, data);
-    if (JsonResult != "") {
-        var ParseResult = JSON.parse(JsonResult).table;
+    if (JsonResult) {
+        try {
+            var ParseResult = JSON.parse(JsonResult).table;
 
-        // Sort the ParseResult array alphabetically by the 'name' property
-        ParseResult.sort(function (a, b) {
-            var nameA = a.name.toUpperCase();
-            var nameB = b.name.toUpperCase();
-            return nameA.localeCompare(nameB);
-        });
+            // Sort the ParseResult array alphabetically by the 'name' property
+            ParseResult.sort(function (a, b) {
+                var nameA = a.name.toUpperCase();
+                var nameB = b.name.toUpperCase();
+                return nameA.localeCompare(nameB);
+            });
 
-        var options = "";
-        for (var i = 0; ParseResult.length > i; i++) {
-            options = options + '<option executiveid="' + ParseResult[i].executiveid + '" value="' + ParseResult[i].userid + '">' + ParseResult[i].name + '</option>';
+            var options = "";
+            for (var i = 0; i < ParseResult.length; i++) {
+                options += '<option executiveid="' + ParseResult[i].executiveid + '" value="' + ParseResult[i].userid + '">' + ParseResult[i].name + '</option>';
+            }
+
+            var selectlist = "<label class='mb-0'>Filter by user</label><select class='form-control' id='FoLists'><option selected value=''>--Select Field Officer--</option>" + options + "</select>";
+            $("#EmployeeType").empty();
+            $("#EmployeeType").append(selectlist);
+
+            // Bind change event to #FoLists
+            $("#FoLists").change(function () {
+                GetDataForverificationNew($("#reportrange span").text(), $('#status option:selected').val(), $('#FoLists option:selected').val());
+            });
+        } catch (error) {
+            console.error("Error parsing JSON:", error);
         }
-        //var selectlist = "<label class='mb-0'>Filter by user</label><select class='form-control' id='FoLists'><option selected value=''>--Select Field Officer--</option>"   + options + "</select>"
-        var searchInput = '<input type="text" id="nameSearch" class="form-control" placeholder="Search by name" autocomplete="off">';
-
-        var selectlist = "<label class='mb-0'>Filter by user</label><select class='form-control' id='FoLists'><option selected value=''>--Select Field Officer--</option>" + options + "</select>"
-        $("#EmployeeType").empty();
-        $("#EmployeeType").append(selectlist);
-
-        $("#FoLists").change(function () {
-            GetDataForverificationNew($("#reportrange span").text(), $('#status option:selected').val(), $('#FoLists option:selected').val())
-        });
+    } else {
+        console.error("Empty JsonResult received");
     }
 }
+
+
+
 
 function fnmarkverifiedbtn(current, id) {
     $("#staticBackdrop2").modal('show');

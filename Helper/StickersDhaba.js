@@ -424,319 +424,26 @@ function GetCounts(startdate, enddate) {
         $("#TotalStickerVists").val('0');
     }
 }
-
-//function GetDatatbleDatafromServerSide(date) {
-//    date = date.split("-");
-//    var startdate = date[0];
-//    var enddate = date[1];
-//    var i = 1;
-//    var tr = '<tr> \
-//            <th></th>\
-//            <th>FullName</th>\
-//            <th>Driver Number</th>\
-//            <th>Operator Number</th>\
-//            <th>Downloads</th>\
-//            <th>StickerImage</th>\
-//            <th>StickerSize</th>\
-//            <th>Lane</th>\
-//            <th>Vehicle Info</th>\
-//            <th>DoneBy</th>\
-//            <th>VerifiedStatus</th>\
-//            <th>VerifiedBy</th>\
-//            <th>CreatedDate</th>\
-//            <th></th>\
-//            </tr>';
-
-//    $("#reportDatatable thead").empty();
-//    $("#reportDatatable tfoot").empty();
-//    $("#reportDatatable thead").append(tr);
-//    $("#reportDatatable tfoot").append(tr);
-//    $("#reportDatatable").DataTable().clear().destroy();
-//    $('#reportDatatable').DataTable({
-
-//        serverSide: true,
-//        processing: true,
-//        searching: false,
-
-//        ajax: {
-//            url: '../Reports/MethodGetStickerData',
-//            type: 'POST',
-//            "data": function (d) {
-//                d.startdate = startdate;
-//                d.enddate = enddate;
-//            }
-//        },
-//        columns: [
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + i++ + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.fullname + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-
-//                    return "<div>" + row.drivernumber + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-
-//                    return "<div>" + row.operatornumber + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.downloads + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<a onclick='fnviewstickerimage($(this))' class='btn btn-primary btn-sm text-white' dataimg='" + row.stickerimage + "'>View Image</a>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.stickersize + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.lanefrom + "-" + row.laneto + "</div>";
-//                }
-//            }
-//            ,
-//            {
-//                render: function (data, type, row) {
-//                    return "<a onclick='fnGetvehicleinfo($(this))' vinfo='" + row.vehicletype + "|" + row.vehiclesize + "|" + row.vehiclecapacity + "|" + row.vechilenumber + "' class='btn btn-primary btn-sm text-white' style='text-transform: uppercase;'>" + row.vechilenumber + "&nbsp;<i class='fa fa-info-circle'></i></a>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.doneby + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    var status = '<span class="badge bg-success">verified</span>';
-//                    if (row.verifiedstatus == '0' && row.verifiedby == "") {
-//                        status = '<span class="badge bg-warning"><i class="fa fa-times-circle"></i> not verified</span>';
-//                    }
-//                    else if (row.verifiedstatus == '0' && row.verifiedby != "") {
-//                        status = '<span class="badge bg-danger"><i class="fa fa-times-circle"></i> rejected </span>';
-//                    }
-//                    return "<div>" + status + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.verifiedby + "</div>";
-//                }
-//            }
-//            ,
-//            {
-//                render: function (data, type, row) {
-//                    return "<div>" + row.createddate + "</div>";
-//                }
-//            },
-//            {
-//                render: function (data, type, row) {
-//                    if (row.verifiedstatus == '0' && row.verifiedby == "") {
-//                        return "<a onclick='fnmarkverifiedbtn($(this)," + row.id + ");' class='btn btn-sm btn-success text-white'><i class='fa fa-check-circle'></i>&nbsp;Mark Verified</a>";
-//                    }
-//                    return "";
-//                }
-//            }
-//        ],
-
-//    });
-//}
-
-//function formatDate(dateString) {
-//    var parts = dateString.split("/");
-//    var year = parts[0];
-//    var month = parts[1];
-//    var day = parts[2];
-//    return year + "-" + month + "-" + day;
-//}
-
-//   function GetDatabydaterange(date) {
-//    date = date.split("-");
-//    var startdate = date[0];
-//    var enddate = date[1];
-//    var tr = '<tr> \
-//            <th></th>\
-//            <th>Dhaba Name</th>\
-//            <th>Dhaba Owner Number</th>\
-//            <th>Address</th>\
-//            <th>Owner Name</th>\
-//            <th>Sticker Image</th>\
-//            <th>Latitude</th>\
-//            <th>Longitude</th>\
-//            </tr>';
-
-//    $("#reportDatatable thead").empty();
-//    $("#reportDatatable tfoot").empty();
-//    $("#reportDatatable thead").append(tr);
-//    $("#reportDatatable tfoot").append(tr);
-
-//    var url = "/Dhaba/MethodGetDhabaData"; // Replace with your Dhaba data retrieval endpoint
-//    var data = JSON.stringify({ startdate: startdate, enddate: enddate });
-//    var JsonResult = doAjax(url, data); // Replace with your AJAX call function
-//    if (JsonResult != "") {
-//        var i = 1;
-//        var ParseResult = JsonResult;
-//        $("#TotalDhabaVisits").val(JsonResult.length); // Assuming you have a total field
-
-//        // Clear and destroy the existing DataTable
-//        if ($.fn.DataTable.isDataTable("#reportDatatable")) {
-//            $("#reportDatatable").DataTable().clear().destroy();
-//        }
-
-//        // Initialize the DataTable
-//        $("#reportDatatable").DataTable({
-//            bLengthChange: true,
-//            lengthMenu: [[10, 15, -1], [10, 15, "All"]],
-//            bFilter: true,
-//            bSort: true,
-//            bPaginate: true,
-//            dom: 'Bfrtip',
-//            data: ParseResult,
-//            stateSave: true,
-//            columns: [
-//                {
-//                    render: function (data, type, row) {
-//                        return "<div>" + i++ + "</div>";
-//                    }
-//                },
-//                {
-//                    data: 'DhabaName',
-//                    render: function (data, type, row) {
-//                        return "<div>" + data + "</div>";
-//                    }
-//                },
-//                {
-//                    data: 'DhabaOwnerNumber',
-//                    render: function (data, type, row) {
-//                        return "<div>" + data + "</div>";
-//                    }
-//                },
-//                {
-//                    data: 'Address',
-//                    render: function (data, type, row) {
-//                        return "<div>" + data + "</div>";
-//                    }
-//                },
-//                {
-//                    data: 'OwnerName',
-//                    render: function (data, type, row) {
-//                        return "<div>" + data + "</div>";
-//                    }
-//                },
-//                {
-//                    data: 'StickerImage',
-//                    render: function (data, type, row) {
-//                        return "<a onclick='fnviewstickerimage($(this))' class='btn btn-primary btn-sm text-white' dataimg='" + data + "'>View Image</a>";
-//                    }
-//                },
-//                {
-//                    data: 'Latitude',
-//                    render: function (data, type, row) {
-//                        return "<div>" + data + "</div>";
-//                    }
-//                },
-//                {
-//                    data: 'Longitude',
-//                    render: function (data, type, row) {
-//                        return "<div>" + data + "</div>";
-//                    }
-//                }
-//                // Add more columns as needed
-//            ],
-//            buttons: [
-//                'copyHtml5',
-//                'excelHtml5',
-//                'csvHtml5',
-//                'pdfHtml5'
-//            ]
-//        });
-//    } else {
-//        // Handle the case when JsonResult is empty
-//        $("#reportDatatable").DataTable().clear().destroy();
-//        $("#reportDatatable").DataTable();
-//    }
-//}
-
-
-
-
-
-//document.addEventListener("DOMContentLoaded", function () {
-//    const searchInput = document.getElementById("Searchbox");
-//    const dataTable = document.getElementById("reportDatatable");
-//    const tableRows = dataTable.getElementsByTagName("tr");
-
-//    // Add event listener to the search input
-//    searchInput.addEventListener("input", function () {
-//        const searchTerm = searchInput.value.toLowerCase();
-
-//        // Loop through each table row (excluding the header row) to check for matches
-//        for (let i = 1; i < tableRows.length; i++) {
-//            const row = tableRows[i];
-//            const rowData = row.getElementsByTagName("td");
-
-//            let foundMatch = false;
-
-//            // Loop through each cell in the row to check for a match with the search term
-//            for (let j = 0; j < rowData.length; j++) {
-//                const cellData = rowData[j].textContent.toLowerCase();
-
-//                if (cellData.includes(searchTerm)) {
-//                    foundMatch = true;
-//                    break;
-//                }
-//            }
-
-//            // Show/hide the row based on the match
-//            if (foundMatch) {
-//                row.style.display = "table-row"; // Show matching row
-//            } else {
-//                row.style.display = "none"; // Hide non-matching row
-//            }
-//        }
-//    });
-//});
-
-
-
-// JavaScript function to retrieve and display data in DataTable
 function GetDatabydaterange(date) {
     date = date.split("-");
     var startdate = date[0];
     var enddate = date[1];
     var tr = '<tr> \
-            <th></th>\
+            <th>SNO</th>\
             <th>Dhaba Name</th>\
             <th>Dhaba Owner Number</th>\
             <th>Address</th>\
             <th>Owner Name</th>\
             <th>Sticker Image</th>\
-            </tr > ';
-       // < th > Latitude</th >\
-    //<th>Longitude</th>\
+            </tr>';
 
     $("#reportDatatable thead").empty();
     $("#reportDatatable tfoot").empty();
     $("#reportDatatable thead").append(tr);
     $("#reportDatatable tfoot").append(tr);
 
-    //var url = "/Dhaba/GetDhabaDetails";
-    var url = "/TrucksupfoAdmin/Dhaba/GetDhabaDetails";
-    
+    var url = "/Dhaba/GetDhabaDetails";
+
     var data = JSON.stringify({ startDate: startdate, endDate: enddate });
 
     // Perform an AJAX request to fetch data
@@ -749,22 +456,17 @@ function GetDatabydaterange(date) {
             if (JsonResult != "") {
                 var i = 1;
                 var ParseResult = JsonResult;
-                $("#TotalDhabaVisits").val(JsonResult.length); 
-               
+                $("#TotalDhabaVisits").val(JsonResult.length);
+
                 if ($.fn.DataTable.isDataTable("#reportDatatable")) {
                     $("#reportDatatable").DataTable().clear().destroy();
                 }
 
-              
+
                 $("#reportDatatable").DataTable({
                     bLengthChange: true,
                     lengthMenu: [[10, 15, -1], [10, 15, "All"]],
-                   //bFilter: true,
-                    //bSort: true,
-                    //bPaginate: true,
-                    //dom: 'Bfrtip',
                     data: ParseResult,
-                    //stateSave: true,
                     columns: [
                         {
                             render: function (data, type, row) {
@@ -801,30 +503,9 @@ function GetDatabydaterange(date) {
                                 return "<a onclick='fnviewstickerimage($(this), \"" + data + "\")' class='btn btn-primary btn-sm text-white'>View Image</a>";
                             }
                         },
-
-                        //{
-                        //    data: 'Latitude',
-                        //    render: function (data, type, row) {
-                        //        return "<div>" + data + "</div>";
-                        //    }
-                        //},
-                        //{
-                        //    data: 'Longitude',
-                        //    render: function (data, type, row) {
-                        //        return "<div>" + data + "</div>";
-                        //    }
-                        //}
-                        
-                    ],
-                    //buttons: [
-                    //    'copyHtml5',
-                    //    'excelHtml5',
-                    //    'csvHtml5',
-                    //    'pdfHtml5'
-                    //]
+                    ]
                 });
             } else {
-
                 if ($.fn.DataTable.isDataTable("#reportDatatable")) {
                     $("#reportDatatable").DataTable().clear().destroy();
                 }

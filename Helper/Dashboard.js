@@ -889,22 +889,23 @@ $("#updatebtn").click(function (e) {
         var url = "/Admin/MethodUpdateDownloadedby"; 
         var data = Data;
         var JsonResult = doAjax(url, data);
-        if (JsonResult != "") {
+        if (JsonResult != "")
+        {
             Swal.fire(
                 'success!',
                 'Data Updated successfully',
                 'success'
             )
-        } else {
+        }
+        else
+        {
             Swal.fire(
                 'error!',
                 'Something went wrong please try again',
                 'error'
             )
+           }
         }
-    }
-
-
 });
 
 function GetAdminDashboardNew(date, foid, tvisit, owntype, Status) {

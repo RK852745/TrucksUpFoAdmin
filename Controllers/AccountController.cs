@@ -58,7 +58,7 @@ namespace TrucksUpFoAdmin.Controllers
         {
             string response = "";
             try
-            {
+            {   
                 string captcha = Session["captcha"].ToString();
                 //if (captcha == captcha)
                 //{ 
@@ -90,7 +90,7 @@ namespace TrucksUpFoAdmin.Controllers
                                        + "&userid=" + DR["Userid"].ToString()
                                        + "&token=" + DR["Token"].ToString();
                                     urlPram = HttpUtility.UrlEncode(PasswordEncryptDecrypt.EncryptString(urlPram));
-                                    response = "Login Success";
+                                    
                                     ViewBag.Message = response;
                                     return this.RedirectToAction("Dashboard", "Admin", new { q = urlPram });
                                 }
@@ -105,7 +105,7 @@ namespace TrucksUpFoAdmin.Controllers
                                     ViewBag.Message = response;
                                     return this.RedirectToAction("Index", "Verification", new { q = urlPram });
 
-                                }
+                                }   
                             }
 
                             
@@ -154,10 +154,7 @@ namespace TrucksUpFoAdmin.Controllers
                     {
                         return false;
                     }
-
-
                 }
-
             }
             catch
             {

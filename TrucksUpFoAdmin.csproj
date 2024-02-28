@@ -280,6 +280,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\DhabaController.cs" />
+    <Compile Include="Controllers\GPSandFastTagController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Controllers\ReportsController.cs" />
@@ -1386,6 +1387,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Helper\Dashboard.js" />
+    <Content Include="Helper\GPSFastTag.js" />
     <Content Include="Helper\Main.js" />
     <Content Include="Helper\Registration.js" />
     <Content Include="Helper\Reports.js" />
@@ -1555,6 +1557,7 @@
     <Content Include="SticketrVisitHandler.ashx" />
     <Content Include="Views\Home\jqGrid.cshtml" />
     <Content Include="Views\Dhaba\StickersReportsDhaba.cshtml" />
+    <Content Include="Views\GPSandFastTag\GPSandFastTag.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

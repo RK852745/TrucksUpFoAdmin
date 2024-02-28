@@ -210,7 +210,7 @@ namespace TrucksUpFoAdmin.Controllers
                                                                    VisitTime = Convert.ToString(rows["VisitTime"]),
                                                                    StickeringStatus = Convert.ToString(rows["StickeringStatus"]),
                                                                    Company = Convert.ToString(rows["Company"]),
-                                                                   ImageCounts = Convert.ToInt32(rows["ImageCounts"]),
+                                                                   //ImageCounts = Convert.ToInt32(rows["ImageCounts"]),
                                                                    VehicleCount = Convert.ToInt32(rows["VehicleCount"]),
                                                                    createdbyname = Convert.ToString(rows["createdbyname"]),
                                                                    IsMobileVerified = Convert.ToString(rows["IsMobileVerified"]),

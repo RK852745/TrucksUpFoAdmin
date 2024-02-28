@@ -1,0 +1,240 @@
+-----------Exception Details on  27-02-2024 4.28.46 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 4.28.46 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 4.45.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 4.45.04 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_GetEncrptedKey', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 4.45.04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 4.45.04 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 4.59.02 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 4.59.02 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_GetEncrptedKey', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 4.59.02 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 4.59.02 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 5.00.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 5.00.20 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_GetEncrptedKey', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 5.00.20 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 5.00.20 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 5.16.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 5.16.24 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_GetEncrptedKey', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 5.16.24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 5.16.24 PM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Reports/MethodGetFieldofficersReports
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  27-02-2024 5.32.30 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 27-02-2024 5.32.30 PM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

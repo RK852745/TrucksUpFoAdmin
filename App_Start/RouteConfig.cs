@@ -34,7 +34,12 @@ namespace TrucksUpFoAdmin
               url: "StickersReports",
               defaults: new { controller = "Reports", action = "StickersVisitReports" }
           );
-             routes.MapRoute(
+            routes.MapRoute(
+             name: "GPSandFastTag",
+             url: "GPSandFastTag",
+             defaults: new { controller = "GPSandFastTag", action = "GPSandFastTag" }
+         );
+            routes.MapRoute(
               name: "StickersReportsDhaba",
               url: "StickersReportsDhaba",
               defaults: new { controller = "Dhaba", action = "StickersReportsDhaba" }

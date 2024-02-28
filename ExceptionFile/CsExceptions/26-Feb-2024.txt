@@ -1,0 +1,72 @@
+-----------Exception Details on  26-02-2024 11.55.57 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-02-2024 11.55.57 AM
+
+Error Line No : line 39
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_GetEncrptedKey', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmJSZQ12y66pjPPxIPl%252bafuYMQpL4qB6noIgie2LJeU3IMWjpFP25BN55qK0d6Xq7B
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  26-02-2024 11.55.57 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-02-2024 11.55.57 AM
+
+Error Line No : line 61
+
+Error Message: DivideByZeroException
+
+Exception Type: System.DivideByZeroException
+
+Error Location : Attempted to divide by zero.
+
+Error Page Url: https://localhost:44304/Dashboard?q=dLOkaTExSGRUvxlfJz3hd%252bPdviPLy0ts26ncArxb6Y4ZJ%252fLmql78Mrhq1VOUAOqmJSZQ12y66pjPPxIPl%252bafuYMQpL4qB6noIgie2LJeU3IMWjpFP25BN55qK0d6Xq7B
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  26-02-2024 11.56.08 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 26-02-2024 11.56.08 AM
+
+Error Line No : g sSql)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : The EXECUTE permission was denied on the object 'Pro_UserLogin', database 'FieldOfficer', schema 'dbo'.
+
+Error Page Url: https://localhost:44304/Login
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
